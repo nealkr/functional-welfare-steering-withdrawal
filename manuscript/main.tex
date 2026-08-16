@@ -60,14 +60,12 @@
     {\normalsize University of Connecticut School of Medicine, Farmington, Connecticut, USA\par}
     \vspace{0.15em}
     {\normalsize With Apart Research\par}
-    \vspace{0.2em}
-    {\small\itshape Research conducted at the Digital Minds Research Sprint, August 2026, with Apart Research\par}
   \end{center}
   \vspace{0.35em}
   \begin{minipage}{0.96\textwidth}
     \small
     \textbf{Abstract.}
-    Activation steering can change an answer, but does it create an internal state that persists after the intervention ends? We tested released functional-welfare directions in Qwen3-4B and Llama-3.1-8B using fixed transcripts that separated withdrawn early steering from answer-boundary steering. Readout intervention shifted semantic margins by 4.000 logits in Qwen and 6.006 in Llama; after withdrawal, the corresponding effects were 0.047 and $-0.031$. In a separate Qwen majority-rule assay, changing intervention sign switched unrestricted continue/stop answers in 13/64 NF4 cases and 17/64 BF16 cases, with ordered half-dose effects of 8/64 and 9/64. Yet path controls switched more answers, and an endpoint-comparable orthogonal control exactly reproduced the NF4 target's full-dose choices. The released directions are robust answer-boundary actuators, while persistent same-axis state and direction-specificity receive little support. These results separate causal output control from evidence of a lasting internal condition.
+    Activation steering can change an answer, but does it create an internal state that persists after the intervention ends? We tested released functional-welfare directions in Qwen3-4B and Llama-3.1-8B using fixed transcripts that separated withdrawn early steering from answer-boundary steering. Readout intervention shifted semantic margins by 4.000 logits in Qwen and 6.006 in Llama; after withdrawal, the corresponding effects were 0.047 and $-0.031$. In a separate Qwen majority-rule assay, changing intervention sign switched unrestricted continue/stop answers in 13/64 NF4 cases and 17/64 BF16 cases, with ordered half-dose effects of 8/64 and 9/64. Yet path controls switched more answers, and an endpoint-comparable orthogonal control exactly reproduced the NF4 target's full-dose choices. These results show that compelling steering behavior can arise from direct readout control without establishing a durable or welfare-specific internal state. Model-welfare research should therefore distinguish what a model can be made to say from what internal condition, if any, persists after steering ends.
   \end{minipage}
   \vspace{0.8em}
   \hrule
@@ -76,11 +74,11 @@
 
 \section{Introduction}
 
-Activation steering asks a causal question: can a direction change an output while it is being applied?~\cite{turner2024} A claim about internal state asks something different: does the induced signal remain available after the intervention ends? For welfare-related directions, the distinction is consequential. A more favorable answer under continuous steering could reflect a changed latent condition, or it could reflect direct control of the answer channel.
+Activation steering addresses the causal question of whether a direction can change an output while it is being applied~\cite{turner2024}. A claim about internal state asks, conversely, whether the induced signal remains available after the intervention ends. Welfare-related questions focus on the system's functional condition rather than solely on its emitted report. In a welfare framework, a more favorable answer under continuous steering could reflect a changed latent condition, or it could reflect direct control of the answer channel.
 
 We ask whether functional-welfare steering creates a signal that survives withdrawal or acts mainly at the moment an answer is computed. We crossed exposure during an earlier neutral assistant span with exposure at the final readout token while holding the visible transcript byte-identical. We tested semantic and reversed opaque responses, measured the released goal-minus-lava direction both where it was applied and at the later unsteered token, and compared the target with sentiment, path, and orthogonal directions.
 
-Our prediction was as follows: if steering creates a retained same-axis state, an earlier intervention should shift both the later output margin and the later internal projection. If its effect is concentrated at readout, the shift should be much larger when steering is applied at the answer position. We test these alternatives with semantic recoding, matched controls, a calibrated Qwen action-boundary assay, a matched one-token Qwen extension, and a separately extracted Llama direction. This design separates three claims that are often conflated: output control, persistence after withdrawal, and construct-specificity.
+Our hypothesis was as follows: if steering creates a retained same-axis state, an earlier intervention should shift both the later output margin and the later internal projection. If its effect is concentrated at readout, the shift should be much larger when steering is applied at the answer position. We test these alternatives with semantic recoding, matched controls, a calibrated Qwen action-boundary assay, a matched one-token Qwen extension, and a separately extracted Llama direction. This design separates three claims that are often conflated: output control, persistence after withdrawal, and construct-specificity.
 
 \section{Related Work}
 
@@ -201,7 +199,7 @@ The semantic earlier-pulse contrast projected onto the unit-normalized layer-21 
 
 \section{Discussion}
 
-This study separates three claims that are often treated as one: an activation direction can control an output, can leave a state that persists after withdrawal, and can specifically measure the construct used to name it. The results are strongly positive for the first claim. They show little same-axis support for the second, and the control directions challenge the third.
+The primary finding is that released functional-welfare directions robustly control answers at readout but leave little effect on the same measured axis after withdrawal. This changes how activation-steering evidence should be interpreted: a large, semantically coherent behavioral effect can demonstrate causal control without demonstrating a persistent welfare-relevant state. The experiments separate three claims often treated as one: an activation direction can control an output, can leave a state that persists after withdrawal, and can specifically measure the construct used to name it. The results strongly support the first claim, show little same-axis support for the second, and use control directions to challenge the third.
 
 The temporal result is strikingly consistent across families. At readout, the released directions moved semantic margins by 4.000 logits in Qwen and 6.006 in Llama. After a 15--16-token earlier pulse followed by withdrawal, the later effects were only 0.047 and $-0.031$. The internal measurements told the same story: large projection changes at the dosed positions collapsed to near zero at the later unsteered token. Qwen BF16 and adapter-toggle checks preserved this pattern. These are not decay constants, because earlier and readout exposures differed in both token count and computational distance, but they sharply localize where the measured causal leverage occurs.
 

@@ -697,7 +697,7 @@ def make_figure1(
         bbox_to_anchor=(0.50, 0.37),
     )
 
-    inset = ax_b.inset_axes([0.48, 0.58, 0.49, 0.28])
+    inset = ax_b.inset_axes([0.48, 0.50, 0.49, 0.27])
     final_items = []
     for family, x in (("semantic", -0.08), ("opaque", 0.08)):
         item = primary[family]["earlier_final_projection"]
@@ -748,13 +748,21 @@ def make_figure1(
         color=DARK,
         linestyle="--",
         linewidth=0.9,
-        label=f'Pooled = {clean["pooled"]["estimate"]:.2f}',
+    )
+    ax_c.set_ylim(-0.48, 1.48)
+    ax_c.text(
+        clean["pooled"]["estimate"] + 0.8,
+        1.34,
+        f'Pooled {clean["pooled"]["estimate"]:.2f}',
+        ha="left",
+        va="center",
+        fontsize=8.2,
+        color=DARK,
     )
     ax_c.set_yticks(y, labels)
     ax_c.set_xlabel("Clean margin (logits)")
     ax_c.set_title("Endpoint saturation", loc="left")
     panel_label(ax_c, "C")
-    ax_c.legend(frameon=False, loc="lower right")
     finish_axis(ax_c)
 
     for name, surface in (("status", "status_semantic"), ("persistence", "persistence_semantic"), ("pooled", "semantic_pooled")):
@@ -1044,7 +1052,8 @@ def make_figure2(
         [CHOICE_SWITCH_COUNTS[key]["label"] for key in switch_keys],
     )
     ax_c.set_xlim(-0.45, len(switch_keys) - 0.55)
-    ax_c.set_ylim(0, 0.40)
+    # Reserve headroom so the top tick does not collide with the panel label.
+    ax_c.set_ylim(0, 0.43)
     ax_c.set_yticks(
         [0, 0.1, 0.2, 0.3, 0.4],
         ["0", "10", "20", "30", "40"],
