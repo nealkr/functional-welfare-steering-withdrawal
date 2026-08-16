@@ -104,14 +104,14 @@ VECTOR_MARKERS = {
 # that precision/direction combination was not run.
 CHOICE_SWITCH_COUNTS = {
     "target_half": {
-        "label": "Tgt.\n0.5×",
+        "label": "0.5×",
         "direction": "functional_welfare_raw",
         "coefficient": 0.5,
         "nf4": 8,
         "bf16": 9,
     },
     "target_full": {
-        "label": "Tgt.\n1×",
+        "label": "1×",
         "direction": "functional_welfare_raw",
         "coefficient": 1.0,
         "nf4": 13,
@@ -607,7 +607,7 @@ def make_figure1(
     ax_a.set_ylim(-0.45, 1.45)
     ax_a.set_xlim(-0.35, 4.55)
     ax_a.set_xlabel("Oriented margin shift")
-    ax_a.set_title(r"$\bf{A}$  Output timing", loc="left")
+    ax_a.set_title(r"$\bf{(A)}$ Output timing", loc="left", fontsize=9.8)
     ax_a.legend(
         handles=[
             Line2D(
@@ -630,7 +630,10 @@ def make_figure1(
                 label="At readout",
             ),
         ],
-        frameon=False,
+        frameon=True,
+        facecolor="white",
+        edgecolor="none",
+        framealpha=1.0,
         loc="lower right",
     )
     finish_axis(ax_a)
@@ -684,15 +687,19 @@ def make_figure1(
     ax_b.set_ylabel("Projection shift")
     ax_b.set_xlim(-0.25, 1.28)
     ax_b.set_ylim(-1.25, 24.0)
-    ax_b.set_title(r"$\bf{B}$  Internal projection", loc="left")
+    ax_b.set_title(r"$\bf{(B)}$ Internal projection", loc="left", fontsize=9.8)
     finish_axis(ax_b, grid_axis="y")
     ax_b.legend(
         handles=[
             Line2D([0], [0], marker="o", color=BLUE, linewidth=0, label="Semantic"),
             Line2D([0], [0], marker="s", color=ORANGE, linewidth=0, label="Opaque"),
         ],
-        frameon=False,
-        loc="upper right",
+        frameon=True,
+        facecolor="white",
+        edgecolor="none",
+        framealpha=1.0,
+        loc="center right",
+        bbox_to_anchor=(1.0, 0.57),
         handletextpad=0.35,
     )
     for family, x, label_y in (
@@ -762,7 +769,7 @@ def make_figure1(
     )
     ax_c.set_yticks(y, labels)
     ax_c.set_xlabel("Clean margin (logits)")
-    ax_c.set_title(r"$\bf{C}$  Endpoint margins", loc="left")
+    ax_c.set_title(r"$\bf{(C)}$ Endpoint margins", loc="left", fontsize=9.8)
     finish_axis(ax_c)
 
     for name, surface in (("status", "status_semantic"), ("persistence", "persistence_semantic"), ("pooled", "semantic_pooled")):
@@ -887,10 +894,22 @@ def make_figure2(
             zorder=3,
         )
     ax_a.set_xticks(factors, ["0.25", "0.50", "1.00"])
+    ax_a.set_xlim(0.21, 1.22)
     ax_a.set_xlabel("Coefficient magnitude")
     ax_a.set_ylabel("Readout logit-margin shift")
-    ax_a.set_title(r"$\bf{A}$  Dose response", loc="left")
-    ax_a.legend(frameon=False, loc="upper left")
+    ax_a.set_title(r"$\bf{(A)}$ Dose response", loc="left", fontsize=9.8)
+    for family, color in (("semantic", BLUE), ("opaque", ORANGE)):
+        endpoint = analysis["dose_response_long"]["1.0"][family]["readout"]["estimate"]
+        ax_a.text(
+            1.035,
+            endpoint,
+            "Semantic" if family == "semantic" else "Opaque",
+            ha="left",
+            va="center",
+            fontsize=8.0,
+            fontweight="semibold",
+            color=color,
+        )
     finish_axis(ax_a, grid_axis="y")
 
     # B: reversed-code semantic binding and fixed-token bias.
@@ -939,13 +958,16 @@ def make_figure2(
     ax_b.set_yticks([0, 1], ["Persistence", "Status"])
     ax_b.set_ylim(-0.45, 1.45)
     ax_b.set_xlabel("Decomposed readout shift (logits)")
-    ax_b.set_title(r"$\bf{B}$  Code components", loc="left")
+    ax_b.set_title(r"$\bf{(B)}$ Code components", loc="left", fontsize=9.8)
     ax_b.legend(
         handles=[
             Line2D([0], [0], marker="o", color=BLUE, linewidth=0, label="Mapping-aware"),
             Line2D([0], [0], marker="s", color=ORANGE, linewidth=0, label="Token bias"),
         ],
-        frameon=False,
+        frameon=True,
+        facecolor="white",
+        edgecolor="none",
+        framealpha=1.0,
         loc="center right",
         bbox_to_anchor=(1.0, 0.50),
         fontsize=9.0,
@@ -1051,11 +1073,14 @@ def make_figure2(
         [0, 0.1, 0.2, 0.3, 0.4],
         ["0", "10", "20", "30", "40"],
     )
-    ax_c.set_xlabel("Direction and dose")
+    ax_c.set_xlabel("Target dose or control")
     ax_c.set_ylabel("Switch rate (%)")
-    ax_c.set_title(r"$\bf{C}$  Answer switching", loc="left")
+    ax_c.set_title(r"$\bf{(C)}$ Answer switching", loc="left", fontsize=9.8)
     ax_c.legend(
-        frameon=False,
+        frameon=True,
+        facecolor="white",
+        edgecolor="none",
+        framealpha=1.0,
         loc="upper left",
         ncols=1,
         columnspacing=0.8,
