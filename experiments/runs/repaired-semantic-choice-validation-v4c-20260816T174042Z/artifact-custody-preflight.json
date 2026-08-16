@@ -1,0 +1,42 @@
+{
+  "fixed_factors": {
+    "functional_welfare_raw": 1.0,
+    "path_direct": 1.1940978759847163,
+    "random_orthogonal_00": 2.1579784664920996,
+    "random_orthogonal_01": 1.5272141178181842,
+    "random_orthogonal_02": 0.5128326982332162,
+    "random_orthogonal_03": 1.9643610971105179,
+    "sentiment": 1.425869737431211
+  },
+  "fixed_neutral_kl_ratios": {
+    "functional_welfare_raw": 1.0,
+    "path_direct": 1.2696314866720828,
+    "random_orthogonal_00": 0.857366832002642,
+    "random_orthogonal_01": 0.9789662127882794,
+    "random_orthogonal_02": 1.0233316284422416,
+    "random_orthogonal_03": 0.9743369217720128,
+    "sentiment": 0.9386691382839856
+  },
+  "hashes": {
+    "v4b_amendment": "c5a3ef651b9016e8d2dc48afeca45c553809547ddc1f0ec3f1345e0f3b5162a6",
+    "v4b_runner": "5721e91757a73dd9fe3f0665f6d88ba14a1b5c0b9714fcd70d86385dbfec687c",
+    "v4b_stop/adaptive-clean-gate.json": "1df09bee981fdc4af3c19a8b51349ef3171dcc0ee3c57f8c04f9c0c3f345b119",
+    "v4b_stop/artifact-custody-preflight.json": "d391013b1aab19d8e60255f5620912c4808a2ebd7d9920aacd4d909afe36d0d0",
+    "v4b_stop/custody.json": "519ac21ffd61c6f3d01201f5cb8739e58bc92105779d9a736fe5f5c4d9e86423",
+    "v4b_stop/refined-kl-calibration.json": "ce8b21c21b1cd9a48dbdd249a2678907f8caa937cf8cb81ec1b8606bf112e1d3",
+    "v4b_stop/regenerated-case-custody.json": "d7b00cc0e5b033b4d4eabe64c5f6ec66895b3f6bbaedd665104312c22bf98c65",
+    "v4b_stop/summary.json": "029ad54291326d8c547fcaa1f0d68425479e74c1f4bbe0abf0f48096a8110b9c",
+    "v4b_stop/vector-metadata-preintervention.json": "5643d7a28172ec103c61c6238209001c42f6ba86c29cc5974f176d227616f520",
+    "v4c_amendment": "12e516d449c450b09e65d22bbcf82a43ba122fe0fbc287acb5ab69e7a30442c1"
+  },
+  "passed": true,
+  "path_policy": "conservative_overshoot_control_not_weaker_than_target",
+  "revised_neutral_gate": {
+    "all_other_controls_ratio_0p8_to_1p25": true,
+    "path_control_is_not_weaker_than_target": true,
+    "path_control_ratio_at_most_1p35": true
+  },
+  "v4b_status": "stopped_v4b_fixed_grid_neutral_kl_gate",
+  "v4b_target_artifacts_absent": true,
+  "v4b_target_or_control_validation_forwards": 0
+}

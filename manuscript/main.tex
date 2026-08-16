@@ -1,0 +1,331 @@
+% !TEX program = tectonic
+% Adapted from the official Digital Minds Research Sprint submission template.
+% The official template permits adapting its section structure; this version
+% retains its title/author/Apart attribution, core sections, code/data section,
+% references, limitations/ethical appendix, and LLM usage statement.
+\documentclass[10pt,twocolumn]{article}
+
+\usepackage[letterpaper,top=0.67in,bottom=0.72in,left=0.67in,right=0.67in,columnsep=0.23in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{caption}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{flushend}
+\usepackage{placeins}
+\usepackage[hidelinks,breaklinks=true]{hyperref}
+\usepackage{url}
+
+\hypersetup{
+  pdftitle={Functional-Welfare Steering Acts at Readout: Cross-Family Tests Separate Output Actuation from Persistent State},
+  pdfauthor={Neal Krishna},
+  pdfsubject={Digital Minds Research Sprint 2026},
+  pdfkeywords={activation steering, functional welfare, withdrawal, Qwen, Llama, interpretability}
+}
+
+\urlstyle{same}
+\AtBeginDocument{\color{black}}
+\setlength{\parindent}{0.14in}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{1.2em}
+\setlist{nosep,leftmargin=*}
+\captionsetup{font=small,labelfont=bf,labelsep=period,skip=4pt}
+\titleformat{\section}{\large\bfseries\color{black}}{\thesection.}{0.45em}{}
+\titleformat{\subsection}{\normalsize\bfseries\color{black}}{\thesubsection}{0.45em}{}
+\titlespacing*{\section}{0pt}{1.05ex plus 0.4ex minus 0.2ex}{0.45ex}
+\titlespacing*{\subsection}{0pt}{0.8ex plus 0.3ex minus 0.2ex}{0.25ex}
+
+\pagestyle{plain}
+
+\newcommand{\fullwidthfigure}[2]{%
+  \includegraphics[width=\linewidth]{#1}%
+}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+\begin{document}
+
+\twocolumn[{%
+  \begin{center}
+    {\LARGE\bfseries\color{black} Functional-Welfare Steering Acts at Readout: Cross-Family Tests Separate Output Actuation from Persistent State\par}
+    \vspace{0.55em}
+    {\large\bfseries Neal Krishna\par}
+    \vspace{0.15em}
+    {\normalsize University of Connecticut School of Medicine, Farmington, Connecticut, USA\par}
+    \vspace{0.15em}
+    {\normalsize With Apart Research\par}
+    \vspace{0.2em}
+    {\small\itshape Research conducted at the Digital Minds Research Sprint, August 2026, with Apart Research\par}
+  \end{center}
+  \vspace{0.35em}
+  \begin{minipage}{0.96\textwidth}
+    \small
+    \textbf{Abstract.}
+    Activation steering can change an answer, but does it create an internal state that persists after the intervention ends? We tested released functional-welfare directions in Qwen3-4B and Llama-3.1-8B using fixed transcripts that separated withdrawn early steering from answer-boundary steering. Readout intervention shifted semantic margins by 4.000 logits in Qwen and 6.006 in Llama; after withdrawal, the corresponding effects were 0.047 and $-0.031$. In a separate Qwen majority-rule assay, changing intervention sign switched unrestricted continue/stop answers in 13/64 NF4 cases and 17/64 BF16 cases, with ordered half-dose effects of 8/64 and 9/64. Yet path controls switched more answers, and an endpoint-comparable orthogonal control exactly reproduced the NF4 target's full-dose choices. The released directions are robust answer-boundary actuators, while persistent same-axis state and direction-specificity receive little support. These results separate causal output control from evidence of a lasting internal condition.
+  \end{minipage}
+  \vspace{0.8em}
+  \hrule
+  \vspace{0.8em}
+}]
+
+\section{Introduction}
+
+Activation steering asks a causal question: can a direction change an output while it is being applied?~\cite{turner2024} A claim about internal state asks something different: does the induced signal remain available after the intervention ends? For welfare-related directions, the distinction is consequential. A more favorable answer under continuous steering could reflect a changed latent condition, or it could reflect direct control of the answer channel.
+
+We ask whether functional-welfare steering creates a signal that survives withdrawal or acts mainly at the moment an answer is computed. We crossed exposure during an earlier neutral assistant span with exposure at the final readout token while holding the visible transcript byte-identical. We tested semantic and reversed opaque responses, measured the released goal-minus-lava direction both where it was applied and at the later unsteered token, and compared the target with sentiment, path, and orthogonal directions.
+
+Our prediction was as follows: if steering creates a retained same-axis state, an earlier intervention should shift both the later output margin and the later internal projection. If its effect is concentrated at readout, the shift should be much larger when steering is applied at the answer position. We test these alternatives with semantic recoding, matched controls, a calibrated Qwen action-boundary assay, a matched one-token Qwen extension, and a separately extracted Llama direction. This design separates three claims that are often conflated: output control, persistence after withdrawal, and construct-specificity.
+
+\section{Related Work}
+
+Han, Chalmers, and Izmailov reported that reinforcement learning in maze environments recruits a functional welfare axis and showed cross-domain steering effects, while explicitly separating those functional results from claims about experience~\cite{han2026}. We constructed the layer-29 goal-minus-lava direction from goal and lava tensors released in David Demitri Africa's separate third-party replication-and-extension artifact, which also contains LoRA checkpoints and a path tensor~\cite{africa2026}. Jiang, Kauvar, and Lindsey independently identified a causal ``value axis'' that predicts whether a model is on track toward a criterion~\cite{jiang2026}. That result makes generic goal progress a live alternative to a welfare-specific interpretation.
+
+Jhaveri, Johnson, and Africa argued that favorable surface indicators need not establish an underlying welfare change~\cite{jhaveri2026}. Prior withdrawal studies support both rapid decay and measurable later effects: Pearson-Vogel et al. removed steering before a fixed second-turn query, Sauers et al. observed rapidly decaying emotion-feature effects with heterogeneous tails, and Black and Bloom reported a positive history-mediated readout~\cite{pearsonvogel2026,sauers2026,black2026}. Rivera and Africa further showed that injected directions can rotate downstream, while Gurnee et al. demonstrated representations that remain broadly available to later computation~\cite{rivera2026,gurnee2026}. Together, these results make persistence an empirical property to measure rather than assume.
+
+Our contribution is a controlled locus factorial that holds the visible transcript fixed while independently varying early and answer-boundary exposure. It combines post-withdrawal behavior, later internal measurement, semantic recoding, matched directions, an unrestricted answer-switching assay, and replication across Qwen and Llama. The result is a direct empirical separation between a direction's ability to control an answer while active and its ability to leave a measurable state after withdrawal.
+
+\section{Methods}
+
+\subsection{Models, directions, and provenance}
+
+The primary assay used Qwen3-4B-Instruct-2507~\cite{qwen2025} with NF4 quantization and bfloat16 computation.\footnote{Pinned Qwen revision: \nolinkurl{cdbee75f17c01a7cc42f958dc650907174af0554}. The local run used bitsandbytes 0.50.1 with NF4 double quantization.} Each condition was evaluated from the complete prompt rather than an incrementally reused key-value cache. Earlier steering could still influence later positions through attention within that forward pass.
+
+The intervention was the layer-29 goal-minus-lava direction from the public \path{davidafrica/functional-wellbeing} artifact~\cite{africa2026}.\footnote{Pinned direction-artifact revision: \nolinkurl{0b005c3da6692912f6bb5a914a5a9d15c4884a91}. The tensors were extracted from the artifact's associated maze-trained Qwen LoRA checkpoint at \path{runs/run2/global_step_400}, using 300 trajectories per tile.} We transferred that tensor to a separately downloaded maze-naive Qwen checkpoint in the same residual coordinate system. This follows the trained-to-naive evaluation paradigm of Han et al.; it is not an exact reconstruction of the source checkpoint.
+
+We use \emph{direction} for this fixed residual-space tensor and \emph{coefficient} for its signed multiplier. The primary coefficient magnitude was 0.5. The coefficient and these same 16 semantic task frames were selected after an earlier project-level manipulation gate: factor 0.5 moved both semantic margins in 16/16 frames; mean full-vocabulary $D_{\mathrm{KL}}(p_{\mathrm{clean}}\Vert p_{\mathrm{steered}})$, averaged over the positive and negative interventions, was 0.00481. Absolute semantic magnitude is therefore manipulation-qualified rather than independent confirmation. The new evidence in the frozen assay is the within-transcript exposure-withdrawal contrast and the reversed opaque mappings, neither of which selected the factor or frame bank. For internal measurement, we projected the residual stream entering block 30 onto the unit-normalized layer-30 goal-minus-lava direction.
+
+The cross-family replication used Meta-Llama-3.1-8B-Instruct~\cite{nousllama2024,llama2024} in BF16, with no quantization or adapter.\footnote{Pinned Llama revision: \nolinkurl{d10aef7999a2b5ba950ab3974312feeedbfe0b77}. All four model shards and both released direction tensors were hash-verified.} We injected the released layer-20 goal-minus-lava difference and measured the corresponding unit-normalized layer-21 difference. Before observing a Llama endpoint, we set the coefficient to 2.0 by approximate injected-vector-norm matching to the Qwen intervention. The comparison is qualitative rather than dose-equivalent.
+
+All experimental designs, preregistrations, runs, analyses, figures, and manuscript text reported here were produced during the August 14--16 sprint; the models, released directions, and cited prior work are public pre-existing artifacts.
+
+\subsection{Exposure-withdrawal design}
+
+Each prompt contained an earlier neutral assistant span, intervening neutral text, and a final one-token response. We either steered the earlier span and withdrew the intervention before the response, steered only the final prompt position that produced the scored next-token logits, or crossed the two exposures. The earlier intervention covered 15 or 16 visible tokens. Short and long prompts then contained 5 or 43 unsteered intervening tokens before the final query. At the primary magnitude of 0.5, a $3\times3$ design crossed earlier and readout coefficients in $\{-0.5,0,+0.5\}$. The visible transcript was byte-identical across cells. Separate one-locus conditions tested magnitudes 0.25 and 1.0.
+
+The 16 neutral lexical task frames were the bootstrap-resampling units. Within each frame, response surface, mapping, interval, and intervention cell were repeated measurements. The run produced 5,376 fixed-transcript next-token records. No response token was sampled or generated; every endpoint was computed from logits under a fixed prompt.
+
+The Llama replication retained the same 16 task families, long neutral interval, semantic surfaces, and reversed K/M mappings. Its earlier intervention covered 15--16 visible positions, while its readout intervention covered only the final prompt position. It evaluated clean, earlier positive/negative, and readout positive/negative conditions after a separate code-mapping check.\footnote{Llama execution seed 26081620; bootstrap seed 26081621; 32 mapping-check forwards and 480 endpoint forwards.} As in Qwen, no response token was sampled: every endpoint came from logits under a fixed prompt.
+
+The primary endpoint was an oriented two-token logit margin: success minus failure or continue minus stop after orienting each response mapping so that a positive value always denoted the same task meaning. The \textbf{earlier-only shift} and \textbf{readout-only shift} were the difference between the positive- and negative-coefficient margins when the other locus had coefficient zero. Projection shifts likewise mean the positive-coefficient minus negative-coefficient contrast. Their ratio is a descriptive contrast between unequal intervention regimens; it is not normalized by dosed-token count and is neither a retention-rate estimate nor a decay constant. Oppositely signed earlier and readout coefficients formed a conflict condition. We measured the layer-30 projection at the earlier dosed token positions and at the later unsteered readout.
+
+\subsection{Response surfaces and controls}
+
+Semantic prompts requested one-token success/failure or continue/stop responses. Opaque prompts used K and M under both meaning assignments for status and persistence. Explicit-outcome trials first tested whether the model followed each code mapping; only then were unknown-condition margins interpreted. A third, prespecified surface requested one digit from 0 to 9 under both scale directions. Its endpoint was the expectation under a softmax normalized only across the ten digit logits, then oriented so higher meant better under either scale direction.
+
+Controls for the saturated fixed-transcript assay addressed semantic and geometric alternatives. A sentiment direction derived from a separate fixed 16-topic positive/negative prompt bank was removed from the raw welfare direction to form a sentiment-residualized direction. A released path-versus-terminal direction was residualized against the welfare and sentiment span. Four seeded Gaussian directions were made orthogonal to that span and norm-matched. Control coefficients were selected on a disjoint neutral calibration bank to approximate the raw direction's sign-averaged symmetrized full-vocabulary KL, $\tfrac12[D_{\mathrm{KL}}(p_{\mathrm{clean}}\Vert p_{\mathrm{steered}})+D_{\mathrm{KL}}(p_{\mathrm{steered}}\Vert p_{\mathrm{clean}})]$, never to optimize a reported endpoint. The calibrated magnitudes were 0.2 for sentiment-residualized welfare, 0.2 for residualized path, and 1.0, 0.2, 0.2, and 0.35 for the four orthogonal controls.
+
+Because the primary prompts had saturated clean margins, a separate repair series used ten-vote majority-rule tasks whose correct action was always \textsc{stop}. Prompt forms crossed evidence/rule order, recorded/reversed evidence, three/four \textsc{continue} votes, and eight permutations. Aggregate clean behavior was used adaptively to select 64 cases before any intervention output on those cases was observed; individual cases were not selected for responsiveness. After the capability gate passed, the target/control run was frozen. Each endpoint was the unrestricted full-vocabulary top token and was valid only if it was exactly \textsc{continue} or \textsc{stop}. This assay used a separate norm-matched bank: direct unresidualized path and sentiment directions plus four Gaussian directions orthogonal to target, path, and sentiment. Their factors were selected on neutral prompts by the symmetrized KL statistic above; realized endpoint-divergence comparability was recorded rather than assumed. NF4 conditions tested the target at half and full dose plus all six controls. An adapter-free BF16 repeat used the identical 64 prompts for target half/full doses and the same NF4-calibrated direct-path factor. This assay tests semantic action-token actuation, not welfare or beneficial choice.
+
+\subsection{Analysis}
+
+The primary estimands were the long-interval earlier-only and readout-only shifts at magnitude 0.5. We report task-frame means and 95\% intervals from 10,000 bootstrap draws that resampled the 16 frames. The 5,376 rows were not treated as independent samples. A state-like result required a predicted earlier-only effect on both the semantic and recoded opaque surfaces together with a later positive projection on the released axis. A readout-local result required a large readout-only effect and an earlier-only effect below 25\% of it on the validated surfaces.
+
+For opaque codes, averaging and differencing the two K/M mappings decomposed the effect into mapping-aware semantic binding and fixed-token bias. Numeric ratings were a prespecified generalization test. Sign crossing of the clean pairwise margin was analyzed descriptively because a large change in an already saturated margin need not change the most likely token.
+
+For the action-boundary assay, the primary positive result was a difference in unrestricted winners between negative and positive target interventions, supported by a positive mean selected-logit contrast in every wording/order cell and an ordered half-dose contrast. Specificity was separate: the target had to outperform matched controls in both margin and switching comparisons. Accuracy relative to the majority rule was descriptive and was not a promotion gate.
+
+After freezing the primary analysis, we ran three preregistered robustness checks. A hosted Qwen job repeated the long-history binary assay in unquantized BF16. A matched one-token extension compared the direction's associated LoRA reconstruction with the same model wrapper after disabling the adapter. Finally, the Llama job repeated the long-history withdrawal contrast using its separately released direction.\footnote{The Qwen BF16 and Llama checks each used 512 forwards. The adapter comparison used 1,491 forwards and produced 528 complete cross-arm pairs.} All three analyses used 10,000 task-family bootstrap draws; the adapter comparison resampled paired families.
+
+\section{Results}
+
+\subsection{Readout steering dominated withdrawn steering across families}
+
+The central result was the same in both model families: steering at the answer boundary produced a large semantic effect, while steering earlier and then withdrawing it produced little later same-axis leverage. In Qwen, the semantic earlier-only shift was 0.047 [0.004, 0.090] logits, versus 4.000 [3.875, 4.145] at readout. In Llama, the corresponding shifts were $-0.031$ [$-0.047$, $-0.016$] and 6.006 [5.551, 6.451]. Reversed opaque labels showed the same ordering in both models (Table~\ref{tab:primary}).
+
+\begin{table*}[t]
+  \centering
+  \caption{Cross-family oriented plus-minus selected-token margin shifts on long histories. Qwen uses coefficient magnitude 0.5 and Llama uses 2.0; these magnitudes are not dose-equivalent. Each row has $n=16$ lexical task families; brackets are 95\% percentile bootstrap intervals over families (10,000 draws). Ratios descriptively compare unequal 15--16-token earlier and one-token readout regimens and are not dose-normalized. The Llama opaque aggregate is mapping-aware, but individual cells are substantially token-biased.}
+  \label{tab:primary}
+  \small
+  \begin{tabular}{@{}llccc@{}}
+    \toprule
+    Model & Surface & Earlier-only shift & Readout-only shift & Earlier/readout ratio \\
+    \midrule
+    Qwen NF4 & Semantic & 0.047 [0.004, 0.090] & 4.000 [3.875, 4.145] & 0.012 [0.001, 0.023] \\
+    Llama BF16 & Semantic & $-0.031$ [$-0.047$, $-0.016$] & 6.006 [5.551, 6.451] & $-0.0052$ [$-0.0077$, $-0.0026$] \\
+    Qwen NF4 & Reversed opaque & 0.129 [0.100, 0.158] & 2.311 [2.217, 2.402] & 0.056 [0.043, 0.070] \\
+    Llama BF16 & Reversed opaque & 0.063 [0.045, 0.080] & 1.594 [1.346, 1.809] & 0.0392 [0.0291, 0.0506] \\
+    \bottomrule
+  \end{tabular}
+\end{table*}
+
+All 32 Qwen code-mapping checks were correct. Earlier steering strongly expressed the intervention at the dose site: layer-30 projection shifts were 22.289 [22.262, 22.316] on semantic trials and 22.293 [22.269, 22.316] on opaque trials. At the later unsteered token, those shifts had fallen to $-0.017$ [$-0.026$, $-0.007$] and $-0.007$ [$-0.013$, $-0.001$]. Thus the direction was strongly present where applied and nearly absent on the same measured axis at the later readout.
+
+The original Qwen endpoints were highly saturated: the pooled clean semantic margin was 23.08 logits. The $\pm0.5$ readout contrast crossed zero in 0/64 semantic cells and 1/128 opaque cells. These prompts measured substantial logit leverage but rarely allowed the top answer to change; the separate boundary assay below directly tests unrestricted winner switching. When earlier and readout interventions had opposite signs, the compound contrast was 4.008 [3.883, 4.129] for semantic labels and 2.113 [2.027, 2.203] for opaque labels. Figure~\ref{fig:temporal} summarizes the output and internal-projection results.
+
+\begin{figure*}[t]
+  \centering
+  \fullwidthfigure{figures/fig1_temporal_locus.pdf}{Token-level intervention timeline; earlier-only versus readout-only shifts; dose-site versus later unsteered projections.}
+  \caption{Qwen temporal locus and same-axis withdrawal checks. Panel A reports oriented next-token logit-margin shifts; panel B reports unit-normalized layer-30 projection shifts; panel C reports clean semantic-margin bars in logits. Every shift is the positive-coefficient minus negative-coefficient contrast. Panels A--B use the long interval, factor 0.5, and byte-identical visible transcripts. Panel C bars average zero/zero baseline cells across short and long intervals; the $\pm0.5$ readout contrast crossed 0/64 semantic and 1/128 opaque cells. Each plotted condition has $n=16$ lexical task frames; error bars are 95\% percentile bootstrap intervals over frames (10,000 draws).}
+  \label{fig:temporal}
+\end{figure*}
+
+\subsection{Dose ordering and semantic recoding}
+
+Figure~\ref{fig:recoding} summarizes the dose, recoding, and numeric-surface checks. The semantic readout shift increased across the three tested magnitudes: 1.969 [1.906, 2.039] at 0.25, 4.000 [3.875, 4.145] at 0.5, and 7.797 [7.582, 8.041] at 1.0. Opaque-label shifts were likewise ordered: 1.055 [1.002, 1.111], 2.311 [2.217, 2.402], and 4.592 [4.426, 4.770]. We describe this as approximate dose ordering rather than assume a linear response outside the tested range.
+
+Reversing K/M meanings separated semantic movement from token preference. For long status prompts, the mapping-aware component was 2.883 [2.750, 3.020] logits and fixed-token bias was 0.086 [$-0.070$, 0.242]. For persistence prompts, the corresponding values were 1.738 [1.613, 1.855] and 0.395 [0.281, 0.535]. Most of the opaque effect followed the instructed meaning, although persistence retained measurable token bias.
+
+The result did not extend to the reversed 0--9 scale. The long-interval numeric shift was $-0.009$ [$-0.039$, 0.021] for earlier-only exposure and $-0.113$ [$-0.205$, $-0.038$] at readout, opposite the intended direction for the latter. The direction is therefore not supported here as a format-general numerical welfare scale.
+
+\begin{figure*}[t]
+  \centering
+  \fullwidthfigure{figures/fig2_dose_recoding.pdf}{Readout dose series; opaque mapping decomposition; unrestricted semantic winner switching in NF4 and BF16.}
+  \caption{Qwen dose ordering, semantic recoding, and unrestricted action switching. Panel A reports readout logit-margin shifts; panel B decomposes opaque-code readout shifts into mapping-aware and fixed-token components, in logits. Panel C reports minus-to-plus \textsc{stop}-to-\textsc{continue} winner-switch rates in the separate 64-case majority-rule assay for target half/full doses and the path and orthogonal-01 controls; the orthogonal control was measured only in NF4. Panels A--B have $n=16$ lexical task frames with 95\% percentile bootstrap intervals (10,000 draws); panel C has 64 cases per condition.}
+  \label{fig:recoding}
+\end{figure*}
+
+\subsection{Qwen steering switched real answers across precision}
+
+Every unrestricted output in the frozen NF4 boundary run was a valid semantic action. Switching the full-dose target intervention from negative to positive changed the winner from \textsc{stop} to \textsc{continue} in 13/64 cases (20.3\%); half dose changed 8/64 (12.5\%). Mean plus-minus margins were 2.725 and 1.379 logits, respectively, and their signs were positive in all eight wording/order-by-count cells. Relative to clean answers, the full negative arm corrected nine errors, while the full positive arm turned four correct answers into errors. The direction therefore caused actual action-token changes, but the sign-pair assay does not establish generally beneficial or rational improvement.
+
+The exact-cohort BF16 repeat also had valid actions in all 448 forwards. Full and half target doses switched 17/64 (26.6\%) and 9/64 (14.1\%) winners, with mean margin contrasts of 3.654 and 1.832 logits; every aggregate cell was positive at both doses. Thus, at both precisions the full-dose margin was approximately twice the half-dose margin and switched more answers. At full dose, negative BF16 steering corrected eight clean errors and positive steering induced nine; at half dose, the counts were five and four. Per-case margin contrasts were strongly correlated across precision (full $r=0.952$; half $r=0.938$), but switch-set overlap was only 7 cases at full dose (Jaccard 0.304) and 1 at half dose (0.063). This supports cross-precision aggregate and cell-level actuation, not stable case-level switch identity, a precision-invariant effect size, or rational improvement.
+
+Control directions showed that this actuation was not unique to the released target. In NF4, the path control switched 19/64 winners with a 5.184-logit contrast, exceeding the target. Endpoint-divergence-comparable orthogonal control 01 (KL ratio 0.821) chose exactly the same negative- and positive-arm answers as the target in all 64 cases, hence the same 13/64 switches, with a 2.535-logit contrast versus 2.725 for the target. In BF16, path switched 21/64 with a 6.607-logit contrast, again exceeding the target. On the original saturated prompts, by contrast, the target had exceeded the prespecified controls in aggregate selected-margin comparisons. Together, the assays establish robust semantic action control by the released direction while showing that answer switching alone does not identify the underlying construct.
+
+\subsection{Qwen precision and adapter-toggle checks}
+
+On the six frozen long-history binary surfaces, the BF16 run passed all 32 mapping checks. Semantic earlier/readout shifts were 0.023 [$-0.012$, 0.059] and 3.508 [3.387, 3.639] logits; opaque shifts were 0.100 [0.063, 0.137] and 2.098 [1.998, 2.189]. The corresponding earlier-only final-token projection contrasts were $-0.011$ [$-0.025$, 0.001] and $-0.012$ [$-0.019$, $-0.005$]. The same readout-dominant pattern in unquantized BF16 argues against an NF4-only explanation.
+
+Pooled across both intervals and all three status encodings in the matched one-token extension, earlier/readout ratios were 0.0107 [$-0.0022$, 0.0244] in the associated LoRA arm and 0.0098 [$-0.0016$, 0.0211] with the adapter disabled. Their difference was 0.0009 [$-0.0129$, 0.0162], wholly inside the frozen $\pm0.10$ equivalence bound; both upper confidence limits were below 0.025. Earlier slopes were equal at recorded precision, 0.02474 in each arm; readout slopes were 2.303 and 2.518. The matched-pulse comparison therefore found the same low earlier-to-readout transport with the associated adapter enabled or disabled.
+
+\subsection{Llama-3.1-8B replication}
+
+The frozen cross-family job passed every preregistered promotion gate and all 32 mapping checks. Table~\ref{tab:primary} gives the four binary contrasts. On semantic labels, the earlier-only shift was $-0.031$ [$-0.047$, $-0.016$] and the readout-only shift was 6.006 [5.551, 6.451] logits; their ratio was $-0.0052$ [$-0.0077$, $-0.0026$]. The negative ratio denotes a tiny opposite-signed earlier contrast, not negative retention. On reversed opaque labels, the earlier and readout shifts were 0.063 [0.045, 0.080] and 1.594 [1.346, 1.809], with a ratio of 0.0392 [0.0291, 0.0506]. Both ratio intervals lay wholly inside the frozen $\pm0.25$ equivalence region.
+
+The semantic earlier-pulse contrast projected onto the unit-normalized layer-21 goal-minus-lava direction was 18.45976 at the earlier dosed positions and 0.00763 at the final unsteered position. The corresponding opaque contrasts were 18.45935 and 0.00033. Opaque responses remained semantically responsive, although fixed-token bias was substantial: at readout, persistence semantic binding and fixed-token bias were 2.027 [1.660, 2.391] and 1.926 [1.727, 2.109] logits; status values were 1.160 [0.984, 1.301] and 1.590 [1.461, 1.734]. The separately released Llama direction therefore reproduced the same readout-dominant temporal pattern in a different model family.
+
+\section{Discussion}
+
+This study separates three claims that are often treated as one: an activation direction can control an output, can leave a state that persists after withdrawal, and can specifically measure the construct used to name it. The results are strongly positive for the first claim. They show little same-axis support for the second, and the control directions challenge the third.
+
+The temporal result is strikingly consistent across families. At readout, the released directions moved semantic margins by 4.000 logits in Qwen and 6.006 in Llama. After a 15--16-token earlier pulse followed by withdrawal, the later effects were only 0.047 and $-0.031$. The internal measurements told the same story: large projection changes at the dosed positions collapsed to near zero at the later unsteered token. Qwen BF16 and adapter-toggle checks preserved this pattern. These are not decay constants, because earlier and readout exposures differed in both token count and computational distance, but they sharply localize where the measured causal leverage occurs.
+
+The answer-boundary assay shows that this is more than movement inside a saturated logit margin. Changing intervention sign switched unrestricted semantic answers in 13/64 NF4 cases and 17/64 BF16 cases, with smaller half-dose effects and positive mean shifts in every aggregate cell. The direction is therefore a reproducible semantic actuator across two Qwen execution substrates. At the same time, negative steering sometimes corrected errors and positive steering sometimes introduced them: the effect is control over the answer boundary, not a monotonic improvement in decision quality.
+
+The matched controls reveal why output actuation and construct validation must remain separate. Path steering switched more answers than the target at both precisions, and an endpoint-comparable orthogonal NF4 direction reproduced every full-dose signed target choice. The original K/M recoding showed that much of the effect followed instructed meaning, but the failed numeric generalization and strong controls show that task geometry also matters. Continuous steering can therefore produce an impressive, semantically coherent behavioral effect without uniquely identifying a persistent welfare state.
+
+This distinction matters for both science and monitoring. A system can emit a more favorable report because an intervention changed the answer channel at that moment. Treating that report as evidence of a durable internal condition risks mistaking controllability for measurement. The exposure-withdrawal design borrows the logic of pharmacological dechallenge: responsiveness during exposure and persistence after discontinuation are distinct pieces of causal evidence~\cite{naranjo1981}. In language models, the analogous test is to remove steering before the endpoint and ask what remains.
+
+Future state claims should therefore combine five checks: withdraw the intervention before measurement; use an endpoint capable of changing answers rather than only saturated margins; measure the hypothesized signal at a later unsteered position; reverse semantically equivalent response encodings and compare matched control directions; and repeat the test on another substrate. The central lesson is straightforward: causal potency at readout is real and important, but it is not by itself evidence of a persistent internal state.
+
+\section{Conclusion}
+
+Released functional-welfare directions are potent answer-boundary actuators. Across Qwen and Llama, steering at readout produced large semantic effects, while the same measured signal nearly vanished after earlier steering was withdrawn. In Qwen, changing intervention sign switched unrestricted answers across both NF4 and BF16, establishing robust causal control of a native semantic boundary. Path and orthogonal controls show that this potency is not unique to the released welfare direction. The paper's central contribution is therefore a practical and empirical separation: steering can reliably control what a model says while active without establishing a persistent internal state. Future welfare and state claims should be built on that distinction.
+
+\FloatBarrier
+
+\section*{Code and Data}
+
+Analysis code, retained row-level results, figure source, and the paper are available at \url{https://github.com/nealkr/functional-welfare-steering-withdrawal}. The repository contains only the artifacts needed to reproduce the reported calculations; it excludes model weights, direction tensors, credentials, infrastructure, and private operational records. The public model repositories and pinned revisions needed to repeat inference are listed in Methods.
+
+\section*{LLM Usage Statement}
+
+Codex (OpenAI) assisted with code execution and literature search. The author defined the research question and design, interpreted the results, and verified the reported claims.
+
+\begin{thebibliography}{14}
+\footnotesize
+\setlength{\itemsep}{0.15em}
+\setlength{\parsep}{0pt}
+
+\bibitem{turner2024}
+Alexander Matt Turner, Lisa Thiergart, Gavin Leech, David Udell, Juan J. Vazquez, Ulisse Mini, and Monte MacDiarmid.
+``Steering Language Models With Activation Engineering.''
+\href{https://arxiv.org/abs/2308.10248}{\emph{arXiv:2308.10248v5}}, 2024.
+
+\bibitem{han2026}
+Andy Q. Han, David J. Chalmers, and Pavel Izmailov.
+``How's it going? Reinforcement learning in language models recruits a functional welfare axis.''
+\href{https://arxiv.org/abs/2605.30232}{\emph{arXiv:2605.30232}}, 2026.
+
+\bibitem{africa2026}
+David Demitri Africa.
+``functional-wellbeing: checkpoints, concept vectors, and figures.''
+Hugging Face repository, revision \nolinkurl{0b005c3da6692912f6bb5a914a5a9d15c4884a91}, 2026.
+\href{https://huggingface.co/davidafrica/functional-wellbeing/tree/0b005c3da6692912f6bb5a914a5a9d15c4884a91}{Pinned artifact revision.}
+
+\bibitem{jiang2026}
+Nick Jiang, Isaac Kauvar, and Jack Lindsey.
+``The Value Axis: Language Models Encode Whether They're on the Right Track.''
+\href{https://arxiv.org/abs/2606.17056}{\emph{arXiv:2606.17056}}, 2026.
+
+\bibitem{jhaveri2026}
+Rikhil Jhaveri, Jamie Johnson, and David Demitri Africa.
+``Desiderata for Functional Welfare Experiments on LLMs.''
+\href{https://www.lesswrong.com/posts/yku6byxdeKREibe5L/desiderata-for-functional-welfare-experiments-on-llms}{\emph{LessWrong}}, 6 July 2026.
+
+\bibitem{pearsonvogel2026}
+Theia Pearson-Vogel, Martin Vanek, Raymond Douglas, and Jan Kulveit.
+``Latent Introspection: Models Can Detect Prior Concept Injections.''
+\href{https://arxiv.org/abs/2602.20031}{\emph{arXiv:2602.20031v2}}, 2026.
+
+\bibitem{sauers2026}
+Scott Sauers, Imago, Janus, and Antra Tessera.
+``Persistence and Introspection of Emotion Features.''
+\href{https://latentaffect.up.railway.app/long_range_persistence_of_emotion_features.html}{\emph{Anima Labs}}, April 2026.
+
+\bibitem{black2026}
+Sid Black and Joseph Bloom.
+``Machinic Psychopharmacology: Do LLMs Self-Medicate?''
+\href{https://www.lesswrong.com/posts/cNDJuXNZ8MrkPZNzj/machinic-psychopharmacology-do-llms-self-medicate-3}{Model Transparency Team, UK AI Security Institute}, June 2026.
+
+\bibitem{rivera2026}
+Joshua Fonseca Rivera and David Demitri Africa.
+``Steering Awareness: Detecting Activation Steering from Within.''
+\href{https://arxiv.org/abs/2511.21399}{\emph{arXiv:2511.21399v3}}, 2026.
+
+\bibitem{gurnee2026}
+Wes Gurnee, Nicholas Sofroniew, Adam Pearce, et al.
+``Verbalizable Representations Form a Global Workspace in Language Models.''
+\href{https://transformer-circuits.pub/2026/workspace/index.html}{\emph{Transformer Circuits Thread}}, July 2026.
+
+\bibitem{qwen2025}
+Qwen Team.
+``Qwen3-4B-Instruct-2507.''
+Hugging Face model card, revision \nolinkurl{cdbee75f17c01a7cc42f958dc650907174af0554}, 2025.
+\href{https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/tree/cdbee75f17c01a7cc42f958dc650907174af0554}{Pinned model revision.}
+
+\bibitem{nousllama2024}
+NousResearch.
+``Meta-Llama-3.1-8B-Instruct.''
+Hugging Face model repository, revision \nolinkurl{d10aef7999a2b5ba950ab3974312feeedbfe0b77}, 2024.
+\href{https://huggingface.co/NousResearch/Meta-Llama-3.1-8B-Instruct/tree/d10aef7999a2b5ba950ab3974312feeedbfe0b77}{Pinned model revision.}
+
+\bibitem{llama2024}
+Aaron Grattafiori et al.
+``The Llama 3 Herd of Models.''
+\href{https://arxiv.org/abs/2407.21783}{\emph{arXiv:2407.21783}}, 2024.
+
+\bibitem{naranjo1981}
+Claudio A. Naranjo, Usoa Busto, Edward M. Sellers, et al.
+``A Method for Estimating the Probability of Adverse Drug Reactions.''
+\href{https://doi.org/10.1038/clpt.1981.154}{\emph{Clinical Pharmacology \& Therapeutics}}, 30(2):239--245, 1981.
+
+\end{thebibliography}
+
+\appendix
+\footnotesize
+
+\section[Limitations and Dual-Use / Ethical Considerations]{Limitations and Dual-Use /\\ Ethical Considerations}
+
+\subsection{Limitations}
+
+The study tests two model families and one intervention layer per released direction. The Qwen direction was transferred from an associated maze-trained LoRA checkpoint to related but nonidentical maze-naive weights; the Llama coefficient was selected by approximate injected-vector-norm matching rather than behavioral equivalence. Raw effect sizes should therefore not be compared as equal doses across models. Earlier pulses also covered 15--16 tokens while readout pulses covered one, so their ratios localize effects but do not estimate a per-token retention rate or decay constant.
+
+The internal assay measured only the corresponding released goal-minus-lava axis one block downstream. A rotated, distributed, or nonlinear trace could be missed. The original Qwen prompts were saturated, the numeric generalization failed, and Llama was not tested on the unrestricted answer-switching assay. The Qwen boundary cases were adaptively calibrated from clean behavior and then held intervention-unseen, rather than drawn as an independent confirmatory sample. Strong path and orthogonal controls further limit a construct-specific interpretation.
+
+The hosted BF16 repeat retained exact rows for the reported run, but its frozen design and runner differed in bootstrap-seed semantics and gate scope; the foregrounded counts and means are unaffected, and both the full gate and a scientific-core recomputation passed. Bitwise GPU replay was not established.
+
+\subsection{Dual-use and ethical scope}
+
+Activation interventions can be used to manipulate reported states or to make monitoring outputs appear more favorable without changing an underlying process. The temporal and recoding checks here may help detect that failure mode, but they could also help optimize more effective output interventions. We therefore report the interpretive boundary alongside the effect and do not recommend using this score alone for welfare monitoring, deployment decisions, or treatment of a system.
+
+The tasks used neutral, fixed-transcript records and constrained token logits; no distressing model output was solicited or retained. They provide no ground truth about experience, suffering, consciousness, sentience, or moral status. Inferring felt welfare from these shifts would over-attribute the evidence; inferring that digital systems categorically lack morally relevant states would under-attribute it. Both conclusions exceed this experiment. The ethical contribution is methodological: claims with moral consequences should face stronger construct validation than an output shift observed only while an intervention is active.
+
+\end{document}

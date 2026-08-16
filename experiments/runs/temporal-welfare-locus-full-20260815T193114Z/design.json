@@ -1,0 +1,89 @@
+{
+  "status": "started",
+  "mode": "full",
+  "started_utc": "2026-08-15T19:31:14.233894+00:00",
+  "model_path": "library/models/qwen3-4b-instruct-2507",
+  "vector_root": "library/artifacts/functional-wellbeing/concept_vectors/qwen3-4b_step400",
+  "dose_layer": 29,
+  "read_layer": 30,
+  "primary_factor": 0.5,
+  "tasks": [
+    "stack the disks",
+    "mark the rows",
+    "choose the symbols",
+    "arrange the tokens",
+    "sort the cards",
+    "copy the symbols",
+    "align the tiles",
+    "count the markers",
+    "match the labels",
+    "trace the route",
+    "place the blocks",
+    "check the sequence",
+    "group the shapes",
+    "read the tags",
+    "order the blocks",
+    "scan the markers"
+  ],
+  "n_random_shams": 4,
+  "primary_grid": [
+    [
+      -1,
+      -1
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "control_grid": [
+    [
+      -1,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "secondary_factors": [
+    0.25,
+    1.0
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "cosines": {
+    "functional_welfare_raw__path_direct": -0.007094958797097206,
+    "functional_welfare_raw__random_orthogonal_00": 1.862645149230957e-09,
+    "functional_welfare_raw__random_orthogonal_01": 1.0710209608078003e-08,
+    "functional_welfare_raw__random_orthogonal_02": 3.259629011154175e-09,
+    "functional_welfare_raw__random_orthogonal_03": -1.1641532182693481e-08,
+    "functional_welfare_raw__sentiment": 0.09360324591398239,
+    "path_direct__random_orthogonal_00": 3.259629011154175e-09,
+    "path_direct__random_orthogonal_01": -4.6566128730773926e-09,
+    "path_direct__random_orthogonal_02": 5.587935447692871e-09,
+    "path_direct__random_orthogonal_03": 3.725290298461914e-09,
+    "path_direct__sentiment": 0.019323168322443962,
+    "random_orthogonal_00__random_orthogonal_01": -0.004546965938061476,
+    "random_orthogonal_00__random_orthogonal_02": -0.0355767086148262,
+    "random_orthogonal_00__random_orthogonal_03": -0.0002252422273159027,
+    "random_orthogonal_00__sentiment": 9.080395102500916e-09,
+    "random_orthogonal_01__random_orthogonal_02": 0.02557961642742157,
+    "random_orthogonal_01__random_orthogonal_03": 0.014607047662138939,
+    "random_orthogonal_01__sentiment": -3.725290298461914e-09,
+    "random_orthogonal_02__random_orthogonal_03": -0.0019433461129665375,
+    "random_orthogonal_02__sentiment": 1.862645149230957e-09,
+    "random_orthogonal_03__sentiment": 0.0
+  },
+  "evaluation_factors": {
+    "functional_welfare_raw": 1.0,
+    "functional_welfare_raw_half": 0.5,
+    "path_direct": 1.1940978759847163,
+    "random_orthogonal_00": 2.1579784664920996,
+    "random_orthogonal_01": 1.5272141178181842,
+    "random_orthogonal_02": 0.5128326982332162,
+    "random_orthogonal_03": 1.9643610971105179,
+    "sentiment": 1.425869737431211
+  },
+  "factor": 1.0,
+  "layer": 29,
+  "neutral_kl_ratios_from_exact_v4b_receipt": {
+    "functional_welfare_raw": 1.0,
+    "path_direct": 1.2696314866720828,
+    "random_orthogonal_00": 0.857366832002642,
+    "random_orthogonal_01": 0.9789662127882794,
+    "random_orthogonal_02": 1.0233316284422416,
+    "random_orthogonal_03": 0.9743369217720128,
+    "sentiment": 0.9386691382839856
+  },
+  "norms": {
+    "functional_welfare_raw": 23.53155517578125,
+    "path_direct": 23.531553268432617,
+    "random_orthogonal_00": 23.53155517578125,
+    "random_orthogonal_01": 23.531551361083984,
+    "random_orthogonal_02": 23.531553268432617,
+    "random_orthogonal_03": 23.53155517578125,
+    "sentiment": 23.53155517578125
+  },
+  "random_seed": 26081671,
+  "target_artifact_sha256": {
+    "goal": "812caf669eb189f6cd1510ce8ddb159e380607fbfd1862d6fa7ae3d3ad551c25",
+    "lava": "e3fbfaa24ecc992d57ff355b2662b5b3bbbbd58fa0addae376ead8bcaa8f0779",
+    "path": "a9eb20eb2a150ff4b1a5388ef7c00b7777717b003da75fbd7b80d8b68505f788"
+  },
+  "target_artifacts": {
+    "goal": "<project>/library/artifacts/functional-wellbeing/concept_vectors/qwen3-4b_step400/goal/mean_diff.pt",
+    "lava": "<project>/library/artifacts/functional-wellbeing/concept_vectors/qwen3-4b_step400/lava/mean_diff.pt",
+    "path": "<project>/library/artifacts/functional-wellbeing/concept_vectors/qwen3-4b_step400/path/mean_diff.pt"
+  }
+}

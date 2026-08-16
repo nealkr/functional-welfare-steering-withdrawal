@@ -1,0 +1,13 @@
+# Local NF4, source-adapter, endogenous Stage-1, value-RPE, and figure runtime.
+# Install torch==2.7.1 separately from the CUDA 12.6 PyTorch index as shown in
+# README.md. The hosted BF16 runner also carries its own PEP 723 dependency pins.
+accelerate==1.14.0
+bitsandbytes==0.50.1
+huggingface-hub==0.35.3
+matplotlib==3.10.6
+numpy==2.2.1
+peft==0.19.1
+Pillow==10.4.0
+safetensors==0.7.0
+tokenizers==0.22.2
+transformers==4.57.6

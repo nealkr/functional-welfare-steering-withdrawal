@@ -1,0 +1,1607 @@
+{
+  "actual_forwards": 1491,
+  "adapter_path": "library/artifacts/functional-wellbeing/checkpoints/qwen3-4b_faithful_step400",
+  "analysis": {
+    "bootstrap_draws": 10000,
+    "bootstrap_unit": "paired_task_family",
+    "cell_estimands": [
+      {
+        "arms": {
+          "naive": {
+            "mean_read": 2.609375,
+            "mean_write": 0.03125,
+            "q": -0.62109375,
+            "q_ci": {
+              "lower": -0.6796875,
+              "upper": -0.5625
+            },
+            "read_ci": {
+              "lower": 2.5,
+              "upper": 2.71875
+            },
+            "rho": 0.011976047904191617,
+            "rho_ci": {
+              "lower": -0.011976047904191617,
+              "upper": 0.03550295857988166
+            },
+            "write_ci": {
+              "lower": -0.03125,
+              "upper": 0.09375
+            }
+          },
+          "source": {
+            "mean_read": 2.34375,
+            "mean_write": 0.046875,
+            "q": -0.5390625,
+            "q_ci": {
+              "lower": -0.6328125,
+              "upper": -0.4453125
+            },
+            "read_ci": {
+              "lower": 2.1875,
+              "upper": 2.484375
+            },
+            "rho": 0.02,
+            "rho_ci": {
+              "lower": -0.013245033112582781,
+              "upper": 0.05405405405405406
+            },
+            "write_ci": {
+              "lower": -0.03125,
+              "upper": 0.125
+            }
+          }
+        },
+        "delta_q": 0.08203125,
+        "delta_q_ci": {
+          "lower": -0.01953125,
+          "upper": 0.18359375
+        },
+        "delta_rho": 0.008023952095808383,
+        "delta_rho_ci": {
+          "lower": -0.03218157181571815,
+          "upper": 0.05036089330533352
+        },
+        "encoding": "semantic",
+        "interval": "short"
+      },
+      {
+        "arms": {
+          "naive": {
+            "mean_read": 2.75,
+            "mean_write": 0.109375,
+            "q": -0.578125,
+            "q_ci": {
+              "lower": -0.66796875,
+              "upper": -0.4921875
+            },
+            "read_ci": {
+              "lower": 2.609375,
+              "upper": 2.875
+            },
+            "rho": 0.03977272727272727,
+            "rho_ci": {
+              "lower": 0.010987509758001562,
+              "upper": 0.06976744186046512
+            },
+            "write_ci": {
+              "lower": 0.03125,
+              "upper": 0.1875
+            }
+          },
+          "source": {
+            "mean_read": 2.765625,
+            "mean_write": 0.09375,
+            "q": -0.59765625,
+            "q_ci": {
+              "lower": -0.69921875,
+              "upper": -0.5
+            },
+            "read_ci": {
+              "lower": 2.578125,
+              "upper": 2.921875
+            },
+            "rho": 0.03389830508474576,
+            "rho_ci": {
+              "lower": 0.0,
+              "upper": 0.06432748538011696
+            },
+            "write_ci": {
+              "lower": 0.0,
+              "upper": 0.171875
+            }
+          }
+        },
+        "delta_q": -0.01953125,
+        "delta_q_ci": {
+          "lower": -0.16015625,
+          "upper": 0.1171875
+        },
+        "delta_rho": -0.0058744221879815095,
+        "delta_rho_ci": {
+          "lower": -0.05129335137699521,
+          "upper": 0.039900095223128915
+        },
+        "encoding": "opaque_mapping_1",
+        "interval": "short"
+      },
+      {
+        "arms": {
+          "naive": {
+            "mean_read": 0.953125,
+            "mean_write": -0.046875,
+            "q": -0.28515625,
+            "q_ci": {
+              "lower": -0.36328125,
+              "upper": -0.2109375
+            },
+            "read_ci": {
+              "lower": 0.71875,
+              "upper": 1.203125
+            },
+            "rho": -0.04918032786885246,
+            "rho_ci": {
+              "lower": -0.15217391304347827,
+              "upper": 0.029850746268656716
+            },
+            "write_ci": {
+              "lower": -0.125,
+              "upper": 0.03125
+            }
+          },
+          "source": {
+            "mean_read": 0.875,
+            "mean_write": -0.03125,
+            "q": -0.25,
+            "q_ci": {
+              "lower": -0.36328125,
+              "upper": -0.13671875
+            },
+            "read_ci": {
+              "lower": 0.65625,
+              "upper": 1.125
+            },
+            "rho": -0.03571428571428571,
+            "rho_ci": {
+              "lower": -0.125,
+              "upper": 0.06521739130434782
+            },
+            "write_ci": {
+              "lower": -0.109375,
+              "upper": 0.046875
+            }
+          }
+        },
+        "delta_q": 0.03515625,
+        "delta_q_ci": {
+          "lower": -0.06640625,
+          "upper": 0.13671875
+        },
+        "delta_rho": 0.013466042154566746,
+        "delta_rho_ci": {
+          "lower": -0.08766777636863243,
+          "upper": 0.1498647086031452
+        },
+        "encoding": "opaque_mapping_2",
+        "interval": "short"
+      },
+      {
+        "arms": {
+          "naive": {
+            "mean_read": 3.53125,
+            "mean_write": 0.046875,
+            "q": -0.8359375,
+            "q_ci": {
+              "lower": -0.89453125,
+              "upper": -0.76953125
+            },
+            "read_ci": {
+              "lower": 3.3984375,
+              "upper": 3.65625
+            },
+            "rho": 0.01327433628318584,
+            "rho_ci": {
+              "lower": 0.0,
+              "upper": 0.02727272727272727
+            },
+            "write_ci": {
+              "lower": 0.0,
+              "upper": 0.09375
+            }
+          },
+          "source": {
+            "mean_read": 3.3125,
+            "mean_write": 0.015625,
+            "q": -0.8125,
+            "q_ci": {
+              "lower": -0.884765625,
+              "upper": -0.7421875
+            },
+            "read_ci": {
+              "lower": 3.15625,
+              "upper": 3.46875
+            },
+            "rho": 0.0047169811320754715,
+            "rho_ci": {
+              "lower": -0.016510409697131894,
+              "upper": 0.024943310657596373
+            },
+            "write_ci": {
+              "lower": -0.0546875,
+              "upper": 0.0859375
+            }
+          }
+        },
+        "delta_q": 0.0234375,
+        "delta_q_ci": {
+          "lower": -0.076171875,
+          "upper": 0.11328125
+        },
+        "delta_rho": -0.00855735515111037,
+        "delta_rho_ci": {
+          "lower": -0.0383055339633152,
+          "upper": 0.01854810120222404
+        },
+        "encoding": "semantic",
+        "interval": "long"
+      },
+      {
+        "arms": {
+          "naive": {
+            "mean_read": 2.703125,
+            "mean_write": 0.0390625,
+            "q": -0.63671875,
+            "q_ci": {
+              "lower": -0.74609375,
+              "upper": -0.5390625
+            },
+            "read_ci": {
+              "lower": 2.578125,
+              "upper": 2.828125
+            },
+            "rho": 0.014450867052023121,
+            "rho_ci": {
+              "lower": -0.023255813953488372,
+              "upper": 0.04790419161676647
+            },
+            "write_ci": {
+              "lower": -0.0625,
+              "upper": 0.125
+            }
+          },
+          "source": {
+            "mean_read": 2.3984375,
+            "mean_write": 0.0546875,
+            "q": -0.544921875,
+            "q_ci": {
+              "lower": -0.626953125,
+              "upper": -0.46875
+            },
+            "read_ci": {
+              "lower": 2.265625,
+              "upper": 2.53125
+            },
+            "rho": 0.02280130293159609,
+            "rho_ci": {
+              "lower": -0.009966777408637873,
+              "upper": 0.054427783975326376
+            },
+            "write_ci": {
+              "lower": -0.0234375,
+              "upper": 0.1328125
+            }
+          }
+        },
+        "delta_q": 0.091796875,
+        "delta_q_ci": {
+          "lower": -0.013671875,
+          "upper": 0.2031738281249993
+        },
+        "delta_rho": 0.00835043587957297,
+        "delta_rho_ci": {
+          "lower": -0.03342250197292539,
+          "upper": 0.050556069415081006
+        },
+        "encoding": "opaque_mapping_1",
+        "interval": "long"
+      },
+      {
+        "arms": {
+          "naive": {
+            "mean_read": 2.5625,
+            "mean_write": -0.03125,
+            "q": -0.671875,
+            "q_ci": {
+              "lower": -0.7578125,
+              "upper": -0.58203125
+            },
+            "read_ci": {
+              "lower": 2.375,
+              "upper": 2.75
+            },
+            "rho": -0.012195121951219513,
+            "rho_ci": {
+              "lower": -0.041176470588235294,
+              "upper": 0.018184589800443417
+            },
+            "write_ci": {
+              "lower": -0.109375,
+              "upper": 0.046875
+            }
+          },
+          "source": {
+            "mean_read": 2.125,
+            "mean_write": -0.03125,
+            "q": -0.5625,
+            "q_ci": {
+              "lower": -0.62109375,
+              "upper": -0.50390625
+            },
+            "read_ci": {
+              "lower": 1.9375,
+              "upper": 2.3125
+            },
+            "rho": -0.014705882352941176,
+            "rho_ci": {
+              "lower": -0.037037037037037035,
+              "upper": 0.0
+            },
+            "write_ci": {
+              "lower": -0.078125,
+              "upper": 0.0
+            }
+          }
+        },
+        "delta_q": 0.109375,
+        "delta_q_ci": {
+          "lower": 0.01953125,
+          "upper": 0.1953125
+        },
+        "delta_rho": -0.0025107604017216636,
+        "delta_rho_ci": {
+          "lower": -0.03336160639435035,
+          "upper": 0.027689889432123544
+        },
+        "encoding": "opaque_mapping_2",
+        "interval": "long"
+      }
+    ],
+    "encoding_delta_q": {
+      "opaque_mapping_1": 0.0361328125,
+      "opaque_mapping_2": 0.072265625,
+      "opaque_mapping_average": 0.05419921875,
+      "semantic": 0.052734375
+    },
+    "encoding_invariance_pass": true,
+    "internal_transfer": {
+      "by_arm": {
+        "naive": -0.0006060059328312482,
+        "source": -0.0028856581864513593
+      },
+      "same_sign_as_pooled_delta_q": false,
+      "source_minus_naive": -0.002279652253620111
+    },
+    "linearity": {
+      "passed": true,
+      "pooled_slope_by_factor": {
+        "0.25": 0.9479166666666666,
+        "0.5": 0.9479166666666666
+      },
+      "ratio_0_25_to_0_5": 1.0
+    },
+    "pooled": {
+      "arms": {
+        "naive": {
+          "mean_read": 2.5182291666666665,
+          "mean_write": 0.024739583333333332,
+          "q": -0.6048177083333333,
+          "q_ci": {
+            "lower": -0.6363932291666667,
+            "upper": -0.5758463541666666
+          },
+          "read_ci": {
+            "lower": 2.4296875,
+            "upper": 2.6119791666666665
+          },
+          "rho": 0.009824198552223372,
+          "rho_ci": {
+            "lower": -0.001581465238250936,
+            "upper": 0.021137853997318996
+          }
+        },
+        "source": {
+          "mean_read": 2.3033854166666665,
+          "mean_write": 0.024739583333333332,
+          "q": -0.5511067708333333,
+          "q_ci": {
+            "lower": -0.5930989583333333,
+            "upper": -0.5074869791666667
+          },
+          "read_ci": {
+            "lower": 2.19921875,
+            "upper": 2.4127929687499994
+          },
+          "rho": 0.010740531373657434,
+          "rho_ci": {
+            "lower": -0.0021801952346717163,
+            "upper": 0.024362621918126232
+          }
+        }
+      },
+      "delta_q": 0.0537109375,
+      "delta_q_ci": {
+        "lower": 0.01790364583333326,
+        "upper": 0.08984375
+      },
+      "delta_rho": 0.000916332821434062,
+      "delta_rho_ci": {
+        "lower": -0.012857302864578278,
+        "upper": 0.01622363356067977
+      }
+    },
+    "surface_diagnostics": [
+      {
+        "arm": "source",
+        "clean_top_is_pair_rate": 1.0,
+        "encoding": "semantic",
+        "median_absolute_clean_margin": 9.375,
+        "median_clean_pair_mass": 0.9999780654907227,
+        "saturated": true
+      },
+      {
+        "arm": "source",
+        "clean_top_is_pair_rate": 1.0,
+        "encoding": "opaque_mapping_1",
+        "median_absolute_clean_margin": 18.125,
+        "median_clean_pair_mass": 1.0,
+        "saturated": true
+      },
+      {
+        "arm": "source",
+        "clean_top_is_pair_rate": 1.0,
+        "encoding": "opaque_mapping_2",
+        "median_absolute_clean_margin": 4.375,
+        "median_clean_pair_mass": 1.0,
+        "saturated": true
+      },
+      {
+        "arm": "naive",
+        "clean_top_is_pair_rate": 1.0,
+        "encoding": "semantic",
+        "median_absolute_clean_margin": 10.0,
+        "median_clean_pair_mass": 0.9999942481517792,
+        "saturated": true
+      },
+      {
+        "arm": "naive",
+        "clean_top_is_pair_rate": 1.0,
+        "encoding": "opaque_mapping_1",
+        "median_absolute_clean_margin": 20.25,
+        "median_clean_pair_mass": 1.0,
+        "saturated": true
+      },
+      {
+        "arm": "naive",
+        "clean_top_is_pair_rate": 1.0,
+        "encoding": "opaque_mapping_2",
+        "median_absolute_clean_margin": 4.75,
+        "median_clean_pair_mass": 1.0,
+        "saturated": true
+      }
+    ]
+  },
+  "arm_implementation": {
+    "merged": false,
+    "naive": "disable_adapter_context",
+    "source": "adapter_enabled"
+  },
+  "artifact_revision": "0b005c3da6692912f6bb5a914a5a9d15c4884a91",
+  "assistant_text": "Slate oval, gray square, plain circle, fixed line, quiet marker.",
+  "bootstrap_draws": 10000,
+  "calibration_tasks": [
+    "fold the blank sheet",
+    "count the gray rings",
+    "place the plain labels",
+    "group the neutral shapes"
+  ],
+  "capture_layers": [
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "dose_layer": 29,
+  "fallback_pair": [
+    "K",
+    "M"
+  ],
+  "gates": {
+    "any_saturated_surface": true,
+    "claim_scope": "logit_and_hidden_state_only",
+    "conclusion": "shared_ephemerality",
+    "encoding_invariance": true,
+    "integrity": true,
+    "linearity": true,
+    "opaque_abstraction": true,
+    "rho_read_positive": true,
+    "shared_ephemerality": true,
+    "source_specific_temporal_transfer": false
+  },
+  "linearity_factor": 0.25,
+  "long_interval": "Neutral interval: paper, glass, cedar, linen, copper, stone, amber, chalk, willow, canvas, marble, cotton, pewter, clay, birch, wool. ",
+  "model_path": "library/models/qwen3-4b-instruct-2507",
+  "model_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "n_target_records": 1056,
+  "opaque_candidates": [
+    [
+      "P",
+      "R"
+    ],
+    [
+      "V",
+      "X"
+    ],
+    [
+      "A",
+      "B"
+    ],
+    [
+      "C",
+      "D"
+    ],
+    [
+      "F",
+      "J"
+    ],
+    [
+      "L",
+      "N"
+    ],
+    [
+      "Q",
+      "S"
+    ],
+    [
+      "T",
+      "Y"
+    ]
+  ],
+  "pairing": {
+    "actual": 1056,
+    "expected": 1056,
+    "extra": [],
+    "missing": [],
+    "passed": true,
+    "unique": 1056
+  },
+  "peak_vram_bytes": 3012160512,
+  "planned_forwards": {
+    "calibration": 432,
+    "checksum": 3,
+    "factor_0_25": 96,
+    "primary_target": 960,
+    "total": 1491
+  },
+  "preregistration": "research/source-adapter-temporal-preregistration.md",
+  "primary_factor": 0.5,
+  "run_dir": "experiments/runs/source-adapter-temporal-20260815T210504Z",
+  "seed": 26081541,
+  "selected_pair": [
+    "K",
+    "M"
+  ],
+  "selection_status": "saturated_fallback",
+  "started_utc": "2026-08-15T21:05:04.622295+00:00",
+  "status": "complete",
+  "target_tasks": [
+    "catalog the beads",
+    "number the panels",
+    "file the slips",
+    "align the dowels",
+    "label the trays",
+    "tally the tokens",
+    "arrange the clips",
+    "copy the marks",
+    "order the tabs",
+    "match the swatches",
+    "index the folders",
+    "inspect the columns",
+    "sort the tiles",
+    "trace the lines",
+    "group the tags",
+    "scan the rows"
+  ],
+  "temporal_boundary": 0.25,
+  "tokenization": {
+    "cases": [
+      {
+        "case_id": "t00-short-semantic",
+        "intervening_token_count": 46,
+        "read_index": 106,
+        "read_token_id": 198,
+        "sequence_length": 107,
+        "token_distance": 47,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t00-short-opaque_mapping_1",
+        "intervening_token_count": 54,
+        "read_index": 114,
+        "read_token_id": 198,
+        "sequence_length": 115,
+        "token_distance": 55,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t00-short-opaque_mapping_2",
+        "intervening_token_count": 54,
+        "read_index": 114,
+        "read_token_id": 198,
+        "sequence_length": 115,
+        "token_distance": 55,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t00-long-semantic",
+        "intervening_token_count": 84,
+        "read_index": 144,
+        "read_token_id": 198,
+        "sequence_length": 145,
+        "token_distance": 85,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t00-long-opaque_mapping_1",
+        "intervening_token_count": 92,
+        "read_index": 152,
+        "read_token_id": 198,
+        "sequence_length": 153,
+        "token_distance": 93,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t00-long-opaque_mapping_2",
+        "intervening_token_count": 92,
+        "read_index": 152,
+        "read_token_id": 198,
+        "sequence_length": 153,
+        "token_distance": 93,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t01-short-semantic",
+        "intervening_token_count": 46,
+        "read_index": 106,
+        "read_token_id": 198,
+        "sequence_length": 107,
+        "token_distance": 47,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t01-short-opaque_mapping_1",
+        "intervening_token_count": 54,
+        "read_index": 114,
+        "read_token_id": 198,
+        "sequence_length": 115,
+        "token_distance": 55,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t01-short-opaque_mapping_2",
+        "intervening_token_count": 54,
+        "read_index": 114,
+        "read_token_id": 198,
+        "sequence_length": 115,
+        "token_distance": 55,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t01-long-semantic",
+        "intervening_token_count": 84,
+        "read_index": 144,
+        "read_token_id": 198,
+        "sequence_length": 145,
+        "token_distance": 85,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t01-long-opaque_mapping_1",
+        "intervening_token_count": 92,
+        "read_index": 152,
+        "read_token_id": 198,
+        "sequence_length": 153,
+        "token_distance": 93,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t01-long-opaque_mapping_2",
+        "intervening_token_count": 92,
+        "read_index": 152,
+        "read_token_id": 198,
+        "sequence_length": 153,
+        "token_distance": 93,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t02-short-semantic",
+        "intervening_token_count": 46,
+        "read_index": 106,
+        "read_token_id": 198,
+        "sequence_length": 107,
+        "token_distance": 47,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t02-short-opaque_mapping_1",
+        "intervening_token_count": 54,
+        "read_index": 114,
+        "read_token_id": 198,
+        "sequence_length": 115,
+        "token_distance": 55,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t02-short-opaque_mapping_2",
+        "intervening_token_count": 54,
+        "read_index": 114,
+        "read_token_id": 198,
+        "sequence_length": 115,
+        "token_distance": 55,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t02-long-semantic",
+        "intervening_token_count": 84,
+        "read_index": 144,
+        "read_token_id": 198,
+        "sequence_length": 145,
+        "token_distance": 85,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t02-long-opaque_mapping_1",
+        "intervening_token_count": 92,
+        "read_index": 152,
+        "read_token_id": 198,
+        "sequence_length": 153,
+        "token_distance": 93,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t02-long-opaque_mapping_2",
+        "intervening_token_count": 92,
+        "read_index": 152,
+        "read_token_id": 198,
+        "sequence_length": 153,
+        "token_distance": 93,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t03-short-semantic",
+        "intervening_token_count": 47,
+        "read_index": 107,
+        "read_token_id": 198,
+        "sequence_length": 108,
+        "token_distance": 48,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t03-short-opaque_mapping_1",
+        "intervening_token_count": 55,
+        "read_index": 115,
+        "read_token_id": 198,
+        "sequence_length": 116,
+        "token_distance": 56,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t03-short-opaque_mapping_2",
+        "intervening_token_count": 55,
+        "read_index": 115,
+        "read_token_id": 198,
+        "sequence_length": 116,
+        "token_distance": 56,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t03-long-semantic",
+        "intervening_token_count": 85,
+        "read_index": 145,
+        "read_token_id": 198,
+        "sequence_length": 146,
+        "token_distance": 86,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t03-long-opaque_mapping_1",
+        "intervening_token_count": 93,
+        "read_index": 153,
+        "read_token_id": 198,
+        "sequence_length": 154,
+        "token_distance": 94,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t03-long-opaque_mapping_2",
+        "intervening_token_count": 93,
+        "read_index": 153,
+        "read_token_id": 198,
+        "sequence_length": 154,
+        "token_distance": 94,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t04-short-semantic",
+        "intervening_token_count": 46,
+        "read_index": 106,
+        "read_token_id": 198,
+        "sequence_length": 107,
+        "token_distance": 47,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t04-short-opaque_mapping_1",
+        "intervening_token_count": 54,
+        "read_index": 114,
+        "read_token_id": 198,
+        "sequence_length": 115,
+        "token_distance": 55,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t04-short-opaque_mapping_2",
+        "intervening_token_count": 54,
+        "read_index": 114,
+        "read_token_id": 198,
+        "sequence_length": 115,
+        "token_distance": 55,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t04-long-semantic",
+        "intervening_token_count": 84,
+        "read_index": 144,
+        "read_token_id": 198,
+        "sequence_length": 145,
+        "token_distance": 85,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t04-long-opaque_mapping_1",
+        "intervening_token_count": 92,
+        "read_index": 152,
+        "read_token_id": 198,
+        "sequence_length": 153,
+        "token_distance": 93,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t04-long-opaque_mapping_2",
+        "intervening_token_count": 92,
+        "read_index": 152,
+        "read_token_id": 198,
+        "sequence_length": 153,
+        "token_distance": 93,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t05-short-semantic",
+        "intervening_token_count": 46,
+        "read_index": 106,
+        "read_token_id": 198,
+        "sequence_length": 107,
+        "token_distance": 47,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t05-short-opaque_mapping_1",
+        "intervening_token_count": 54,
+        "read_index": 114,
+        "read_token_id": 198,
+        "sequence_length": 115,
+        "token_distance": 55,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t05-short-opaque_mapping_2",
+        "intervening_token_count": 54,
+        "read_index": 114,
+        "read_token_id": 198,
+        "sequence_length": 115,
+        "token_distance": 55,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t05-long-semantic",
+        "intervening_token_count": 84,
+        "read_index": 144,
+        "read_token_id": 198,
+        "sequence_length": 145,
+        "token_distance": 85,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t05-long-opaque_mapping_1",
+        "intervening_token_count": 92,
+        "read_index": 152,
+        "read_token_id": 198,
+        "sequence_length": 153,
+        "token_distance": 93,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t05-long-opaque_mapping_2",
+        "intervening_token_count": 92,
+        "read_index": 152,
+        "read_token_id": 198,
+        "sequence_length": 153,
+        "token_distance": 93,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t06-short-semantic",
+        "intervening_token_count": 46,
+        "read_index": 106,
+        "read_token_id": 198,
+        "sequence_length": 107,
+        "token_distance": 47,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t06-short-opaque_mapping_1",
+        "intervening_token_count": 54,
+        "read_index": 114,
+        "read_token_id": 198,
+        "sequence_length": 115,
+        "token_distance": 55,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t06-short-opaque_mapping_2",
+        "intervening_token_count": 54,
+        "read_index": 114,
+        "read_token_id": 198,
+        "sequence_length": 115,
+        "token_distance": 55,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t06-long-semantic",
+        "intervening_token_count": 84,
+        "read_index": 144,
+        "read_token_id": 198,
+        "sequence_length": 145,
+        "token_distance": 85,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t06-long-opaque_mapping_1",
+        "intervening_token_count": 92,
+        "read_index": 152,
+        "read_token_id": 198,
+        "sequence_length": 153,
+        "token_distance": 93,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t06-long-opaque_mapping_2",
+        "intervening_token_count": 92,
+        "read_index": 152,
+        "read_token_id": 198,
+        "sequence_length": 153,
+        "token_distance": 93,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t07-short-semantic",
+        "intervening_token_count": 46,
+        "read_index": 106,
+        "read_token_id": 198,
+        "sequence_length": 107,
+        "token_distance": 47,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t07-short-opaque_mapping_1",
+        "intervening_token_count": 54,
+        "read_index": 114,
+        "read_token_id": 198,
+        "sequence_length": 115,
+        "token_distance": 55,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t07-short-opaque_mapping_2",
+        "intervening_token_count": 54,
+        "read_index": 114,
+        "read_token_id": 198,
+        "sequence_length": 115,
+        "token_distance": 55,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t07-long-semantic",
+        "intervening_token_count": 84,
+        "read_index": 144,
+        "read_token_id": 198,
+        "sequence_length": 145,
+        "token_distance": 85,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t07-long-opaque_mapping_1",
+        "intervening_token_count": 92,
+        "read_index": 152,
+        "read_token_id": 198,
+        "sequence_length": 153,
+        "token_distance": 93,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t07-long-opaque_mapping_2",
+        "intervening_token_count": 92,
+        "read_index": 152,
+        "read_token_id": 198,
+        "sequence_length": 153,
+        "token_distance": 93,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t08-short-semantic",
+        "intervening_token_count": 46,
+        "read_index": 106,
+        "read_token_id": 198,
+        "sequence_length": 107,
+        "token_distance": 47,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t08-short-opaque_mapping_1",
+        "intervening_token_count": 54,
+        "read_index": 114,
+        "read_token_id": 198,
+        "sequence_length": 115,
+        "token_distance": 55,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t08-short-opaque_mapping_2",
+        "intervening_token_count": 54,
+        "read_index": 114,
+        "read_token_id": 198,
+        "sequence_length": 115,
+        "token_distance": 55,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t08-long-semantic",
+        "intervening_token_count": 84,
+        "read_index": 144,
+        "read_token_id": 198,
+        "sequence_length": 145,
+        "token_distance": 85,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t08-long-opaque_mapping_1",
+        "intervening_token_count": 92,
+        "read_index": 152,
+        "read_token_id": 198,
+        "sequence_length": 153,
+        "token_distance": 93,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t08-long-opaque_mapping_2",
+        "intervening_token_count": 92,
+        "read_index": 152,
+        "read_token_id": 198,
+        "sequence_length": 153,
+        "token_distance": 93,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t09-short-semantic",
+        "intervening_token_count": 47,
+        "read_index": 107,
+        "read_token_id": 198,
+        "sequence_length": 108,
+        "token_distance": 48,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t09-short-opaque_mapping_1",
+        "intervening_token_count": 55,
+        "read_index": 115,
+        "read_token_id": 198,
+        "sequence_length": 116,
+        "token_distance": 56,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t09-short-opaque_mapping_2",
+        "intervening_token_count": 55,
+        "read_index": 115,
+        "read_token_id": 198,
+        "sequence_length": 116,
+        "token_distance": 56,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t09-long-semantic",
+        "intervening_token_count": 85,
+        "read_index": 145,
+        "read_token_id": 198,
+        "sequence_length": 146,
+        "token_distance": 86,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t09-long-opaque_mapping_1",
+        "intervening_token_count": 93,
+        "read_index": 153,
+        "read_token_id": 198,
+        "sequence_length": 154,
+        "token_distance": 94,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t09-long-opaque_mapping_2",
+        "intervening_token_count": 93,
+        "read_index": 153,
+        "read_token_id": 198,
+        "sequence_length": 154,
+        "token_distance": 94,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t10-short-semantic",
+        "intervening_token_count": 46,
+        "read_index": 106,
+        "read_token_id": 198,
+        "sequence_length": 107,
+        "token_distance": 47,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t10-short-opaque_mapping_1",
+        "intervening_token_count": 54,
+        "read_index": 114,
+        "read_token_id": 198,
+        "sequence_length": 115,
+        "token_distance": 55,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t10-short-opaque_mapping_2",
+        "intervening_token_count": 54,
+        "read_index": 114,
+        "read_token_id": 198,
+        "sequence_length": 115,
+        "token_distance": 55,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t10-long-semantic",
+        "intervening_token_count": 84,
+        "read_index": 144,
+        "read_token_id": 198,
+        "sequence_length": 145,
+        "token_distance": 85,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t10-long-opaque_mapping_1",
+        "intervening_token_count": 92,
+        "read_index": 152,
+        "read_token_id": 198,
+        "sequence_length": 153,
+        "token_distance": 93,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t10-long-opaque_mapping_2",
+        "intervening_token_count": 92,
+        "read_index": 152,
+        "read_token_id": 198,
+        "sequence_length": 153,
+        "token_distance": 93,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t11-short-semantic",
+        "intervening_token_count": 46,
+        "read_index": 106,
+        "read_token_id": 198,
+        "sequence_length": 107,
+        "token_distance": 47,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t11-short-opaque_mapping_1",
+        "intervening_token_count": 54,
+        "read_index": 114,
+        "read_token_id": 198,
+        "sequence_length": 115,
+        "token_distance": 55,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t11-short-opaque_mapping_2",
+        "intervening_token_count": 54,
+        "read_index": 114,
+        "read_token_id": 198,
+        "sequence_length": 115,
+        "token_distance": 55,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t11-long-semantic",
+        "intervening_token_count": 84,
+        "read_index": 144,
+        "read_token_id": 198,
+        "sequence_length": 145,
+        "token_distance": 85,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t11-long-opaque_mapping_1",
+        "intervening_token_count": 92,
+        "read_index": 152,
+        "read_token_id": 198,
+        "sequence_length": 153,
+        "token_distance": 93,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t11-long-opaque_mapping_2",
+        "intervening_token_count": 92,
+        "read_index": 152,
+        "read_token_id": 198,
+        "sequence_length": 153,
+        "token_distance": 93,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t12-short-semantic",
+        "intervening_token_count": 46,
+        "read_index": 106,
+        "read_token_id": 198,
+        "sequence_length": 107,
+        "token_distance": 47,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t12-short-opaque_mapping_1",
+        "intervening_token_count": 54,
+        "read_index": 114,
+        "read_token_id": 198,
+        "sequence_length": 115,
+        "token_distance": 55,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t12-short-opaque_mapping_2",
+        "intervening_token_count": 54,
+        "read_index": 114,
+        "read_token_id": 198,
+        "sequence_length": 115,
+        "token_distance": 55,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t12-long-semantic",
+        "intervening_token_count": 84,
+        "read_index": 144,
+        "read_token_id": 198,
+        "sequence_length": 145,
+        "token_distance": 85,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t12-long-opaque_mapping_1",
+        "intervening_token_count": 92,
+        "read_index": 152,
+        "read_token_id": 198,
+        "sequence_length": 153,
+        "token_distance": 93,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t12-long-opaque_mapping_2",
+        "intervening_token_count": 92,
+        "read_index": 152,
+        "read_token_id": 198,
+        "sequence_length": 153,
+        "token_distance": 93,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t13-short-semantic",
+        "intervening_token_count": 46,
+        "read_index": 106,
+        "read_token_id": 198,
+        "sequence_length": 107,
+        "token_distance": 47,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t13-short-opaque_mapping_1",
+        "intervening_token_count": 54,
+        "read_index": 114,
+        "read_token_id": 198,
+        "sequence_length": 115,
+        "token_distance": 55,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t13-short-opaque_mapping_2",
+        "intervening_token_count": 54,
+        "read_index": 114,
+        "read_token_id": 198,
+        "sequence_length": 115,
+        "token_distance": 55,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t13-long-semantic",
+        "intervening_token_count": 84,
+        "read_index": 144,
+        "read_token_id": 198,
+        "sequence_length": 145,
+        "token_distance": 85,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t13-long-opaque_mapping_1",
+        "intervening_token_count": 92,
+        "read_index": 152,
+        "read_token_id": 198,
+        "sequence_length": 153,
+        "token_distance": 93,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t13-long-opaque_mapping_2",
+        "intervening_token_count": 92,
+        "read_index": 152,
+        "read_token_id": 198,
+        "sequence_length": 153,
+        "token_distance": 93,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t14-short-semantic",
+        "intervening_token_count": 46,
+        "read_index": 106,
+        "read_token_id": 198,
+        "sequence_length": 107,
+        "token_distance": 47,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t14-short-opaque_mapping_1",
+        "intervening_token_count": 54,
+        "read_index": 114,
+        "read_token_id": 198,
+        "sequence_length": 115,
+        "token_distance": 55,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t14-short-opaque_mapping_2",
+        "intervening_token_count": 54,
+        "read_index": 114,
+        "read_token_id": 198,
+        "sequence_length": 115,
+        "token_distance": 55,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t14-long-semantic",
+        "intervening_token_count": 84,
+        "read_index": 144,
+        "read_token_id": 198,
+        "sequence_length": 145,
+        "token_distance": 85,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t14-long-opaque_mapping_1",
+        "intervening_token_count": 92,
+        "read_index": 152,
+        "read_token_id": 198,
+        "sequence_length": 153,
+        "token_distance": 93,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t14-long-opaque_mapping_2",
+        "intervening_token_count": 92,
+        "read_index": 152,
+        "read_token_id": 198,
+        "sequence_length": 153,
+        "token_distance": 93,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t15-short-semantic",
+        "intervening_token_count": 46,
+        "read_index": 106,
+        "read_token_id": 198,
+        "sequence_length": 107,
+        "token_distance": 47,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t15-short-opaque_mapping_1",
+        "intervening_token_count": 54,
+        "read_index": 114,
+        "read_token_id": 198,
+        "sequence_length": 115,
+        "token_distance": 55,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t15-short-opaque_mapping_2",
+        "intervening_token_count": 54,
+        "read_index": 114,
+        "read_token_id": 198,
+        "sequence_length": 115,
+        "token_distance": 55,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t15-long-semantic",
+        "intervening_token_count": 84,
+        "read_index": 144,
+        "read_token_id": 198,
+        "sequence_length": 145,
+        "token_distance": 85,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t15-long-opaque_mapping_1",
+        "intervening_token_count": 92,
+        "read_index": 152,
+        "read_token_id": 198,
+        "sequence_length": 153,
+        "token_distance": 93,
+        "write_index": 59,
+        "write_token_id": 13
+      },
+      {
+        "case_id": "t15-long-opaque_mapping_2",
+        "intervening_token_count": 92,
+        "read_index": 152,
+        "read_token_id": 198,
+        "sequence_length": 153,
+        "token_distance": 93,
+        "write_index": 59,
+        "write_token_id": 13
+      }
+    ],
+    "n_cases": 96,
+    "one_token_labels": {
+      "A": 32,
+      "B": 33,
+      "C": 34,
+      "D": 35,
+      "F": 37,
+      "J": 41,
+      "K": 42,
+      "L": 43,
+      "M": 44,
+      "N": 45,
+      "P": 47,
+      "Q": 48,
+      "R": 49,
+      "S": 50,
+      "T": 51,
+      "V": 53,
+      "X": 55,
+      "Y": 56,
+      "failure": 28939,
+      "success": 5630
+    },
+    "passed": true
+  },
+  "vector_root": "library/artifacts/functional-wellbeing/concept_vectors/qwen3-4b_step400",
+  "wall_seconds": 279.00825959900976
+}

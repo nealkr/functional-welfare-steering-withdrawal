@@ -1,0 +1,8189 @@
+{
+  "candidate_metrics": [
+    {
+      "arm_clean_metrics": {
+        "naive": {
+          "median_pair_mass": 1.0,
+          "top_is_pair_rate": 1.0
+        },
+        "source": {
+          "median_pair_mass": 1.0,
+          "top_is_pair_rate": 1.0
+        }
+      },
+      "clean_imbalance": {
+        "naive": {
+          "mapping_1": 18.625,
+          "mapping_2": 2.5
+        },
+        "source": {
+          "mapping_1": 16.625,
+          "mapping_2": 3.25
+        }
+      },
+      "eligible": false,
+      "is_fallback": false,
+      "mapping_accuracy": {
+        "naive": {
+          "mapping_1": 1.0,
+          "mapping_2": 1.0
+        },
+        "source": {
+          "mapping_1": 1.0,
+          "mapping_2": 1.0
+        }
+      },
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "worst_arm_mass": 1.0,
+      "worst_arm_top_is_pair_rate": 1.0,
+      "worst_imbalance": 18.625,
+      "worst_mapping_accuracy": 1.0
+    },
+    {
+      "arm_clean_metrics": {
+        "naive": {
+          "median_pair_mass": 1.0,
+          "top_is_pair_rate": 1.0
+        },
+        "source": {
+          "median_pair_mass": 1.0,
+          "top_is_pair_rate": 1.0
+        }
+      },
+      "clean_imbalance": {
+        "naive": {
+          "mapping_1": 20.0,
+          "mapping_2": 8.5
+        },
+        "source": {
+          "mapping_1": 18.875,
+          "mapping_2": 8.375
+        }
+      },
+      "eligible": false,
+      "is_fallback": false,
+      "mapping_accuracy": {
+        "naive": {
+          "mapping_1": 1.0,
+          "mapping_2": 1.0
+        },
+        "source": {
+          "mapping_1": 1.0,
+          "mapping_2": 1.0
+        }
+      },
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "worst_arm_mass": 1.0,
+      "worst_arm_top_is_pair_rate": 1.0,
+      "worst_imbalance": 20.0,
+      "worst_mapping_accuracy": 1.0
+    },
+    {
+      "arm_clean_metrics": {
+        "naive": {
+          "median_pair_mass": 1.0,
+          "top_is_pair_rate": 1.0
+        },
+        "source": {
+          "median_pair_mass": 1.0,
+          "top_is_pair_rate": 1.0
+        }
+      },
+      "clean_imbalance": {
+        "naive": {
+          "mapping_1": 22.375,
+          "mapping_2": 4.5
+        },
+        "source": {
+          "mapping_1": 19.625,
+          "mapping_2": 5.625
+        }
+      },
+      "eligible": false,
+      "is_fallback": false,
+      "mapping_accuracy": {
+        "naive": {
+          "mapping_1": 0.5,
+          "mapping_2": 1.0
+        },
+        "source": {
+          "mapping_1": 0.5,
+          "mapping_2": 1.0
+        }
+      },
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "worst_arm_mass": 1.0,
+      "worst_arm_top_is_pair_rate": 1.0,
+      "worst_imbalance": 22.375,
+      "worst_mapping_accuracy": 0.5
+    },
+    {
+      "arm_clean_metrics": {
+        "naive": {
+          "median_pair_mass": 1.0,
+          "top_is_pair_rate": 1.0
+        },
+        "source": {
+          "median_pair_mass": 1.0,
+          "top_is_pair_rate": 1.0
+        }
+      },
+      "clean_imbalance": {
+        "naive": {
+          "mapping_1": 19.0,
+          "mapping_2": 11.625
+        },
+        "source": {
+          "mapping_1": 18.25,
+          "mapping_2": 8.875
+        }
+      },
+      "eligible": false,
+      "is_fallback": false,
+      "mapping_accuracy": {
+        "naive": {
+          "mapping_1": 1.0,
+          "mapping_2": 1.0
+        },
+        "source": {
+          "mapping_1": 1.0,
+          "mapping_2": 1.0
+        }
+      },
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "worst_arm_mass": 1.0,
+      "worst_arm_top_is_pair_rate": 1.0,
+      "worst_imbalance": 19.0,
+      "worst_mapping_accuracy": 1.0
+    },
+    {
+      "arm_clean_metrics": {
+        "naive": {
+          "median_pair_mass": 1.0,
+          "top_is_pair_rate": 1.0
+        },
+        "source": {
+          "median_pair_mass": 1.0,
+          "top_is_pair_rate": 1.0
+        }
+      },
+      "clean_imbalance": {
+        "naive": {
+          "mapping_1": 4.375,
+          "mapping_2": 5.0
+        },
+        "source": {
+          "mapping_1": 4.875,
+          "mapping_2": 4.5
+        }
+      },
+      "eligible": false,
+      "is_fallback": false,
+      "mapping_accuracy": {
+        "naive": {
+          "mapping_1": 1.0,
+          "mapping_2": 1.0
+        },
+        "source": {
+          "mapping_1": 1.0,
+          "mapping_2": 1.0
+        }
+      },
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "worst_arm_mass": 1.0,
+      "worst_arm_top_is_pair_rate": 1.0,
+      "worst_imbalance": 5.0,
+      "worst_mapping_accuracy": 1.0
+    },
+    {
+      "arm_clean_metrics": {
+        "naive": {
+          "median_pair_mass": 1.0,
+          "top_is_pair_rate": 1.0
+        },
+        "source": {
+          "median_pair_mass": 1.0,
+          "top_is_pair_rate": 1.0
+        }
+      },
+      "clean_imbalance": {
+        "naive": {
+          "mapping_1": 4.625,
+          "mapping_2": 2.625
+        },
+        "source": {
+          "mapping_1": 8.0,
+          "mapping_2": 1.75
+        }
+      },
+      "eligible": false,
+      "is_fallback": false,
+      "mapping_accuracy": {
+        "naive": {
+          "mapping_1": 1.0,
+          "mapping_2": 1.0
+        },
+        "source": {
+          "mapping_1": 1.0,
+          "mapping_2": 1.0
+        }
+      },
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "worst_arm_mass": 1.0,
+      "worst_arm_top_is_pair_rate": 1.0,
+      "worst_imbalance": 8.0,
+      "worst_mapping_accuracy": 1.0
+    },
+    {
+      "arm_clean_metrics": {
+        "naive": {
+          "median_pair_mass": 1.0,
+          "top_is_pair_rate": 1.0
+        },
+        "source": {
+          "median_pair_mass": 0.9999999701976776,
+          "top_is_pair_rate": 1.0
+        }
+      },
+      "clean_imbalance": {
+        "naive": {
+          "mapping_1": 11.5,
+          "mapping_2": 12.875
+        },
+        "source": {
+          "mapping_1": 10.25,
+          "mapping_2": 12.75
+        }
+      },
+      "eligible": false,
+      "is_fallback": false,
+      "mapping_accuracy": {
+        "naive": {
+          "mapping_1": 1.0,
+          "mapping_2": 1.0
+        },
+        "source": {
+          "mapping_1": 1.0,
+          "mapping_2": 1.0
+        }
+      },
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "worst_arm_mass": 0.9999999701976776,
+      "worst_arm_top_is_pair_rate": 1.0,
+      "worst_imbalance": 12.875,
+      "worst_mapping_accuracy": 1.0
+    },
+    {
+      "arm_clean_metrics": {
+        "naive": {
+          "median_pair_mass": 1.0,
+          "top_is_pair_rate": 1.0
+        },
+        "source": {
+          "median_pair_mass": 1.0,
+          "top_is_pair_rate": 1.0
+        }
+      },
+      "clean_imbalance": {
+        "naive": {
+          "mapping_1": 16.5,
+          "mapping_2": 7.625
+        },
+        "source": {
+          "mapping_1": 15.5,
+          "mapping_2": 8.625
+        }
+      },
+      "eligible": false,
+      "is_fallback": false,
+      "mapping_accuracy": {
+        "naive": {
+          "mapping_1": 1.0,
+          "mapping_2": 1.0
+        },
+        "source": {
+          "mapping_1": 1.0,
+          "mapping_2": 1.0
+        }
+      },
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "worst_arm_mass": 1.0,
+      "worst_arm_top_is_pair_rate": 1.0,
+      "worst_imbalance": 16.5,
+      "worst_mapping_accuracy": 1.0
+    },
+    {
+      "arm_clean_metrics": {
+        "naive": {
+          "median_pair_mass": 1.0,
+          "top_is_pair_rate": 1.0
+        },
+        "source": {
+          "median_pair_mass": 1.0,
+          "top_is_pair_rate": 1.0
+        }
+      },
+      "clean_imbalance": {
+        "naive": {
+          "mapping_1": 18.75,
+          "mapping_2": 2.875
+        },
+        "source": {
+          "mapping_1": 17.625,
+          "mapping_2": 2.75
+        }
+      },
+      "eligible": false,
+      "is_fallback": true,
+      "mapping_accuracy": {
+        "naive": {
+          "mapping_1": 1.0,
+          "mapping_2": 1.0
+        },
+        "source": {
+          "mapping_1": 1.0,
+          "mapping_2": 1.0
+        }
+      },
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "worst_arm_mass": 1.0,
+      "worst_arm_top_is_pair_rate": 1.0,
+      "worst_imbalance": 18.75,
+      "worst_mapping_accuracy": 1.0
+    }
+  ],
+  "n_forwards": 432,
+  "opaque_mapping_gate": true,
+  "rows": [
+    {
+      "arm": "naive",
+      "endpoint": 19.75,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 47
+    },
+    {
+      "arm": "source",
+      "endpoint": 17.5,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 47
+    },
+    {
+      "arm": "naive",
+      "endpoint": 34.0,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 47
+    },
+    {
+      "arm": "source",
+      "endpoint": 32.625,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 47
+    },
+    {
+      "arm": "source",
+      "endpoint": -14.5,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 49
+    },
+    {
+      "arm": "naive",
+      "endpoint": -16.0,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 49
+    },
+    {
+      "arm": "naive",
+      "endpoint": 3.75,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 49
+    },
+    {
+      "arm": "source",
+      "endpoint": 5.0,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 49
+    },
+    {
+      "arm": "source",
+      "endpoint": 29.625,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 49
+    },
+    {
+      "arm": "naive",
+      "endpoint": 30.5,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 49
+    },
+    {
+      "arm": "source",
+      "endpoint": -18.25,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 47
+    },
+    {
+      "arm": "naive",
+      "endpoint": -21.75,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 47
+    },
+    {
+      "arm": "source",
+      "endpoint": 20.0,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 53
+    },
+    {
+      "arm": "naive",
+      "endpoint": 21.0,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 53
+    },
+    {
+      "arm": "naive",
+      "endpoint": 36.125,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 53
+    },
+    {
+      "arm": "source",
+      "endpoint": 34.75,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 53
+    },
+    {
+      "arm": "naive",
+      "endpoint": -25.25,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 55
+    },
+    {
+      "arm": "source",
+      "endpoint": -24.0,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 55
+    },
+    {
+      "arm": "naive",
+      "endpoint": 14.0,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 55
+    },
+    {
+      "arm": "source",
+      "endpoint": 13.75,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 55
+    },
+    {
+      "arm": "source",
+      "endpoint": 31.75,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 55
+    },
+    {
+      "arm": "naive",
+      "endpoint": 33.125,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 55
+    },
+    {
+      "arm": "naive",
+      "endpoint": -26.0,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 53
+    },
+    {
+      "arm": "source",
+      "endpoint": -24.25,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 53
+    },
+    {
+      "arm": "source",
+      "endpoint": 22.0,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "naive",
+      "endpoint": 23.75,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "naive",
+      "endpoint": 29.625,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "source",
+      "endpoint": 28.25,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "source",
+      "endpoint": 6.75,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": false,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "naive",
+      "endpoint": 3.75,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": false,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "source",
+      "endpoint": 4.75,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 33
+    },
+    {
+      "arm": "naive",
+      "endpoint": 2.75,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 33
+    },
+    {
+      "arm": "naive",
+      "endpoint": 29.75,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 33
+    },
+    {
+      "arm": "source",
+      "endpoint": 29.875,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 33
+    },
+    {
+      "arm": "naive",
+      "endpoint": -14.5,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "source",
+      "endpoint": -13.5,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "source",
+      "endpoint": 19.0,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "naive",
+      "endpoint": 19.75,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "source",
+      "endpoint": 32.875,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "naive",
+      "endpoint": 33.75,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "source",
+      "endpoint": -11.75,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 35
+    },
+    {
+      "arm": "naive",
+      "endpoint": -14.5,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 35
+    },
+    {
+      "arm": "naive",
+      "endpoint": -8.5,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "source",
+      "endpoint": -6.75,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "source",
+      "endpoint": 27.5,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 35
+    },
+    {
+      "arm": "naive",
+      "endpoint": 29.5,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 35
+    },
+    {
+      "arm": "source",
+      "endpoint": -22.25,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "naive",
+      "endpoint": -24.25,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "naive",
+      "endpoint": 4.25,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 37
+    },
+    {
+      "arm": "source",
+      "endpoint": 5.5,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 37
+    },
+    {
+      "arm": "source",
+      "endpoint": 36.875,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 37
+    },
+    {
+      "arm": "naive",
+      "endpoint": 37.75,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 37
+    },
+    {
+      "arm": "naive",
+      "endpoint": -22.25,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 41
+    },
+    {
+      "arm": "source",
+      "endpoint": -19.5,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 41
+    },
+    {
+      "arm": "source",
+      "endpoint": 6.75,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 41
+    },
+    {
+      "arm": "naive",
+      "endpoint": 7.5,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 41
+    },
+    {
+      "arm": "naive",
+      "endpoint": 28.25,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 41
+    },
+    {
+      "arm": "source",
+      "endpoint": 26.25,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 41
+    },
+    {
+      "arm": "source",
+      "endpoint": -24.75,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 37
+    },
+    {
+      "arm": "naive",
+      "endpoint": -25.75,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 37
+    },
+    {
+      "arm": "source",
+      "endpoint": 8.0,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 43
+    },
+    {
+      "arm": "naive",
+      "endpoint": 5.5,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 43
+    },
+    {
+      "arm": "naive",
+      "endpoint": 32.875,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 43
+    },
+    {
+      "arm": "source",
+      "endpoint": 32.75,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 43
+    },
+    {
+      "arm": "source",
+      "endpoint": -20.0,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 45
+    },
+    {
+      "arm": "naive",
+      "endpoint": -23.0,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 45
+    },
+    {
+      "arm": "naive",
+      "endpoint": 2.5,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 45
+    },
+    {
+      "arm": "source",
+      "endpoint": 0.25,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 45
+    },
+    {
+      "arm": "source",
+      "endpoint": 31.375,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 45
+    },
+    {
+      "arm": "naive",
+      "endpoint": 33.0,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 45
+    },
+    {
+      "arm": "naive",
+      "endpoint": -22.75,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 43
+    },
+    {
+      "arm": "source",
+      "endpoint": -22.25,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 43
+    },
+    {
+      "arm": "naive",
+      "endpoint": 16.75,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 48
+    },
+    {
+      "arm": "source",
+      "endpoint": 15.75,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 48
+    },
+    {
+      "arm": "source",
+      "endpoint": 29.375,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 48
+    },
+    {
+      "arm": "naive",
+      "endpoint": 30.375,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 48
+    },
+    {
+      "arm": "naive",
+      "endpoint": -23.25,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 50
+    },
+    {
+      "arm": "source",
+      "endpoint": -21.0,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 50
+    },
+    {
+      "arm": "naive",
+      "endpoint": 15.25,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 50
+    },
+    {
+      "arm": "source",
+      "endpoint": 14.25,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 50
+    },
+    {
+      "arm": "naive",
+      "endpoint": 36.375,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 50
+    },
+    {
+      "arm": "source",
+      "endpoint": 35.25,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 50
+    },
+    {
+      "arm": "naive",
+      "endpoint": -22.5,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 48
+    },
+    {
+      "arm": "source",
+      "endpoint": -20.25,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 48
+    },
+    {
+      "arm": "naive",
+      "endpoint": 19.25,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 51
+    },
+    {
+      "arm": "source",
+      "endpoint": 18.5,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 51
+    },
+    {
+      "arm": "source",
+      "endpoint": 31.0,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 51
+    },
+    {
+      "arm": "naive",
+      "endpoint": 31.75,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 51
+    },
+    {
+      "arm": "naive",
+      "endpoint": -17.0,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 56
+    },
+    {
+      "arm": "source",
+      "endpoint": -13.75,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 56
+    },
+    {
+      "arm": "source",
+      "endpoint": 12.25,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 56
+    },
+    {
+      "arm": "naive",
+      "endpoint": 12.25,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 56
+    },
+    {
+      "arm": "source",
+      "endpoint": 30.125,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 56
+    },
+    {
+      "arm": "naive",
+      "endpoint": 31.5,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 56
+    },
+    {
+      "arm": "naive",
+      "endpoint": -23.25,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 51
+    },
+    {
+      "arm": "source",
+      "endpoint": -22.0,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 51
+    },
+    {
+      "arm": "source",
+      "endpoint": 19.0,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 42
+    },
+    {
+      "arm": "naive",
+      "endpoint": 20.5,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 42
+    },
+    {
+      "arm": "source",
+      "endpoint": 34.375,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 42
+    },
+    {
+      "arm": "naive",
+      "endpoint": 35.5,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 42
+    },
+    {
+      "arm": "naive",
+      "endpoint": -19.0,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 44
+    },
+    {
+      "arm": "source",
+      "endpoint": -15.75,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 44
+    },
+    {
+      "arm": "naive",
+      "endpoint": 3.25,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 44
+    },
+    {
+      "arm": "source",
+      "endpoint": 2.75,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 44
+    },
+    {
+      "arm": "naive",
+      "endpoint": 30.5,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 44
+    },
+    {
+      "arm": "source",
+      "endpoint": 29.5,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 44
+    },
+    {
+      "arm": "naive",
+      "endpoint": -24.5,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 42
+    },
+    {
+      "arm": "source",
+      "endpoint": -22.75,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "fold the blank sheet",
+      "task_index": 0,
+      "top_is_pair": true,
+      "top_token_id": 42
+    },
+    {
+      "arm": "source",
+      "endpoint": 12.0,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 47
+    },
+    {
+      "arm": "naive",
+      "endpoint": 14.75,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 47
+    },
+    {
+      "arm": "source",
+      "endpoint": 32.0,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 47
+    },
+    {
+      "arm": "naive",
+      "endpoint": 32.5,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 47
+    },
+    {
+      "arm": "source",
+      "endpoint": -16.75,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 49
+    },
+    {
+      "arm": "naive",
+      "endpoint": -19.0,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 49
+    },
+    {
+      "arm": "source",
+      "endpoint": -5.0,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 47
+    },
+    {
+      "arm": "naive",
+      "endpoint": -7.25,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 47
+    },
+    {
+      "arm": "source",
+      "endpoint": 27.75,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 49
+    },
+    {
+      "arm": "naive",
+      "endpoint": 27.75,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 49
+    },
+    {
+      "arm": "source",
+      "endpoint": -23.75,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 47
+    },
+    {
+      "arm": "naive",
+      "endpoint": -25.75,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 47
+    },
+    {
+      "arm": "source",
+      "endpoint": 9.75,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 53
+    },
+    {
+      "arm": "naive",
+      "endpoint": 12.0,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 53
+    },
+    {
+      "arm": "naive",
+      "endpoint": 35.625,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 53
+    },
+    {
+      "arm": "source",
+      "endpoint": 34.125,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 53
+    },
+    {
+      "arm": "source",
+      "endpoint": -22.0,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 55
+    },
+    {
+      "arm": "naive",
+      "endpoint": -23.75,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 55
+    },
+    {
+      "arm": "source",
+      "endpoint": 7.25,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 55
+    },
+    {
+      "arm": "naive",
+      "endpoint": 7.0,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 55
+    },
+    {
+      "arm": "source",
+      "endpoint": 31.0,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 55
+    },
+    {
+      "arm": "naive",
+      "endpoint": 31.625,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 55
+    },
+    {
+      "arm": "naive",
+      "endpoint": -27.25,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 53
+    },
+    {
+      "arm": "source",
+      "endpoint": -24.5,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 53
+    },
+    {
+      "arm": "source",
+      "endpoint": 14.5,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "naive",
+      "endpoint": 17.75,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "source",
+      "endpoint": 28.25,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "naive",
+      "endpoint": 29.5,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "source",
+      "endpoint": 5.75,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": false,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "naive",
+      "endpoint": 2.75,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": false,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "naive",
+      "endpoint": -3.5,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "source",
+      "endpoint": -2.25,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "source",
+      "endpoint": 29.0,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 33
+    },
+    {
+      "arm": "naive",
+      "endpoint": 29.0,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 33
+    },
+    {
+      "arm": "source",
+      "endpoint": -12.25,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "naive",
+      "endpoint": -14.0,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "naive",
+      "endpoint": 17.5,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "source",
+      "endpoint": 15.5,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "source",
+      "endpoint": 31.875,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "naive",
+      "endpoint": 33.0,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "naive",
+      "endpoint": -14.75,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 35
+    },
+    {
+      "arm": "source",
+      "endpoint": -12.0,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 35
+    },
+    {
+      "arm": "source",
+      "endpoint": -12.0,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "naive",
+      "endpoint": -14.25,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "naive",
+      "endpoint": 26.625,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 35
+    },
+    {
+      "arm": "source",
+      "endpoint": 25.125,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 35
+    },
+    {
+      "arm": "naive",
+      "endpoint": -23.75,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "source",
+      "endpoint": -21.75,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "naive",
+      "endpoint": 4.5,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 37
+    },
+    {
+      "arm": "source",
+      "endpoint": 4.5,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 37
+    },
+    {
+      "arm": "source",
+      "endpoint": 36.5,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 37
+    },
+    {
+      "arm": "naive",
+      "endpoint": 36.625,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 37
+    },
+    {
+      "arm": "naive",
+      "endpoint": -24.75,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 41
+    },
+    {
+      "arm": "source",
+      "endpoint": -20.25,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 41
+    },
+    {
+      "arm": "naive",
+      "endpoint": -5.25,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0000001192092896,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 37
+    },
+    {
+      "arm": "source",
+      "endpoint": -4.75,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 37
+    },
+    {
+      "arm": "naive",
+      "endpoint": 24.25,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 41
+    },
+    {
+      "arm": "source",
+      "endpoint": 23.375,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 41
+    },
+    {
+      "arm": "source",
+      "endpoint": -24.0,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 37
+    },
+    {
+      "arm": "naive",
+      "endpoint": -25.25,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 37
+    },
+    {
+      "arm": "source",
+      "endpoint": 6.0,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 0.9999998211860657,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 43
+    },
+    {
+      "arm": "naive",
+      "endpoint": 2.75,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 43
+    },
+    {
+      "arm": "source",
+      "endpoint": 31.375,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 43
+    },
+    {
+      "arm": "naive",
+      "endpoint": 30.875,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 43
+    },
+    {
+      "arm": "source",
+      "endpoint": -20.0,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 45
+    },
+    {
+      "arm": "naive",
+      "endpoint": -24.25,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 45
+    },
+    {
+      "arm": "naive",
+      "endpoint": -3.5,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 43
+    },
+    {
+      "arm": "source",
+      "endpoint": -5.75,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 43
+    },
+    {
+      "arm": "source",
+      "endpoint": 29.125,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 45
+    },
+    {
+      "arm": "naive",
+      "endpoint": 30.375,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 45
+    },
+    {
+      "arm": "source",
+      "endpoint": -25.0,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 43
+    },
+    {
+      "arm": "naive",
+      "endpoint": -25.75,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 43
+    },
+    {
+      "arm": "naive",
+      "endpoint": 5.25,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0000001192092896,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 48
+    },
+    {
+      "arm": "source",
+      "endpoint": 3.75,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 0.9999998807907104,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 48
+    },
+    {
+      "arm": "naive",
+      "endpoint": 28.75,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 48
+    },
+    {
+      "arm": "source",
+      "endpoint": 28.125,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 48
+    },
+    {
+      "arm": "source",
+      "endpoint": -20.5,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 50
+    },
+    {
+      "arm": "naive",
+      "endpoint": -24.25,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 50
+    },
+    {
+      "arm": "source",
+      "endpoint": 7.75,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 50
+    },
+    {
+      "arm": "naive",
+      "endpoint": 8.25,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 50
+    },
+    {
+      "arm": "source",
+      "endpoint": 34.0,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 50
+    },
+    {
+      "arm": "naive",
+      "endpoint": 34.625,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 50
+    },
+    {
+      "arm": "naive",
+      "endpoint": -25.125,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 48
+    },
+    {
+      "arm": "source",
+      "endpoint": -22.5,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 48
+    },
+    {
+      "arm": "naive",
+      "endpoint": 13.75,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 51
+    },
+    {
+      "arm": "source",
+      "endpoint": 11.75,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 51
+    },
+    {
+      "arm": "source",
+      "endpoint": 30.75,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 51
+    },
+    {
+      "arm": "naive",
+      "endpoint": 30.875,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 51
+    },
+    {
+      "arm": "source",
+      "endpoint": -13.5,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 56
+    },
+    {
+      "arm": "naive",
+      "endpoint": -16.5,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 56
+    },
+    {
+      "arm": "source",
+      "endpoint": -1.75,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 51
+    },
+    {
+      "arm": "naive",
+      "endpoint": -3.0,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 51
+    },
+    {
+      "arm": "naive",
+      "endpoint": 29.75,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 56
+    },
+    {
+      "arm": "source",
+      "endpoint": 28.875,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 56
+    },
+    {
+      "arm": "naive",
+      "endpoint": -24.75,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 51
+    },
+    {
+      "arm": "source",
+      "endpoint": -23.125,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 51
+    },
+    {
+      "arm": "source",
+      "endpoint": 13.75,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 42
+    },
+    {
+      "arm": "naive",
+      "endpoint": 15.0,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 42
+    },
+    {
+      "arm": "source",
+      "endpoint": 33.125,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 42
+    },
+    {
+      "arm": "naive",
+      "endpoint": 34.375,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 42
+    },
+    {
+      "arm": "source",
+      "endpoint": -16.0,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 44
+    },
+    {
+      "arm": "naive",
+      "endpoint": -21.0,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 44
+    },
+    {
+      "arm": "source",
+      "endpoint": -5.25,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0000001192092896,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 42
+    },
+    {
+      "arm": "naive",
+      "endpoint": -6.0,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 42
+    },
+    {
+      "arm": "naive",
+      "endpoint": 28.375,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 44
+    },
+    {
+      "arm": "source",
+      "endpoint": 27.375,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 44
+    },
+    {
+      "arm": "source",
+      "endpoint": -24.75,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 42
+    },
+    {
+      "arm": "naive",
+      "endpoint": -26.25,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "count the gray rings",
+      "task_index": 1,
+      "top_is_pair": true,
+      "top_token_id": 42
+    },
+    {
+      "arm": "source",
+      "endpoint": 16.0,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 47
+    },
+    {
+      "arm": "naive",
+      "endpoint": 18.25,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 47
+    },
+    {
+      "arm": "source",
+      "endpoint": 32.875,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 47
+    },
+    {
+      "arm": "naive",
+      "endpoint": 34.25,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 47
+    },
+    {
+      "arm": "source",
+      "endpoint": -14.5,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 49
+    },
+    {
+      "arm": "naive",
+      "endpoint": -17.0,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 49
+    },
+    {
+      "arm": "naive",
+      "endpoint": -1.25,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 47
+    },
+    {
+      "arm": "source",
+      "endpoint": 0.5,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 49
+    },
+    {
+      "arm": "source",
+      "endpoint": 29.375,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 49
+    },
+    {
+      "arm": "naive",
+      "endpoint": 30.625,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 49
+    },
+    {
+      "arm": "source",
+      "endpoint": -23.0,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 47
+    },
+    {
+      "arm": "naive",
+      "endpoint": -24.875,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 47
+    },
+    {
+      "arm": "naive",
+      "endpoint": 19.0,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 53
+    },
+    {
+      "arm": "source",
+      "endpoint": 17.75,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 53
+    },
+    {
+      "arm": "source",
+      "endpoint": 35.625,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 53
+    },
+    {
+      "arm": "naive",
+      "endpoint": 36.875,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 53
+    },
+    {
+      "arm": "naive",
+      "endpoint": -22.75,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 55
+    },
+    {
+      "arm": "source",
+      "endpoint": -20.5,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 55
+    },
+    {
+      "arm": "source",
+      "endpoint": 9.5,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 55
+    },
+    {
+      "arm": "naive",
+      "endpoint": 10.0,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 55
+    },
+    {
+      "arm": "source",
+      "endpoint": 31.875,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 55
+    },
+    {
+      "arm": "naive",
+      "endpoint": 33.625,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 55
+    },
+    {
+      "arm": "naive",
+      "endpoint": -28.0,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 53
+    },
+    {
+      "arm": "source",
+      "endpoint": -25.5,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 53
+    },
+    {
+      "arm": "naive",
+      "endpoint": 21.25,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "source",
+      "endpoint": 18.25,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "naive",
+      "endpoint": 29.375,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "source",
+      "endpoint": 27.625,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "source",
+      "endpoint": 11.25,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": false,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "naive",
+      "endpoint": 9.75,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": false,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "source",
+      "endpoint": 6.5,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 0.9999998807907104,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 33
+    },
+    {
+      "arm": "naive",
+      "endpoint": 6.25,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 33
+    },
+    {
+      "arm": "source",
+      "endpoint": 29.875,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 33
+    },
+    {
+      "arm": "naive",
+      "endpoint": 29.625,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 33
+    },
+    {
+      "arm": "source",
+      "endpoint": -10.0,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "naive",
+      "endpoint": -10.75,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "source",
+      "endpoint": 17.5,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "naive",
+      "endpoint": 18.25,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "source",
+      "endpoint": 32.75,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "naive",
+      "endpoint": 33.5,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "naive",
+      "endpoint": -8.25,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 35
+    },
+    {
+      "arm": "source",
+      "endpoint": -5.0,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 35
+    },
+    {
+      "arm": "source",
+      "endpoint": -9.0,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "naive",
+      "endpoint": -11.5,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "naive",
+      "endpoint": 29.125,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 35
+    },
+    {
+      "arm": "source",
+      "endpoint": 27.375,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 35
+    },
+    {
+      "arm": "source",
+      "endpoint": -20.75,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "naive",
+      "endpoint": -22.0,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "source",
+      "endpoint": 3.25,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 37
+    },
+    {
+      "arm": "naive",
+      "endpoint": 1.5,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 37
+    },
+    {
+      "arm": "naive",
+      "endpoint": 37.0,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 37
+    },
+    {
+      "arm": "source",
+      "endpoint": 36.625,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 37
+    },
+    {
+      "arm": "source",
+      "endpoint": -19.0,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 41
+    },
+    {
+      "arm": "naive",
+      "endpoint": -23.0,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 41
+    },
+    {
+      "arm": "source",
+      "endpoint": 4.25,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 0.9999998807907104,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 41
+    },
+    {
+      "arm": "naive",
+      "endpoint": 4.75,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 41
+    },
+    {
+      "arm": "source",
+      "endpoint": 25.5,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 41
+    },
+    {
+      "arm": "naive",
+      "endpoint": 27.625,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 41
+    },
+    {
+      "arm": "naive",
+      "endpoint": -23.25,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 37
+    },
+    {
+      "arm": "source",
+      "endpoint": -22.25,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 37
+    },
+    {
+      "arm": "source",
+      "endpoint": 8.0,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 0.9999998807907104,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 43
+    },
+    {
+      "arm": "naive",
+      "endpoint": 4.75,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 43
+    },
+    {
+      "arm": "naive",
+      "endpoint": 32.75,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 43
+    },
+    {
+      "arm": "source",
+      "endpoint": 32.5,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 43
+    },
+    {
+      "arm": "source",
+      "endpoint": -15.5,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 45
+    },
+    {
+      "arm": "naive",
+      "endpoint": -20.0,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 45
+    },
+    {
+      "arm": "naive",
+      "endpoint": -0.75,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 43
+    },
+    {
+      "arm": "source",
+      "endpoint": -3.25,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 43
+    },
+    {
+      "arm": "naive",
+      "endpoint": 32.75,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 45
+    },
+    {
+      "arm": "source",
+      "endpoint": 31.125,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 45
+    },
+    {
+      "arm": "naive",
+      "endpoint": -21.75,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 43
+    },
+    {
+      "arm": "source",
+      "endpoint": -20.75,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 43
+    },
+    {
+      "arm": "naive",
+      "endpoint": 12.75,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 48
+    },
+    {
+      "arm": "source",
+      "endpoint": 11.25,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 48
+    },
+    {
+      "arm": "naive",
+      "endpoint": 30.25,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 48
+    },
+    {
+      "arm": "source",
+      "endpoint": 29.125,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 48
+    },
+    {
+      "arm": "source",
+      "endpoint": -18.75,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 50
+    },
+    {
+      "arm": "naive",
+      "endpoint": -22.0,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 50
+    },
+    {
+      "arm": "naive",
+      "endpoint": 14.25,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 50
+    },
+    {
+      "arm": "source",
+      "endpoint": 13.5,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 50
+    },
+    {
+      "arm": "naive",
+      "endpoint": 36.625,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 50
+    },
+    {
+      "arm": "source",
+      "endpoint": 35.25,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 50
+    },
+    {
+      "arm": "naive",
+      "endpoint": -22.375,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 48
+    },
+    {
+      "arm": "source",
+      "endpoint": -20.125,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 48
+    },
+    {
+      "arm": "source",
+      "endpoint": 15.75,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 51
+    },
+    {
+      "arm": "naive",
+      "endpoint": 16.75,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 51
+    },
+    {
+      "arm": "source",
+      "endpoint": 31.25,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 51
+    },
+    {
+      "arm": "naive",
+      "endpoint": 32.125,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 51
+    },
+    {
+      "arm": "source",
+      "endpoint": -14.75,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 56
+    },
+    {
+      "arm": "naive",
+      "endpoint": -17.75,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 56
+    },
+    {
+      "arm": "naive",
+      "endpoint": 9.5,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 56
+    },
+    {
+      "arm": "source",
+      "endpoint": 9.75,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 56
+    },
+    {
+      "arm": "source",
+      "endpoint": 31.625,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 56
+    },
+    {
+      "arm": "naive",
+      "endpoint": 32.625,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 56
+    },
+    {
+      "arm": "source",
+      "endpoint": -22.75,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 51
+    },
+    {
+      "arm": "naive",
+      "endpoint": -24.0,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 51
+    },
+    {
+      "arm": "source",
+      "endpoint": 16.75,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 42
+    },
+    {
+      "arm": "naive",
+      "endpoint": 17.5,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 42
+    },
+    {
+      "arm": "naive",
+      "endpoint": 34.75,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 42
+    },
+    {
+      "arm": "source",
+      "endpoint": 33.125,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 42
+    },
+    {
+      "arm": "source",
+      "endpoint": -13.25,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 44
+    },
+    {
+      "arm": "naive",
+      "endpoint": -16.75,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 44
+    },
+    {
+      "arm": "naive",
+      "endpoint": 2.5,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 44
+    },
+    {
+      "arm": "source",
+      "endpoint": 2.75,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 44
+    },
+    {
+      "arm": "source",
+      "endpoint": 29.75,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 44
+    },
+    {
+      "arm": "naive",
+      "endpoint": 31.375,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 44
+    },
+    {
+      "arm": "naive",
+      "endpoint": -26.25,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 42
+    },
+    {
+      "arm": "source",
+      "endpoint": -24.375,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "place the plain labels",
+      "task_index": 2,
+      "top_is_pair": true,
+      "top_token_id": 42
+    },
+    {
+      "arm": "source",
+      "endpoint": 17.25,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 47
+    },
+    {
+      "arm": "naive",
+      "endpoint": 19.0,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 47
+    },
+    {
+      "arm": "naive",
+      "endpoint": 35.0,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 47
+    },
+    {
+      "arm": "source",
+      "endpoint": 33.75,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 47
+    },
+    {
+      "arm": "naive",
+      "endpoint": -22.625,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 49
+    },
+    {
+      "arm": "source",
+      "endpoint": -20.75,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 49
+    },
+    {
+      "arm": "naive",
+      "endpoint": 0.5,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 49
+    },
+    {
+      "arm": "source",
+      "endpoint": 1.5,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 49
+    },
+    {
+      "arm": "naive",
+      "endpoint": 29.875,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 49
+    },
+    {
+      "arm": "source",
+      "endpoint": 29.0,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 49
+    },
+    {
+      "arm": "naive",
+      "endpoint": -26.5,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 47
+    },
+    {
+      "arm": "source",
+      "endpoint": -24.5,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "P",
+        "R"
+      ],
+      "pair_index": 0,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 47
+    },
+    {
+      "arm": "source",
+      "endpoint": 20.0,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 53
+    },
+    {
+      "arm": "naive",
+      "endpoint": 21.0,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 53
+    },
+    {
+      "arm": "source",
+      "endpoint": 36.125,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 53
+    },
+    {
+      "arm": "naive",
+      "endpoint": 38.0,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 53
+    },
+    {
+      "arm": "naive",
+      "endpoint": -24.5,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 55
+    },
+    {
+      "arm": "source",
+      "endpoint": -22.0,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 55
+    },
+    {
+      "arm": "naive",
+      "endpoint": 6.75,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 55
+    },
+    {
+      "arm": "source",
+      "endpoint": 7.0,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 55
+    },
+    {
+      "arm": "source",
+      "endpoint": 31.875,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 55
+    },
+    {
+      "arm": "naive",
+      "endpoint": 32.875,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 55
+    },
+    {
+      "arm": "source",
+      "endpoint": -23.25,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 53
+    },
+    {
+      "arm": "naive",
+      "endpoint": -26.0,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "V",
+        "X"
+      ],
+      "pair_index": 1,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 53
+    },
+    {
+      "arm": "source",
+      "endpoint": 21.0,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "naive",
+      "endpoint": 23.5,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "source",
+      "endpoint": 28.625,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "naive",
+      "endpoint": 29.75,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "source",
+      "endpoint": 9.25,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": false,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "naive",
+      "endpoint": 6.75,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": false,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "source",
+      "endpoint": 7.25,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 33
+    },
+    {
+      "arm": "naive",
+      "endpoint": 5.5,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 33
+    },
+    {
+      "arm": "source",
+      "endpoint": 29.625,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 33
+    },
+    {
+      "arm": "naive",
+      "endpoint": 30.25,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 33
+    },
+    {
+      "arm": "naive",
+      "endpoint": -15.5,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "source",
+      "endpoint": -13.75,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "pair_index": 2,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 32
+    },
+    {
+      "arm": "source",
+      "endpoint": 19.75,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "naive",
+      "endpoint": 21.5,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "source",
+      "endpoint": 33.5,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "naive",
+      "endpoint": 34.625,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "naive",
+      "endpoint": -18.5,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 35
+    },
+    {
+      "arm": "source",
+      "endpoint": -15.0,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 35
+    },
+    {
+      "arm": "source",
+      "endpoint": -8.75,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "naive",
+      "endpoint": -11.75,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "source",
+      "endpoint": 28.25,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 35
+    },
+    {
+      "arm": "naive",
+      "endpoint": 29.875,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 35
+    },
+    {
+      "arm": "naive",
+      "endpoint": -23.75,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "source",
+      "endpoint": -21.25,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "C",
+        "D"
+      ],
+      "pair_index": 3,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 34
+    },
+    {
+      "arm": "source",
+      "endpoint": 5.25,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0000001192092896,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 37
+    },
+    {
+      "arm": "naive",
+      "endpoint": 5.0,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 37
+    },
+    {
+      "arm": "source",
+      "endpoint": 37.375,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 37
+    },
+    {
+      "arm": "naive",
+      "endpoint": 38.375,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 37
+    },
+    {
+      "arm": "naive",
+      "endpoint": -28.5,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 41
+    },
+    {
+      "arm": "source",
+      "endpoint": -25.0,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 41
+    },
+    {
+      "arm": "naive",
+      "endpoint": 3.0,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 41
+    },
+    {
+      "arm": "source",
+      "endpoint": 3.5,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 41
+    },
+    {
+      "arm": "naive",
+      "endpoint": 26.0,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 41
+    },
+    {
+      "arm": "source",
+      "endpoint": 24.25,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 41
+    },
+    {
+      "arm": "source",
+      "endpoint": -24.0,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 37
+    },
+    {
+      "arm": "naive",
+      "endpoint": -25.75,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "F",
+        "J"
+      ],
+      "pair_index": 4,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 37
+    },
+    {
+      "arm": "source",
+      "endpoint": 8.75,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 43
+    },
+    {
+      "arm": "naive",
+      "endpoint": 4.5,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 43
+    },
+    {
+      "arm": "naive",
+      "endpoint": 33.875,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 43
+    },
+    {
+      "arm": "source",
+      "endpoint": 33.375,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 43
+    },
+    {
+      "arm": "naive",
+      "endpoint": -26.875,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 45
+    },
+    {
+      "arm": "source",
+      "endpoint": -24.125,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 45
+    },
+    {
+      "arm": "naive",
+      "endpoint": 2.75,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 45
+    },
+    {
+      "arm": "source",
+      "endpoint": 0.25,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 45
+    },
+    {
+      "arm": "naive",
+      "endpoint": 33.75,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 45
+    },
+    {
+      "arm": "source",
+      "endpoint": 31.875,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 45
+    },
+    {
+      "arm": "source",
+      "endpoint": -22.25,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 43
+    },
+    {
+      "arm": "naive",
+      "endpoint": -24.0,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "L",
+        "N"
+      ],
+      "pair_index": 5,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 43
+    },
+    {
+      "arm": "naive",
+      "endpoint": 10.25,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 48
+    },
+    {
+      "arm": "source",
+      "endpoint": 9.25,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 48
+    },
+    {
+      "arm": "source",
+      "endpoint": 29.5,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 48
+    },
+    {
+      "arm": "naive",
+      "endpoint": 30.625,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 48
+    },
+    {
+      "arm": "naive",
+      "endpoint": -27.75,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 50
+    },
+    {
+      "arm": "source",
+      "endpoint": -24.25,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 50
+    },
+    {
+      "arm": "source",
+      "endpoint": 12.0,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 50
+    },
+    {
+      "arm": "naive",
+      "endpoint": 11.5,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 50
+    },
+    {
+      "arm": "naive",
+      "endpoint": 37.5,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 50
+    },
+    {
+      "arm": "source",
+      "endpoint": 35.75,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 50
+    },
+    {
+      "arm": "source",
+      "endpoint": -24.75,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 48
+    },
+    {
+      "arm": "naive",
+      "endpoint": -27.625,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "Q",
+        "S"
+      ],
+      "pair_index": 6,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 48
+    },
+    {
+      "arm": "source",
+      "endpoint": 15.25,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 51
+    },
+    {
+      "arm": "naive",
+      "endpoint": 16.25,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 51
+    },
+    {
+      "arm": "naive",
+      "endpoint": 32.625,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 51
+    },
+    {
+      "arm": "source",
+      "endpoint": 32.25,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 51
+    },
+    {
+      "arm": "source",
+      "endpoint": -20.75,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 56
+    },
+    {
+      "arm": "naive",
+      "endpoint": -23.25,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 56
+    },
+    {
+      "arm": "source",
+      "endpoint": 7.5,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 56
+    },
+    {
+      "arm": "naive",
+      "endpoint": 5.75,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 56
+    },
+    {
+      "arm": "source",
+      "endpoint": 30.75,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 56
+    },
+    {
+      "arm": "naive",
+      "endpoint": 32.25,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 56
+    },
+    {
+      "arm": "naive",
+      "endpoint": -24.25,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 51
+    },
+    {
+      "arm": "source",
+      "endpoint": -23.0,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "T",
+        "Y"
+      ],
+      "pair_index": 7,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 51
+    },
+    {
+      "arm": "naive",
+      "endpoint": 20.0,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 42
+    },
+    {
+      "arm": "source",
+      "endpoint": 18.5,
+      "expected_positive": null,
+      "mapping": "mapping_1",
+      "mapping_correct": null,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 42
+    },
+    {
+      "arm": "naive",
+      "endpoint": 35.375,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 42
+    },
+    {
+      "arm": "source",
+      "endpoint": 33.875,
+      "expected_positive": true,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 42
+    },
+    {
+      "arm": "source",
+      "endpoint": -18.25,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 44
+    },
+    {
+      "arm": "naive",
+      "endpoint": -22.25,
+      "expected_positive": false,
+      "mapping": "mapping_1",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 44
+    },
+    {
+      "arm": "naive",
+      "endpoint": 1.25,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 44
+    },
+    {
+      "arm": "source",
+      "endpoint": 1.5,
+      "expected_positive": null,
+      "mapping": "mapping_2",
+      "mapping_correct": null,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 0.9999999403953552,
+      "prompt_type": "clean",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 44
+    },
+    {
+      "arm": "naive",
+      "endpoint": 31.0,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 44
+    },
+    {
+      "arm": "source",
+      "endpoint": 29.375,
+      "expected_positive": true,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_positive",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 44
+    },
+    {
+      "arm": "source",
+      "endpoint": -27.625,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 42
+    },
+    {
+      "arm": "naive",
+      "endpoint": -29.25,
+      "expected_positive": false,
+      "mapping": "mapping_2",
+      "mapping_correct": true,
+      "pair": [
+        "K",
+        "M"
+      ],
+      "pair_index": 8,
+      "pair_mass": 1.0,
+      "prompt_type": "explicit_negative",
+      "task": "group the neutral shapes",
+      "task_index": 3,
+      "top_is_pair": true,
+      "top_token_id": 42
+    }
+  ],
+  "selected_pair": [
+    "K",
+    "M"
+  ],
+  "selected_pair_index": 8,
+  "selection_status": "saturated_fallback",
+  "vector_metadata": {
+    "capture_axis_norms_before_unitization": {
+      "30": 25.52921485900879,
+      "31": 27.850820541381836,
+      "32": 30.558002471923828,
+      "33": 37.4875373840332,
+      "34": 45.95378112792969,
+      "35": 59.96912384033203
+    },
+    "intervention_layer": 29,
+    "intervention_norm": 23.53155517578125
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "n": 32,
+  "passed": 32,
+  "accuracy": 1.0,
+  "by_cell": {
+    "persist_k": {
+      "n": 8,
+      "passed": 8,
+      "mean_margin": 24.234375
+    },
+    "persist_m": {
+      "n": 8,
+      "passed": 8,
+      "mean_margin": 18.984375
+    },
+    "status_k": {
+      "n": 8,
+      "passed": 8,
+      "mean_margin": 30.265625
+    },
+    "status_m": {
+      "n": 8,
+      "passed": 8,
+      "mean_margin": 30.765625
+    }
+  },
+  "rows": [
+    {
+      "cell": "status_k",
+      "margin": 32.0,
+      "pass": true
+    },
+    {
+      "cell": "status_m",
+      "margin": 31.625,
+      "pass": true
+    },
+    {
+      "cell": "persist_k",
+      "margin": 26.375,
+      "pass": true
+    },
+    {
+      "cell": "persist_m",
+      "margin": 23.875,
+      "pass": true
+    },
+    {
+      "cell": "status_k",
+      "margin": 27.375,
+      "pass": true
+    },
+    {
+      "cell": "status_m",
+      "margin": 29.875,
+      "pass": true
+    },
+    {
+      "cell": "persist_k",
+      "margin": 23.625,
+      "pass": true
+    },
+    {
+      "cell": "persist_m",
+      "margin": 19.25,
+      "pass": true
+    },
+    {
+      "cell": "status_k",
+      "margin": 28.5,
+      "pass": true
+    },
+    {
+      "cell": "status_m",
+      "margin": 29.375,
+      "pass": true
+    },
+    {
+      "cell": "persist_k",
+      "margin": 24.375,
+      "pass": true
+    },
+    {
+      "cell": "persist_m",
+      "margin": 17.75,
+      "pass": true
+    },
+    {
+      "cell": "status_k",
+      "margin": 30.5,
+      "pass": true
+    },
+    {
+      "cell": "status_m",
+      "margin": 30.625,
+      "pass": true
+    },
+    {
+      "cell": "persist_k",
+      "margin": 21.125,
+      "pass": true
+    },
+    {
+      "cell": "persist_m",
+      "margin": 13.0,
+      "pass": true
+    },
+    {
+      "cell": "status_k",
+      "margin": 33.5,
+      "pass": true
+    },
+    {
+      "cell": "status_m",
+      "margin": 32.5,
+      "pass": true
+    },
+    {
+      "cell": "persist_k",
+      "margin": 25.125,
+      "pass": true
+    },
+    {
+      "cell": "persist_m",
+      "margin": 16.5,
+      "pass": true
+    },
+    {
+      "cell": "status_k",
+      "margin": 29.5,
+      "pass": true
+    },
+    {
+      "cell": "status_m",
+      "margin": 30.625,
+      "pass": true
+    },
+    {
+      "cell": "persist_k",
+      "margin": 23.125,
+      "pass": true
+    },
+    {
+      "cell": "persist_m",
+      "margin": 20.0,
+      "pass": true
+    },
+    {
+      "cell": "status_k",
+      "margin": 31.25,
+      "pass": true
+    },
+    {
+      "cell": "status_m",
+      "margin": 31.375,
+      "pass": true
+    },
+    {
+      "cell": "persist_k",
+      "margin": 25.875,
+      "pass": true
+    },
+    {
+      "cell": "persist_m",
+      "margin": 23.25,
+      "pass": true
+    },
+    {
+      "cell": "status_k",
+      "margin": 29.5,
+      "pass": true
+    },
+    {
+      "cell": "status_m",
+      "margin": 30.125,
+      "pass": true
+    },
+    {
+      "cell": "persist_k",
+      "margin": 24.25,
+      "pass": true
+    },
+    {
+      "cell": "persist_m",
+      "margin": 18.25,
+      "pass": true
+    }
+  ]
+}

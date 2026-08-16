@@ -1,0 +1,268 @@
+{
+  "all_unrestricted_outputs_valid": true,
+  "c4_absolute_cell_mean_threshold": 2.0,
+  "cells": {
+    "evidence_then_rule__recorded": {
+      "c3": {
+        "all_unrestricted_outputs_valid": true,
+        "choices_in_permutation_order": [
+          "stop",
+          "continue",
+          "stop",
+          "stop",
+          "stop",
+          "continue",
+          "continue",
+          "stop"
+        ],
+        "continue_choice_count": 3,
+        "margins_in_permutation_order": [
+          -9.0,
+          1.75,
+          -15.5,
+          -16.0,
+          -5.0,
+          2.0,
+          8.75,
+          -8.25
+        ],
+        "mean_continue_minus_stop_margin": -5.15625,
+        "median_absolute_margin": 8.5,
+        "n": 8,
+        "stop_choice_count": 5
+      },
+      "c4": {
+        "all_unrestricted_outputs_valid": true,
+        "choices_in_permutation_order": [
+          "stop",
+          "stop",
+          "continue",
+          "continue",
+          "continue",
+          "continue",
+          "continue",
+          "continue"
+        ],
+        "continue_choice_count": 6,
+        "margins_in_permutation_order": [
+          -3.25,
+          -8.25,
+          1.25,
+          3.75,
+          0.5,
+          3.25,
+          8.0,
+          0.5
+        ],
+        "mean_continue_minus_stop_margin": 0.71875,
+        "median_absolute_margin": 3.25,
+        "n": 8,
+        "stop_choice_count": 2
+      },
+      "gates": {
+        "all_16_unrestricted_outputs_valid": true,
+        "c3_mean_strictly_negative": true,
+        "c4_absolute_mean_at_most_2p0": true
+      },
+      "passed": true
+    },
+    "evidence_then_rule__reversed": {
+      "c3": {
+        "all_unrestricted_outputs_valid": true,
+        "choices_in_permutation_order": [
+          "stop",
+          "continue",
+          "continue",
+          "stop",
+          "stop",
+          "stop",
+          "continue",
+          "stop"
+        ],
+        "continue_choice_count": 3,
+        "margins_in_permutation_order": [
+          -0.75,
+          0.5,
+          8.25,
+          -10.25,
+          -9.0,
+          -7.75,
+          1.5,
+          -12.0
+        ],
+        "mean_continue_minus_stop_margin": -3.6875,
+        "median_absolute_margin": 8.0,
+        "n": 8,
+        "stop_choice_count": 5
+      },
+      "c4": {
+        "all_unrestricted_outputs_valid": true,
+        "choices_in_permutation_order": [
+          "continue",
+          "stop",
+          "continue",
+          "continue",
+          "stop",
+          "stop",
+          "stop",
+          "continue"
+        ],
+        "continue_choice_count": 4,
+        "margins_in_permutation_order": [
+          4.5,
+          -6.5,
+          6.5,
+          8.5,
+          -8.0,
+          -5.25,
+          -9.75,
+          5.5
+        ],
+        "mean_continue_minus_stop_margin": -0.5625,
+        "median_absolute_margin": 6.5,
+        "n": 8,
+        "stop_choice_count": 4
+      },
+      "gates": {
+        "all_16_unrestricted_outputs_valid": true,
+        "c3_mean_strictly_negative": true,
+        "c4_absolute_mean_at_most_2p0": true
+      },
+      "passed": true
+    },
+    "rule_then_evidence__recorded": {
+      "c3": {
+        "all_unrestricted_outputs_valid": true,
+        "choices_in_permutation_order": [
+          "stop",
+          "continue",
+          "stop",
+          "stop",
+          "stop",
+          "stop",
+          "continue",
+          "stop"
+        ],
+        "continue_choice_count": 2,
+        "margins_in_permutation_order": [
+          -15.75,
+          3.5,
+          -15.0,
+          -16.25,
+          -1.0,
+          -0.5,
+          7.5,
+          -14.0
+        ],
+        "mean_continue_minus_stop_margin": -6.4375,
+        "median_absolute_margin": 10.75,
+        "n": 8,
+        "stop_choice_count": 6
+      },
+      "c4": {
+        "all_unrestricted_outputs_valid": true,
+        "choices_in_permutation_order": [
+          "continue",
+          "stop",
+          "stop",
+          "stop",
+          "stop",
+          "continue",
+          "continue",
+          "stop"
+        ],
+        "continue_choice_count": 3,
+        "margins_in_permutation_order": [
+          1.25,
+          -10.25,
+          -5.25,
+          -1.5,
+          -0.25,
+          1.75,
+          5.75,
+          -3.5
+        ],
+        "mean_continue_minus_stop_margin": -1.5,
+        "median_absolute_margin": 2.625,
+        "n": 8,
+        "stop_choice_count": 5
+      },
+      "gates": {
+        "all_16_unrestricted_outputs_valid": true,
+        "c3_mean_strictly_negative": true,
+        "c4_absolute_mean_at_most_2p0": true
+      },
+      "passed": true
+    },
+    "rule_then_evidence__reversed": {
+      "c3": {
+        "all_unrestricted_outputs_valid": true,
+        "choices_in_permutation_order": [
+          "continue",
+          "continue",
+          "continue",
+          "stop",
+          "stop",
+          "stop",
+          "continue",
+          "stop"
+        ],
+        "continue_choice_count": 4,
+        "margins_in_permutation_order": [
+          3.75,
+          2.25,
+          8.0,
+          -11.75,
+          -5.5,
+          -11.5,
+          0.25,
+          -13.0
+        ],
+        "mean_continue_minus_stop_margin": -3.4375,
+        "median_absolute_margin": 6.75,
+        "n": 8,
+        "stop_choice_count": 4
+      },
+      "c4": {
+        "all_unrestricted_outputs_valid": true,
+        "choices_in_permutation_order": [
+          "continue",
+          "stop",
+          "continue",
+          "continue",
+          "stop",
+          "stop",
+          "stop",
+          "continue"
+        ],
+        "continue_choice_count": 4,
+        "margins_in_permutation_order": [
+          1.0,
+          -9.25,
+          5.25,
+          9.25,
+          -11.0,
+          -7.75,
+          -12.5,
+          10.0
+        ],
+        "mean_continue_minus_stop_margin": -1.875,
+        "median_absolute_margin": 9.25,
+        "n": 8,
+        "stop_choice_count": 4
+      },
+      "gates": {
+        "all_16_unrestricted_outputs_valid": true,
+        "c3_mean_strictly_negative": true,
+        "c4_absolute_mean_at_most_2p0": true
+      },
+      "passed": true
+    }
+  },
+  "classification": "adaptive_post_clean_calibration",
+  "individual_case_selection": false,
+  "interpretation": "aggregate_boundary_centering_not_individual_unsaturation",
+  "n_cases_retained": 64,
+  "passed": true,
+  "schema": "repaired-semantic-choice-adaptive-clean-gate-v4a-v1"
+}

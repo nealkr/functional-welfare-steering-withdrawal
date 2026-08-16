@@ -1,0 +1,100 @@
+{
+  "adapter_path": "library/artifacts/functional-wellbeing/checkpoints/qwen3-4b_faithful_step400",
+  "arm_implementation": {
+    "merged": false,
+    "naive": "disable_adapter_context",
+    "source": "adapter_enabled"
+  },
+  "artifact_revision": "0b005c3da6692912f6bb5a914a5a9d15c4884a91",
+  "assistant_text": "Slate oval, gray square, plain circle, fixed line, quiet marker.",
+  "bootstrap_draws": 10000,
+  "calibration_tasks": [
+    "fold the blank sheet",
+    "count the gray rings",
+    "place the plain labels",
+    "group the neutral shapes"
+  ],
+  "capture_layers": [
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "dose_layer": 29,
+  "fallback_pair": [
+    "K",
+    "M"
+  ],
+  "linearity_factor": 0.25,
+  "long_interval": "Neutral interval: paper, glass, cedar, linen, copper, stone, amber, chalk, willow, canvas, marble, cotton, pewter, clay, birch, wool. ",
+  "model_path": "library/models/qwen3-4b-instruct-2507",
+  "model_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "opaque_candidates": [
+    [
+      "P",
+      "R"
+    ],
+    [
+      "V",
+      "X"
+    ],
+    [
+      "A",
+      "B"
+    ],
+    [
+      "C",
+      "D"
+    ],
+    [
+      "F",
+      "J"
+    ],
+    [
+      "L",
+      "N"
+    ],
+    [
+      "Q",
+      "S"
+    ],
+    [
+      "T",
+      "Y"
+    ]
+  ],
+  "planned_forwards": {
+    "calibration": 432,
+    "checksum": 3,
+    "factor_0_25": 96,
+    "primary_target": 960,
+    "total": 1491
+  },
+  "preregistration": "research/source-adapter-temporal-preregistration.md",
+  "primary_factor": 0.5,
+  "seed": 26081541,
+  "started_utc": "2026-08-15T21:05:04.622295+00:00",
+  "status": "started",
+  "target_tasks": [
+    "catalog the beads",
+    "number the panels",
+    "file the slips",
+    "align the dowels",
+    "label the trays",
+    "tally the tokens",
+    "arrange the clips",
+    "copy the marks",
+    "order the tabs",
+    "match the swatches",
+    "index the folders",
+    "inspect the columns",
+    "sort the tiles",
+    "trace the lines",
+    "group the tags",
+    "scan the rows"
+  ],
+  "temporal_boundary": 0.25,
+  "vector_root": "library/artifacts/functional-wellbeing/concept_vectors/qwen3-4b_step400"
+}

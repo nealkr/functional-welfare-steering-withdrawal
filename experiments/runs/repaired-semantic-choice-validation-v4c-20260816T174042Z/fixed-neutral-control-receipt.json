@@ -1,0 +1,25 @@
+{
+  "factors": {
+    "functional_welfare_raw": 1.0,
+    "path_direct": 1.1940978759847163,
+    "random_orthogonal_00": 2.1579784664920996,
+    "random_orthogonal_01": 1.5272141178181842,
+    "random_orthogonal_02": 0.5128326982332162,
+    "random_orthogonal_03": 1.9643610971105179,
+    "sentiment": 1.425869737431211
+  },
+  "neutral_recalibration_forwards": 0,
+  "path_policy": "conservative_overshoot_control_not_weaker_than_target",
+  "ratios": {
+    "functional_welfare_raw": 1.0,
+    "path_direct": 1.2696314866720828,
+    "random_orthogonal_00": 0.857366832002642,
+    "random_orthogonal_01": 0.9789662127882794,
+    "random_orthogonal_02": 1.0233316284422416,
+    "random_orthogonal_03": 0.9743369217720128,
+    "sentiment": 0.9386691382839856
+  },
+  "revised_neutral_gate_passed": true,
+  "source": "<project>/experiments/runs/repaired-semantic-choice-validation-v4b-resume-20260816T173151Z/refined-kl-calibration.json",
+  "source_sha256": "ce8b21c21b1cd9a48dbdd249a2678907f8caa937cf8cb81ec1b8606bf112e1d3"
+}

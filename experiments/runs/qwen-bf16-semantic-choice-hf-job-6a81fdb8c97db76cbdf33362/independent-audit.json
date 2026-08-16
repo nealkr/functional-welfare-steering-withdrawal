@@ -1,0 +1,624 @@
+{
+  "emitted_summary_exact_recomputation": {
+    "fwa_1": {
+      "differences": {},
+      "exact": true
+    },
+    "fwa_half": {
+      "differences": {},
+      "exact": true
+    },
+    "path": {
+      "differences": {},
+      "exact": true
+    }
+  },
+  "interpretation": "The exact-cohort BF16 semantic action-boundary actuation result is positive and independently reproducible from raw records, but the run does not have a pristine frozen-specification seal. The three deviations are disclosed rather than retroactively repaired. Path is stronger than FWA1, so the result does not establish target specificity.",
+  "nf4_bf16_concordance": {
+    "choice_agreement_by_condition": {
+      "clean": {
+        "n": 64,
+        "same_choice_count": 54,
+        "same_choice_rate": 0.84375
+      },
+      "fwa_minus_1": {
+        "n": 64,
+        "same_choice_count": 55,
+        "same_choice_rate": 0.859375
+      },
+      "fwa_minus_half": {
+        "n": 64,
+        "same_choice_count": 55,
+        "same_choice_rate": 0.859375
+      },
+      "fwa_plus_1": {
+        "n": 64,
+        "same_choice_count": 55,
+        "same_choice_rate": 0.859375
+      },
+      "fwa_plus_half": {
+        "n": 64,
+        "same_choice_count": 56,
+        "same_choice_rate": 0.875
+      },
+      "path_minus": {
+        "n": 64,
+        "same_choice_count": 54,
+        "same_choice_rate": 0.84375
+      },
+      "path_plus": {
+        "n": 64,
+        "same_choice_count": 58,
+        "same_choice_rate": 0.90625
+      }
+    },
+    "pair_concordance": {
+      "fwa_1": {
+        "bf16_only_case_ids": [
+          "s01__closest_positive__ten_votes_c4__evidence_then_rule__recorded__p00",
+          "s01__closest_positive__ten_votes_c4__evidence_then_rule__recorded__p01",
+          "s03__closest_positive__ten_votes_c4__evidence_then_rule__reversed__p00",
+          "s03__closest_positive__ten_votes_c4__evidence_then_rule__reversed__p01",
+          "s03__closest_positive__ten_votes_c4__evidence_then_rule__reversed__p05",
+          "s04__closest_negative__ten_votes_c3__rule_then_evidence__recorded__p01",
+          "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p02",
+          "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p07",
+          "s06__closest_negative__ten_votes_c3__rule_then_evidence__reversed__p01",
+          "s07__closest_positive__ten_votes_c4__rule_then_evidence__reversed__p05"
+        ],
+        "bf16_switch_also_nf4_rate": 0.4117647058823529,
+        "bf16_switch_count": 17,
+        "cell_signs_positive_both_precisions": true,
+        "intersection_case_ids": [
+          "s00__closest_negative__ten_votes_c3__evidence_then_rule__recorded__p01",
+          "s01__closest_positive__ten_votes_c4__evidence_then_rule__recorded__p07",
+          "s02__closest_negative__ten_votes_c3__evidence_then_rule__reversed__p06",
+          "s04__closest_negative__ten_votes_c3__rule_then_evidence__recorded__p04",
+          "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p00",
+          "s06__closest_negative__ten_votes_c3__rule_then_evidence__reversed__p06",
+          "s07__closest_positive__ten_votes_c4__rule_then_evidence__reversed__p00"
+        ],
+        "intersection_count": 7,
+        "jaccard": 0.30434782608695654,
+        "margin_contrast_pearson": 0.9516959686095198,
+        "nf4_only_case_ids": [
+          "s01__closest_positive__ten_votes_c4__evidence_then_rule__recorded__p02",
+          "s01__closest_positive__ten_votes_c4__evidence_then_rule__recorded__p04",
+          "s02__closest_negative__ten_votes_c3__evidence_then_rule__reversed__p00",
+          "s02__closest_negative__ten_votes_c3__evidence_then_rule__reversed__p01",
+          "s04__closest_negative__ten_votes_c3__rule_then_evidence__recorded__p05",
+          "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p04"
+        ],
+        "nf4_switch_count": 13,
+        "nf4_switch_retained_rate": 0.5384615384615384,
+        "positive_in_both_count": 58,
+        "positive_sign_agreement_count": 61,
+        "union_count": 23
+      },
+      "fwa_half": {
+        "bf16_only_case_ids": [
+          "s00__closest_negative__ten_votes_c3__evidence_then_rule__recorded__p01",
+          "s03__closest_positive__ten_votes_c4__evidence_then_rule__reversed__p01",
+          "s03__closest_positive__ten_votes_c4__evidence_then_rule__reversed__p05",
+          "s04__closest_negative__ten_votes_c3__rule_then_evidence__recorded__p01",
+          "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p02",
+          "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p07",
+          "s06__closest_negative__ten_votes_c3__rule_then_evidence__reversed__p01",
+          "s07__closest_positive__ten_votes_c4__rule_then_evidence__reversed__p00"
+        ],
+        "bf16_switch_also_nf4_rate": 0.1111111111111111,
+        "bf16_switch_count": 9,
+        "cell_signs_positive_both_precisions": true,
+        "intersection_case_ids": [
+          "s04__closest_negative__ten_votes_c3__rule_then_evidence__recorded__p04"
+        ],
+        "intersection_count": 1,
+        "jaccard": 0.0625,
+        "margin_contrast_pearson": 0.9379860674014368,
+        "nf4_only_case_ids": [
+          "s01__closest_positive__ten_votes_c4__evidence_then_rule__recorded__p04",
+          "s01__closest_positive__ten_votes_c4__evidence_then_rule__recorded__p07",
+          "s02__closest_negative__ten_votes_c3__evidence_then_rule__reversed__p00",
+          "s02__closest_negative__ten_votes_c3__evidence_then_rule__reversed__p01",
+          "s04__closest_negative__ten_votes_c3__rule_then_evidence__recorded__p05",
+          "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p04",
+          "s06__closest_negative__ten_votes_c3__rule_then_evidence__reversed__p06"
+        ],
+        "nf4_switch_count": 8,
+        "nf4_switch_retained_rate": 0.125,
+        "positive_in_both_count": 57,
+        "positive_sign_agreement_count": 61,
+        "union_count": 16
+      },
+      "path": {
+        "bf16_only_case_ids": [
+          "s01__closest_positive__ten_votes_c4__evidence_then_rule__recorded__p01",
+          "s01__closest_positive__ten_votes_c4__evidence_then_rule__recorded__p03",
+          "s03__closest_positive__ten_votes_c4__evidence_then_rule__reversed__p00",
+          "s03__closest_positive__ten_votes_c4__evidence_then_rule__reversed__p01",
+          "s03__closest_positive__ten_votes_c4__evidence_then_rule__reversed__p05",
+          "s04__closest_negative__ten_votes_c3__rule_then_evidence__recorded__p01",
+          "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p02",
+          "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p07",
+          "s07__closest_positive__ten_votes_c4__rule_then_evidence__reversed__p05"
+        ],
+        "bf16_switch_also_nf4_rate": 0.5714285714285714,
+        "bf16_switch_count": 21,
+        "cell_signs_positive_both_precisions": true,
+        "intersection_case_ids": [
+          "s00__closest_negative__ten_votes_c3__evidence_then_rule__recorded__p01",
+          "s01__closest_positive__ten_votes_c4__evidence_then_rule__recorded__p00",
+          "s01__closest_positive__ten_votes_c4__evidence_then_rule__recorded__p07",
+          "s02__closest_negative__ten_votes_c3__evidence_then_rule__reversed__p00",
+          "s02__closest_negative__ten_votes_c3__evidence_then_rule__reversed__p01",
+          "s02__closest_negative__ten_votes_c3__evidence_then_rule__reversed__p06",
+          "s04__closest_negative__ten_votes_c3__rule_then_evidence__recorded__p04",
+          "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p00",
+          "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p03",
+          "s06__closest_negative__ten_votes_c3__rule_then_evidence__reversed__p01",
+          "s06__closest_negative__ten_votes_c3__rule_then_evidence__reversed__p06",
+          "s07__closest_positive__ten_votes_c4__rule_then_evidence__reversed__p00"
+        ],
+        "intersection_count": 12,
+        "jaccard": 0.42857142857142855,
+        "margin_contrast_pearson": 0.8974730933446644,
+        "nf4_only_case_ids": [
+          "s00__closest_negative__ten_votes_c3__evidence_then_rule__recorded__p05",
+          "s01__closest_positive__ten_votes_c4__evidence_then_rule__recorded__p02",
+          "s01__closest_positive__ten_votes_c4__evidence_then_rule__recorded__p04",
+          "s04__closest_negative__ten_votes_c3__rule_then_evidence__recorded__p05",
+          "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p04",
+          "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p05",
+          "s06__closest_negative__ten_votes_c3__rule_then_evidence__reversed__p00"
+        ],
+        "nf4_switch_count": 19,
+        "nf4_switch_retained_rate": 0.631578947368421,
+        "positive_in_both_count": 64,
+        "positive_sign_agreement_count": 64,
+        "union_count": 28
+      }
+    }
+  },
+  "operational_observations": {
+    "all_448_including_path_valid": true,
+    "vram_limit_bytes": 25769803776,
+    "vram_pass": true,
+    "vram_peak_reserved_bytes": 8078229504
+  },
+  "path_comparison": {
+    "fwa_1_mean_contrast": 3.654296875,
+    "fwa_1_switches": 17,
+    "path_mean_contrast": 6.607421875,
+    "path_minus_fwa_1_switches": 4,
+    "path_stronger_on_both_switches_and_mean_contrast": true,
+    "path_switches": 21,
+    "path_to_fwa_1_mean_contrast_ratio": 1.8081239978621058
+  },
+  "post_hoc_fwa_core_checks_excluding_path_validity_and_vram": {
+    "all_clean_and_fwa_outputs_valid": true,
+    "factor_1_exceeds_half": true,
+    "fwa_1_all_8_cells_positive": true,
+    "fwa_1_mean_positive": true,
+    "fwa_1_oriented_switch_positive": true,
+    "fwa_half_all_8_cells_positive": true,
+    "fwa_half_mean_positive": true,
+    "fwa_half_oriented_switch_positive": true
+  },
+  "post_hoc_fwa_core_pass_excluding_path_validity_and_vram": true,
+  "raw_log": "experiments/runs/qwen-bf16-semantic-choice-hf-job-6a81fdb8c97db76cbdf33362/raw.log",
+  "raw_log_sha256": "1bd1ae49909fdaff414af6b0afdef71adef4b97bb112362eb3e02f0b3d1477e8",
+  "recomputed_bf16": {
+    "fwa_1": {
+      "all_8_cell_means_positive": true,
+      "all_valid_rate": 1.0,
+      "any_switch_case_ids": [
+        "s00__closest_negative__ten_votes_c3__evidence_then_rule__recorded__p01",
+        "s01__closest_positive__ten_votes_c4__evidence_then_rule__recorded__p00",
+        "s01__closest_positive__ten_votes_c4__evidence_then_rule__recorded__p01",
+        "s01__closest_positive__ten_votes_c4__evidence_then_rule__recorded__p07",
+        "s02__closest_negative__ten_votes_c3__evidence_then_rule__reversed__p06",
+        "s03__closest_positive__ten_votes_c4__evidence_then_rule__reversed__p00",
+        "s03__closest_positive__ten_votes_c4__evidence_then_rule__reversed__p01",
+        "s03__closest_positive__ten_votes_c4__evidence_then_rule__reversed__p05",
+        "s04__closest_negative__ten_votes_c3__rule_then_evidence__recorded__p01",
+        "s04__closest_negative__ten_votes_c3__rule_then_evidence__recorded__p04",
+        "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p00",
+        "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p02",
+        "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p07",
+        "s06__closest_negative__ten_votes_c3__rule_then_evidence__reversed__p01",
+        "s06__closest_negative__ten_votes_c3__rule_then_evidence__reversed__p06",
+        "s07__closest_positive__ten_votes_c4__rule_then_evidence__reversed__p00",
+        "s07__closest_positive__ten_votes_c4__rule_then_evidence__reversed__p05"
+      ],
+      "any_switch_count": 17,
+      "bootstrap": {
+        "actual_code_ci95": [
+          3.345654296875,
+          4.00390625
+        ],
+        "actual_code_seed": 26081683,
+        "draws": 10000,
+        "recorded_seed_applied_to_each_pair": 26081682,
+        "recorded_seed_applied_to_each_pair_ci95": [
+          3.349609375,
+          4.00390625
+        ]
+      },
+      "cells": {
+        "evidence_then_rule__recorded__c3": {
+          "clean_to_minus_count": 1,
+          "clean_to_plus_count": 0,
+          "mean_margin_contrast": 3.09375,
+          "n": 8,
+          "oriented_switch_count": 1,
+          "positive_margin_contrast_rate": 0.875
+        },
+        "evidence_then_rule__recorded__c4": {
+          "clean_to_minus_count": 0,
+          "clean_to_plus_count": 3,
+          "mean_margin_contrast": 4.28125,
+          "n": 8,
+          "oriented_switch_count": 3,
+          "positive_margin_contrast_rate": 1.0
+        },
+        "evidence_then_rule__reversed__c3": {
+          "clean_to_minus_count": 1,
+          "clean_to_plus_count": 0,
+          "mean_margin_contrast": 4.21875,
+          "n": 8,
+          "oriented_switch_count": 1,
+          "positive_margin_contrast_rate": 1.0
+        },
+        "evidence_then_rule__reversed__c4": {
+          "clean_to_minus_count": 1,
+          "clean_to_plus_count": 2,
+          "mean_margin_contrast": 4.0,
+          "n": 8,
+          "oriented_switch_count": 3,
+          "positive_margin_contrast_rate": 1.0
+        },
+        "rule_then_evidence__recorded__c3": {
+          "clean_to_minus_count": 2,
+          "clean_to_plus_count": 0,
+          "mean_margin_contrast": 2.75,
+          "n": 8,
+          "oriented_switch_count": 2,
+          "positive_margin_contrast_rate": 0.75
+        },
+        "rule_then_evidence__recorded__c4": {
+          "clean_to_minus_count": 2,
+          "clean_to_plus_count": 1,
+          "mean_margin_contrast": 3.96875,
+          "n": 8,
+          "oriented_switch_count": 3,
+          "positive_margin_contrast_rate": 1.0
+        },
+        "rule_then_evidence__reversed__c3": {
+          "clean_to_minus_count": 1,
+          "clean_to_plus_count": 1,
+          "mean_margin_contrast": 3.5,
+          "n": 8,
+          "oriented_switch_count": 2,
+          "positive_margin_contrast_rate": 1.0
+        },
+        "rule_then_evidence__reversed__c4": {
+          "clean_to_minus_count": 0,
+          "clean_to_plus_count": 2,
+          "mean_margin_contrast": 3.421875,
+          "n": 8,
+          "oriented_switch_count": 2,
+          "positive_margin_contrast_rate": 1.0
+        }
+      },
+      "clean_to_minus_count": 8,
+      "clean_to_plus_count": 9,
+      "mean_margin_contrast": 3.654296875,
+      "median_margin_contrast": 4.0,
+      "n_cases": 64,
+      "oriented_switch_case_ids": [
+        "s00__closest_negative__ten_votes_c3__evidence_then_rule__recorded__p01",
+        "s01__closest_positive__ten_votes_c4__evidence_then_rule__recorded__p00",
+        "s01__closest_positive__ten_votes_c4__evidence_then_rule__recorded__p01",
+        "s01__closest_positive__ten_votes_c4__evidence_then_rule__recorded__p07",
+        "s02__closest_negative__ten_votes_c3__evidence_then_rule__reversed__p06",
+        "s03__closest_positive__ten_votes_c4__evidence_then_rule__reversed__p00",
+        "s03__closest_positive__ten_votes_c4__evidence_then_rule__reversed__p01",
+        "s03__closest_positive__ten_votes_c4__evidence_then_rule__reversed__p05",
+        "s04__closest_negative__ten_votes_c3__rule_then_evidence__recorded__p01",
+        "s04__closest_negative__ten_votes_c3__rule_then_evidence__recorded__p04",
+        "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p00",
+        "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p02",
+        "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p07",
+        "s06__closest_negative__ten_votes_c3__rule_then_evidence__reversed__p01",
+        "s06__closest_negative__ten_votes_c3__rule_then_evidence__reversed__p06",
+        "s07__closest_positive__ten_votes_c4__rule_then_evidence__reversed__p00",
+        "s07__closest_positive__ten_votes_c4__rule_then_evidence__reversed__p05"
+      ],
+      "oriented_switch_count": 17,
+      "positive_margin_contrast_rate": 0.953125
+    },
+    "fwa_half": {
+      "all_8_cell_means_positive": true,
+      "all_valid_rate": 1.0,
+      "any_switch_case_ids": [
+        "s00__closest_negative__ten_votes_c3__evidence_then_rule__recorded__p01",
+        "s03__closest_positive__ten_votes_c4__evidence_then_rule__reversed__p01",
+        "s03__closest_positive__ten_votes_c4__evidence_then_rule__reversed__p05",
+        "s04__closest_negative__ten_votes_c3__rule_then_evidence__recorded__p01",
+        "s04__closest_negative__ten_votes_c3__rule_then_evidence__recorded__p04",
+        "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p02",
+        "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p07",
+        "s06__closest_negative__ten_votes_c3__rule_then_evidence__reversed__p01",
+        "s07__closest_positive__ten_votes_c4__rule_then_evidence__reversed__p00"
+      ],
+      "any_switch_count": 9,
+      "bootstrap": {
+        "actual_code_ci95": [
+          1.6640625,
+          2.03125
+        ],
+        "actual_code_seed": 26081684,
+        "draws": 10000,
+        "recorded_seed_applied_to_each_pair": 26081682,
+        "recorded_seed_applied_to_each_pair_ci95": [
+          1.66796875,
+          2.03515625
+        ]
+      },
+      "cells": {
+        "evidence_then_rule__recorded__c3": {
+          "clean_to_minus_count": 1,
+          "clean_to_plus_count": 0,
+          "mean_margin_contrast": 1.53125,
+          "n": 8,
+          "oriented_switch_count": 1,
+          "positive_margin_contrast_rate": 0.75
+        },
+        "evidence_then_rule__recorded__c4": {
+          "clean_to_minus_count": 0,
+          "clean_to_plus_count": 0,
+          "mean_margin_contrast": 2.1875,
+          "n": 8,
+          "oriented_switch_count": 0,
+          "positive_margin_contrast_rate": 1.0
+        },
+        "evidence_then_rule__reversed__c3": {
+          "clean_to_minus_count": 0,
+          "clean_to_plus_count": 0,
+          "mean_margin_contrast": 2.09375,
+          "n": 8,
+          "oriented_switch_count": 0,
+          "positive_margin_contrast_rate": 1.0
+        },
+        "evidence_then_rule__reversed__c4": {
+          "clean_to_minus_count": 0,
+          "clean_to_plus_count": 2,
+          "mean_margin_contrast": 1.96875,
+          "n": 8,
+          "oriented_switch_count": 2,
+          "positive_margin_contrast_rate": 1.0
+        },
+        "rule_then_evidence__recorded__c3": {
+          "clean_to_minus_count": 2,
+          "clean_to_plus_count": 0,
+          "mean_margin_contrast": 1.375,
+          "n": 8,
+          "oriented_switch_count": 2,
+          "positive_margin_contrast_rate": 0.75
+        },
+        "rule_then_evidence__recorded__c4": {
+          "clean_to_minus_count": 1,
+          "clean_to_plus_count": 1,
+          "mean_margin_contrast": 2.0,
+          "n": 8,
+          "oriented_switch_count": 2,
+          "positive_margin_contrast_rate": 1.0
+        },
+        "rule_then_evidence__reversed__c3": {
+          "clean_to_minus_count": 1,
+          "clean_to_plus_count": 0,
+          "mean_margin_contrast": 1.78125,
+          "n": 8,
+          "oriented_switch_count": 1,
+          "positive_margin_contrast_rate": 1.0
+        },
+        "rule_then_evidence__reversed__c4": {
+          "clean_to_minus_count": 0,
+          "clean_to_plus_count": 1,
+          "mean_margin_contrast": 1.71875,
+          "n": 8,
+          "oriented_switch_count": 1,
+          "positive_margin_contrast_rate": 1.0
+        }
+      },
+      "clean_to_minus_count": 5,
+      "clean_to_plus_count": 4,
+      "mean_margin_contrast": 1.83203125,
+      "median_margin_contrast": 2.0,
+      "n_cases": 64,
+      "oriented_switch_case_ids": [
+        "s00__closest_negative__ten_votes_c3__evidence_then_rule__recorded__p01",
+        "s03__closest_positive__ten_votes_c4__evidence_then_rule__reversed__p01",
+        "s03__closest_positive__ten_votes_c4__evidence_then_rule__reversed__p05",
+        "s04__closest_negative__ten_votes_c3__rule_then_evidence__recorded__p01",
+        "s04__closest_negative__ten_votes_c3__rule_then_evidence__recorded__p04",
+        "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p02",
+        "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p07",
+        "s06__closest_negative__ten_votes_c3__rule_then_evidence__reversed__p01",
+        "s07__closest_positive__ten_votes_c4__rule_then_evidence__reversed__p00"
+      ],
+      "oriented_switch_count": 9,
+      "positive_margin_contrast_rate": 0.9375
+    },
+    "path": {
+      "all_8_cell_means_positive": true,
+      "all_valid_rate": 1.0,
+      "any_switch_case_ids": [
+        "s00__closest_negative__ten_votes_c3__evidence_then_rule__recorded__p01",
+        "s01__closest_positive__ten_votes_c4__evidence_then_rule__recorded__p00",
+        "s01__closest_positive__ten_votes_c4__evidence_then_rule__recorded__p01",
+        "s01__closest_positive__ten_votes_c4__evidence_then_rule__recorded__p03",
+        "s01__closest_positive__ten_votes_c4__evidence_then_rule__recorded__p07",
+        "s02__closest_negative__ten_votes_c3__evidence_then_rule__reversed__p00",
+        "s02__closest_negative__ten_votes_c3__evidence_then_rule__reversed__p01",
+        "s02__closest_negative__ten_votes_c3__evidence_then_rule__reversed__p06",
+        "s03__closest_positive__ten_votes_c4__evidence_then_rule__reversed__p00",
+        "s03__closest_positive__ten_votes_c4__evidence_then_rule__reversed__p01",
+        "s03__closest_positive__ten_votes_c4__evidence_then_rule__reversed__p05",
+        "s04__closest_negative__ten_votes_c3__rule_then_evidence__recorded__p01",
+        "s04__closest_negative__ten_votes_c3__rule_then_evidence__recorded__p04",
+        "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p00",
+        "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p02",
+        "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p03",
+        "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p07",
+        "s06__closest_negative__ten_votes_c3__rule_then_evidence__reversed__p01",
+        "s06__closest_negative__ten_votes_c3__rule_then_evidence__reversed__p06",
+        "s07__closest_positive__ten_votes_c4__rule_then_evidence__reversed__p00",
+        "s07__closest_positive__ten_votes_c4__rule_then_evidence__reversed__p05"
+      ],
+      "any_switch_count": 21,
+      "bootstrap": {
+        "actual_code_ci95": [
+          6.302734375,
+          6.935546875
+        ],
+        "actual_code_seed": 26081685,
+        "draws": 10000,
+        "recorded_seed_applied_to_each_pair": 26081682,
+        "recorded_seed_applied_to_each_pair_ci95": [
+          6.3046875,
+          6.9453125
+        ]
+      },
+      "cells": {
+        "evidence_then_rule__recorded__c3": {
+          "clean_to_minus_count": 1,
+          "clean_to_plus_count": 0,
+          "mean_margin_contrast": 5.625,
+          "n": 8,
+          "oriented_switch_count": 1,
+          "positive_margin_contrast_rate": 1.0
+        },
+        "evidence_then_rule__recorded__c4": {
+          "clean_to_minus_count": 1,
+          "clean_to_plus_count": 3,
+          "mean_margin_contrast": 7.921875,
+          "n": 8,
+          "oriented_switch_count": 4,
+          "positive_margin_contrast_rate": 1.0
+        },
+        "evidence_then_rule__reversed__c3": {
+          "clean_to_minus_count": 2,
+          "clean_to_plus_count": 1,
+          "mean_margin_contrast": 6.46875,
+          "n": 8,
+          "oriented_switch_count": 3,
+          "positive_margin_contrast_rate": 1.0
+        },
+        "evidence_then_rule__reversed__c4": {
+          "clean_to_minus_count": 1,
+          "clean_to_plus_count": 2,
+          "mean_margin_contrast": 7.328125,
+          "n": 8,
+          "oriented_switch_count": 3,
+          "positive_margin_contrast_rate": 1.0
+        },
+        "rule_then_evidence__recorded__c3": {
+          "clean_to_minus_count": 2,
+          "clean_to_plus_count": 0,
+          "mean_margin_contrast": 5.40625,
+          "n": 8,
+          "oriented_switch_count": 2,
+          "positive_margin_contrast_rate": 1.0
+        },
+        "rule_then_evidence__recorded__c4": {
+          "clean_to_minus_count": 3,
+          "clean_to_plus_count": 1,
+          "mean_margin_contrast": 7.46875,
+          "n": 8,
+          "oriented_switch_count": 4,
+          "positive_margin_contrast_rate": 1.0
+        },
+        "rule_then_evidence__reversed__c3": {
+          "clean_to_minus_count": 1,
+          "clean_to_plus_count": 1,
+          "mean_margin_contrast": 5.8125,
+          "n": 8,
+          "oriented_switch_count": 2,
+          "positive_margin_contrast_rate": 1.0
+        },
+        "rule_then_evidence__reversed__c4": {
+          "clean_to_minus_count": 0,
+          "clean_to_plus_count": 2,
+          "mean_margin_contrast": 6.828125,
+          "n": 8,
+          "oriented_switch_count": 2,
+          "positive_margin_contrast_rate": 1.0
+        }
+      },
+      "clean_to_minus_count": 11,
+      "clean_to_plus_count": 10,
+      "mean_margin_contrast": 6.607421875,
+      "median_margin_contrast": 7.25,
+      "n_cases": 64,
+      "oriented_switch_case_ids": [
+        "s00__closest_negative__ten_votes_c3__evidence_then_rule__recorded__p01",
+        "s01__closest_positive__ten_votes_c4__evidence_then_rule__recorded__p00",
+        "s01__closest_positive__ten_votes_c4__evidence_then_rule__recorded__p01",
+        "s01__closest_positive__ten_votes_c4__evidence_then_rule__recorded__p03",
+        "s01__closest_positive__ten_votes_c4__evidence_then_rule__recorded__p07",
+        "s02__closest_negative__ten_votes_c3__evidence_then_rule__reversed__p00",
+        "s02__closest_negative__ten_votes_c3__evidence_then_rule__reversed__p01",
+        "s02__closest_negative__ten_votes_c3__evidence_then_rule__reversed__p06",
+        "s03__closest_positive__ten_votes_c4__evidence_then_rule__reversed__p00",
+        "s03__closest_positive__ten_votes_c4__evidence_then_rule__reversed__p01",
+        "s03__closest_positive__ten_votes_c4__evidence_then_rule__reversed__p05",
+        "s04__closest_negative__ten_votes_c3__rule_then_evidence__recorded__p01",
+        "s04__closest_negative__ten_votes_c3__rule_then_evidence__recorded__p04",
+        "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p00",
+        "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p02",
+        "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p03",
+        "s05__closest_positive__ten_votes_c4__rule_then_evidence__recorded__p07",
+        "s06__closest_negative__ten_votes_c3__rule_then_evidence__reversed__p01",
+        "s06__closest_negative__ten_votes_c3__rule_then_evidence__reversed__p06",
+        "s07__closest_positive__ten_votes_c4__rule_then_evidence__reversed__p00",
+        "s07__closest_positive__ten_votes_c4__rule_then_evidence__reversed__p05"
+      ],
+      "oriented_switch_count": 21,
+      "positive_margin_contrast_rate": 1.0
+    }
+  },
+  "record_custody": {
+    "all_clean_and_fwa_records_valid": true,
+    "all_records_valid": true,
+    "canonical_sha256": "e3f7f45e115e28f830c66a157b5c86b48fa3c3f233607c1dc871a626d1c3c52f",
+    "cases_per_condition": [
+      64
+    ],
+    "conditions": 7,
+    "records": 448,
+    "unique_case_ids": 64
+  },
+  "reported_qualitative_pass": true,
+  "reproducibility": {
+    "bitwise_rerun_determinism_verified": false,
+    "retained_448_rows_exact_for_this_execution": true,
+    "warning": "The raw log records CuBLAS nondeterminism warnings because CUBLAS_WORKSPACE_CONFIG was unset. The retained rows are exact for this execution, but a bitwise-identical rerun is not established."
+  },
+  "schema": "qwen-bf16-semantic-choice-independent-audit-v1",
+  "seal_deviations": [
+    {
+      "detail": "The frozen design records only seed 26081682, while the preregistration binds that design hash but does not separately state per-pair seed semantics. Runner code used effective seeds 26081683, 26081684, and 26081685 for FWA1, FWA-half, and path; those effective seeds were not emitted in the job result. Both actual-code intervals and recorded-seed-applied-to-each-pair sensitivity intervals are recomputed above. Qualitative pass does not depend on any bootstrap interval.",
+      "id": "bootstrap_seed_semantics_not_fully_specified"
+    },
+    {
+      "detail": "The preregistered all-448-outputs-valid criterion explicitly includes 128 path forwards and is conjunctive in the reported pass, while other frozen prose says path is outside the FWA gate. All path outputs were valid, so this gate-scope contradiction did not change the observed pass.",
+      "id": "path_gate_scope_contradiction"
+    },
+    {
+      "detail": "Runner additionally conjuncts VRAM pass into the reported qualitative pass although the frozen scientific gate list omits it. Peak reserved memory was below the limit, so this gate-scope contradiction did not change the observed pass.",
+      "id": "vram_gate_scope_contradiction"
+    }
+  ],
+  "terminal_result_status": "complete"
+}

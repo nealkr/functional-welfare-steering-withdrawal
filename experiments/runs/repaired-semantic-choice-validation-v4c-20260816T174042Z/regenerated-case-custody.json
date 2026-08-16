@@ -1,0 +1,10 @@
+{
+  "all_manifest_fields_exact": true,
+  "all_rendered_prompt_hashes_exact": true,
+  "all_stored_clean_case_fields_exact": true,
+  "n_regenerated_cases": 64,
+  "n_unique_case_ids": 64,
+  "note": "Clean outputs and margins are reused from the exact hashed clean artifact; no clean selection forward is rerun.",
+  "passed": true,
+  "stored_clean_metric_receipt_sha256": "8045a1f6713d238f534b3be6c7056b7875a0881b0552d3873c362b91701d9efc"
+}

@@ -1,0 +1,116 @@
+{
+  "schema": "qwen-bf16-semantic-choice-terminal-manifest-v1",
+  "job": {
+    "id": "6a81fdb8c97db76cbdf33362",
+    "url": "https://huggingface.co/jobs/nealk/6a81fdb8c97db76cbdf33362",
+    "status": "COMPLETED",
+    "created_at": "2026-08-16 18:13:12.591000+00:00",
+    "flavor": "l4x1",
+    "docker_image": "ghcr.io/astral-sh/uv:python3.12-bookworm",
+    "automatic_retry_authorized": false
+  },
+  "custody": {
+    "frozen_design_sha256": "f47796de66204cb54f0e851b86226be0f277b4a5afc314354d9894b4db39155d",
+    "audited_local_runner_sha256": "ca732acf74c6c432ed8fdbdfdebf56e98a74e3be06d0f8c39e2b09413cad9a80",
+    "submitted_inline_payload_sha256": "ca732acf74c6c432ed8fdbdfdebf56e98a74e3be06d0f8c39e2b09413cad9a80",
+    "submitted_inline_payload_bytes": 41193,
+    "submitted_inline_payload_lf_count": 979,
+    "submitted_inline_payload_crlf_count": 0,
+    "submitted_payload_byte_identical_to_audited_runner": true,
+    "source_nf4_validation_records_sha256": "07ae4ffbbddbfcbf96f3c9842d4d84f79f06dec49bd172a7a945cbd8ffab880c",
+    "recovered_records": 448,
+    "recovered_records_canonical_sha256": "e3f7f45e115e28f830c66a157b5c86b48fa3c3f233607c1dc871a626d1c3c52f",
+    "recovered_records_hash_matches_terminal_result": true,
+    "raw_log_transport": "long JSON lines segmented near 16384-byte boundaries; continuation bytes retained and deterministically reassembled"
+  },
+  "outcome": {
+    "terminal_result_status": "complete",
+    "reported_qualitative_fwa_precision_replication_pass": true,
+    "post_hoc_fwa_core_pass_excluding_path_validity_and_vram": true,
+    "fwa_factor_1_switches": 17,
+    "fwa_factor_1_mean_margin_contrast": 3.654296875,
+    "fwa_factor_half_switches": 9,
+    "fwa_factor_half_mean_margin_contrast": 1.83203125,
+    "path_switches": 21,
+    "path_mean_margin_contrast": 6.607421875,
+    "all_8_fwa_cells_positive_at_both_doses": true,
+    "path_stronger_than_fwa_factor_1": true,
+    "claim_ceiling": "exact-cohort cross-precision replication of valid semantic action-token boundary actuation; not independent held-out generalization, majority-rational improvement, target specificity, welfare sensitivity, experience, or welfare"
+  },
+  "resource": {
+    "gpu": "NVIDIA L4",
+    "in_script_runtime_seconds": 61.93713850100005,
+    "peak_reserved_bytes": 8078229504,
+    "charge_exposed_in_terminal_receipt": false,
+    "completion_time_exposed_in_terminal_receipt": false,
+    "dependency_installation_and_container_overhead_included_in_timer": false,
+    "in_script_runtime_cost_lower_bound_usd": 0.0137
+  },
+  "reproducibility": {
+    "retained_448_rows_exact_for_this_execution": true,
+    "bitwise_rerun_determinism_verified": false,
+    "warning": "raw log records CuBLAS nondeterminism warnings because CUBLAS_WORKSPACE_CONFIG was unset"
+  },
+  "seal_deviations": [
+    "bootstrap seed semantics not fully specified: frozen design records only 26081682 and preregistration binds the design hash without separate per-pair semantics; code used effective seeds 26081683/26081684/26081685; qualitative gate does not use confidence intervals",
+    "path gate-scope contradiction: preregistered all-448-valid criterion includes path, while other frozen prose says path is outside the FWA gate; all path outputs were valid",
+    "VRAM gate-scope contradiction: reported pass includes a VRAM conjunct omitted from the frozen scientific-gate list; VRAM passed"
+  ],
+  "files": [
+    {
+      "path": "experiments/qwen_bf16_semantic_choice_hf_job.py",
+      "bytes": 41193,
+      "sha256": "ca732acf74c6c432ed8fdbdfdebf56e98a74e3be06d0f8c39e2b09413cad9a80"
+    },
+    {
+      "path": "experiments/audit_qwen_bf16_semantic_choice_job.py",
+      "bytes": 25624,
+      "sha256": "3c97bc3d6a01a83c1d48d7136b92778b8acf5e4a1f55731a7d1bfa007f54b10c"
+    },
+    {
+      "path": "experiments/extract_hf_job_receipt.py",
+      "bytes": 2106,
+      "sha256": "5bbe19eca8fe2869675964e893789d2ee87806313430b27a453533b072f284a7"
+    },
+    {
+      "path": "experiments/runs/qwen-bf16-semantic-choice-hf-job-6a81fdb8c97db76cbdf33362/raw.log",
+      "bytes": 284915,
+      "sha256": "1bd1ae49909fdaff414af6b0afdef71adef4b97bb112362eb3e02f0b3d1477e8"
+    },
+    {
+      "path": "experiments/runs/qwen-bf16-semantic-choice-hf-job-6a81fdb8c97db76cbdf33362/records.jsonl",
+      "bytes": 260492,
+      "sha256": "e2ace0654e8da1cf197b3cd9471413bc32a2106b49518640f787aea2d513f775"
+    },
+    {
+      "path": "experiments/runs/qwen-bf16-semantic-choice-hf-job-6a81fdb8c97db76cbdf33362/result.json",
+      "bytes": 16158,
+      "sha256": "67880559d8bc7ae7f89573a061622f1116b62bf48aa0032f679becfff2d9720c"
+    },
+    {
+      "path": "experiments/runs/qwen-bf16-semantic-choice-hf-job-6a81fdb8c97db76cbdf33362/terminal-receipt.json",
+      "bytes": 1102,
+      "sha256": "1b1e4ddb1ede162bf9789ea4ab4b61784ecc6367557f055d1e23f500e698fb80"
+    },
+    {
+      "path": "experiments/runs/qwen-bf16-semantic-choice-hf-job-6a81fdb8c97db76cbdf33362/independent-audit.json",
+      "bytes": 29006,
+      "sha256": "1cc825b96d24dcbcad27a6ab9f1b31a3b413c3e23989b580df5d2974707ce2f0"
+    },
+    {
+      "path": "research/qwen-bf16-semantic-choice-preregistration-20260816.md",
+      "bytes": 7227,
+      "sha256": "f6cd38ef9b733d644f3012d5288abf3fe6c076eaff680c973cfeda4116c49348"
+    },
+    {
+      "path": "research/qwen-bf16-semantic-choice-static-audit-20260816.md",
+      "bytes": 7498,
+      "sha256": "735b3779c67455b7aafbae714b28cadf7af1daa8f73ddb1660ba19e527a392d1"
+    },
+    {
+      "path": "research/qwen-bf16-semantic-choice-result-20260816.md",
+      "bytes": 9642,
+      "sha256": "646a801ff714a15e7d13c51876519e8cb42709c4a026d53544a6c99a1c7675ea"
+    }
+  ]
+}
