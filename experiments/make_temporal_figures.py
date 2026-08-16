@@ -603,12 +603,11 @@ def make_figure1(
                 )
             )
     ax_a.axvline(0, color=DARK, linewidth=0.8)
-    ax_a.set_yticks([0, 1], [SURFACE_LABELS["opaque"], SURFACE_LABELS["semantic"]])
+    ax_a.set_yticks([0, 1], ["Opaque codes", "Semantic labels"])
     ax_a.set_ylim(-0.45, 1.45)
     ax_a.set_xlim(-0.35, 4.55)
     ax_a.set_xlabel("Oriented margin shift")
-    ax_a.set_title("Temporal locus", loc="left")
-    panel_label(ax_a, "A")
+    ax_a.set_title(r"$\bf{A}$  Output timing", loc="left")
     ax_a.legend(
         handles=[
             Line2D(
@@ -636,9 +635,9 @@ def make_figure1(
     )
     finish_axis(ax_a)
 
-    # B: same-axis projection at dose and after withdrawal. The inset makes the
-    # later near-zero estimates readable without hiding the approximately +22
-    # manipulation check.
+    # B: same-axis projection at dose and after withdrawal.  A single clean
+    # axis preserves the full scale; compact callouts report the near-zero
+    # final-token estimates without a crowded inset.
     projection_colors = {"semantic": BLUE, "opaque": ORANGE}
     for family, jitter in (("semantic", -0.05), ("opaque", 0.05)):
         for position, field, measure in (
@@ -681,11 +680,11 @@ def make_figure1(
                 )
             )
     ax_b.axhline(0, color=DARK, linewidth=0.8)
-    ax_b.set_xticks([0, 1], ["Earlier\ndose site", "Final\nreadout"])
-    ax_b.set_ylabel("Same-axis projection shift")
-    ax_b.set_ylim(-1.2, 24.0)
-    ax_b.set_title("Same-axis projection", loc="left")
-    panel_label(ax_b, "B")
+    ax_b.set_xticks([0, 1], ["Earlier\ndose", "Final\nreadout"])
+    ax_b.set_ylabel("Projection shift")
+    ax_b.set_xlim(-0.25, 1.28)
+    ax_b.set_ylim(-1.25, 24.0)
+    ax_b.set_title(r"$\bf{B}$  Internal projection", loc="left")
     finish_axis(ax_b, grid_axis="y")
     ax_b.legend(
         handles=[
@@ -693,38 +692,40 @@ def make_figure1(
             Line2D([0], [0], marker="s", color=ORANGE, linewidth=0, label="Opaque"),
         ],
         frameon=False,
-        loc="center",
-        bbox_to_anchor=(0.50, 0.37),
+        loc="upper right",
+        handletextpad=0.35,
     )
-
-    inset = ax_b.inset_axes([0.48, 0.50, 0.49, 0.27])
-    final_items = []
-    for family, x in (("semantic", -0.08), ("opaque", 0.08)):
+    for family, x, label_y in (
+        ("semantic", 0.95, 2.45),
+        ("opaque", 1.05, 1.15),
+    ):
         item = primary[family]["earlier_final_projection"]
-        final_items.append(item)
-        inset.errorbar(
-            x,
-            item["estimate"],
-            yerr=np.array(
-                [[item["estimate"] - item["ci95_low"]], [item["ci95_high"] - item["estimate"]]]
-            ),
-            fmt="o" if family == "semantic" else "s",
+        ax_b.annotate(
+            f'{item["estimate"]:.3f}',
+            xy=(x, item["estimate"]),
+            xytext=(1.18, label_y),
+            ha="right",
+            va="center",
+            fontsize=8.3,
+            fontweight="semibold",
             color=projection_colors[family],
-            markersize=4.3,
-            capsize=2,
-            elinewidth=0.9,
+            arrowprops={
+                "arrowstyle": "-",
+                "color": projection_colors[family],
+                "linewidth": 0.75,
+                "shrinkA": 2,
+                "shrinkB": 2,
+            },
         )
-    inset.axhline(0, color=DARK, linewidth=0.6)
-    low = min(item["ci95_low"] for item in final_items)
-    high = max(item["ci95_high"] for item in final_items)
-    padding = max(0.004, (high - low) * 0.18)
-    inset.set_xlim(-0.3, 0.3)
-    inset.set_ylim(low - padding, max(0.002, high + padding))
-    inset.set_xticks([])
-    inset.set_title("Final-token zoom", fontsize=10.0, pad=2)
-    inset.tick_params(axis="y", labelsize=10.0, length=2)
-    inset.spines["top"].set_visible(False)
-    inset.spines["right"].set_visible(False)
+    ax_b.text(
+        1.18,
+        3.75,
+        "Final-token values",
+        ha="right",
+        va="center",
+        fontsize=7.7,
+        color=GRAY,
+    )
 
     # C: baseline saturation and exact sign-crossing audit.
     labels = ["Status", "Persistence"]
@@ -761,8 +762,7 @@ def make_figure1(
     )
     ax_c.set_yticks(y, labels)
     ax_c.set_xlabel("Clean margin (logits)")
-    ax_c.set_title("Endpoint saturation", loc="left")
-    panel_label(ax_c, "C")
+    ax_c.set_title(r"$\bf{C}$  Endpoint margins", loc="left")
     finish_axis(ax_c)
 
     for name, surface in (("status", "status_semantic"), ("persistence", "persistence_semantic"), ("pooled", "semantic_pooled")):
@@ -833,8 +833,8 @@ def make_figure2(
     fig, axes = plt.subplots(
         1,
         3,
-        figsize=(7.05, 2.45),
-        gridspec_kw={"width_ratios": [1.00, 1.05, 1.15]},
+        figsize=(7.05, 2.62),
+        gridspec_kw={"width_ratios": [1.00, 1.05, 1.22]},
         layout="constrained",
     )
     ax_a, ax_b, ax_c = axes
@@ -889,8 +889,7 @@ def make_figure2(
     ax_a.set_xticks(factors, ["0.25", "0.50", "1.00"])
     ax_a.set_xlabel("Coefficient magnitude")
     ax_a.set_ylabel("Readout logit-margin shift")
-    ax_a.set_title("Dose ordering", loc="left")
-    panel_label(ax_a, "A")
+    ax_a.set_title(r"$\bf{A}$  Dose response", loc="left")
     ax_a.legend(frameon=False, loc="upper left")
     finish_axis(ax_a, grid_axis="y")
 
@@ -940,8 +939,7 @@ def make_figure2(
     ax_b.set_yticks([0, 1], ["Persistence", "Status"])
     ax_b.set_ylim(-0.45, 1.45)
     ax_b.set_xlabel("Decomposed readout shift (logits)")
-    ax_b.set_title("Code decomposition", loc="left")
-    panel_label(ax_b, "B")
+    ax_b.set_title(r"$\bf{B}$  Code components", loc="left")
     ax_b.legend(
         handles=[
             Line2D([0], [0], marker="o", color=BLUE, linewidth=0, label="Mapping-aware"),
@@ -960,21 +958,18 @@ def make_figure2(
     # construct-specificity result.
     switch_keys = list(CHOICE_SWITCH_COUNTS)
     x_positions = np.arange(len(switch_keys), dtype=float)
+    bar_width = 0.34
     precision_styles = (
-        ("nf4", "NF4", BLUE, "o", -0.09, True),
-        ("bf16", "BF16", ORANGE, "s", 0.09, False),
+        ("nf4", "NF4", BLUE, -bar_width / 2),
+        ("bf16", "BF16", ORANGE, bar_width / 2),
     )
-    for precision, legend_label, color, marker, offset, filled in precision_styles:
-        plotted_x = []
-        plotted_y = []
+    for precision, legend_label, color, offset in precision_styles:
         for x_position, key in zip(x_positions, switch_keys):
             item = CHOICE_SWITCH_COUNTS[key]
             numerator = item[precision]
             if numerator is None:
                 continue
             rate = numerator / CHOICE_SWITCH_DENOMINATOR
-            plotted_x.append(x_position + offset)
-            plotted_y.append(rate)
             direction_label = {
                 "functional_welfare_raw": "Target",
                 "path_direct": "Path",
@@ -1024,51 +1019,48 @@ def make_figure2(
                     ),
                 )
             )
-        ax_c.plot(
-            plotted_x,
-            plotted_y,
-            linestyle="none",
-            marker=marker,
-            markersize=5.6,
-            markerfacecolor=color if filled else "white",
-            markeredgecolor=color,
-            markeredgewidth=1.1,
-            color=color,
-            label=legend_label,
-            zorder=3,
-        )
-        # Only the two target doses form a dose series; control points are not
-        # joined because their coefficients are separately calibrated.
-        ax_c.plot(
-            [x_positions[0] + offset, x_positions[1] + offset],
-            plotted_y[:2],
-            color=color,
-            linewidth=1.0,
-            alpha=0.75,
-            zorder=2,
-        )
+            bar = ax_c.bar(
+                x_position + offset,
+                rate,
+                width=bar_width * 0.92,
+                color=color,
+                alpha=0.88,
+                edgecolor="white",
+                linewidth=0.7,
+                label=legend_label if x_position == 0 else None,
+                zorder=3,
+            )
+            ax_c.text(
+                bar[0].get_x() + bar[0].get_width() / 2,
+                rate + 0.012,
+                str(numerator),
+                ha="center",
+                va="bottom",
+                fontsize=8.0,
+                fontweight="semibold",
+                color=DARK,
+            )
     ax_c.set_xticks(
         x_positions,
         [CHOICE_SWITCH_COUNTS[key]["label"] for key in switch_keys],
     )
     ax_c.set_xlim(-0.45, len(switch_keys) - 0.55)
     # Reserve headroom so the top tick does not collide with the panel label.
-    ax_c.set_ylim(0, 0.43)
+    ax_c.set_ylim(0, 0.42)
     ax_c.set_yticks(
         [0, 0.1, 0.2, 0.3, 0.4],
         ["0", "10", "20", "30", "40"],
     )
-    ax_c.set_xlabel("Direction / dose")
-    ax_c.set_ylabel("Switches (%)")
-    ax_c.set_title("Winner switching", loc="left")
-    panel_label(ax_c, "C")
+    ax_c.set_xlabel("Direction and dose")
+    ax_c.set_ylabel("Switch rate (%)")
+    ax_c.set_title(r"$\bf{C}$  Answer switching", loc="left")
     ax_c.legend(
         frameon=False,
         loc="upper left",
-        ncols=2,
+        ncols=1,
         columnspacing=0.8,
         handletextpad=0.35,
-        fontsize=8.8,
+        fontsize=8.5,
     )
     finish_axis(ax_c, grid_axis="y")
 
